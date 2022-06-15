@@ -5,6 +5,9 @@ const cors = require(cors);
 //EXPRESS
 const express = require("express");
 
+
+//Controllers will go here 
+
 //Configure & evoking APP to express
 const app = express();
 

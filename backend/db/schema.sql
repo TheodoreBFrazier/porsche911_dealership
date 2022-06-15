@@ -12,4 +12,5 @@ CREATE TABLE PorscheModels992 (
     power_in_hp INT,
     zero_to_sixty INT,
     description TEXT,
+    image varbinary(max)
 )
