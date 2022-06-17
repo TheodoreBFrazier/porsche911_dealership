@@ -20,24 +20,28 @@ function Home() {
           alt="992-at-speed"
         />
         <div className="other-992s">
-          
+
+
+          <div className="column">
             <div className="gt3">
-            <div className="column">
               <img
-                src="https://www.cnet.com/a/img/resize/1c504d55427406e268c859036ae257741e5a1742/hub/2021/07/13/dd24d8ed-46a8-4586-8bf1-8f5df944859a/2022-porsche-911-gt3-touring-020.jpg?auto=webp&width=1092"
+                src="https://www.wsupercars.com/wallpapers-regular/Porsche/2022-Porsche-911-GT3-015-1080.jpg"
                 alt="gt3"
+                className="model-photo"
               />
             </div>
           </div>
-          
+
+          <div className="column">
             <div className="turbo">
-            <div className="column">
               <img
-                src="https://www.supercars.net/blog/wp-content/uploads/2020/07/2020-Porsche-911-Turbo-S-014-2160-scaled.jpg"
+                src="https://www.wsupercars.com/wallpapers-regular/Porsche/2021-Porsche-911-Turbo-003-1080.jpg"
                 alt="turbo img"
+                className="model-photo"
               />
             </div>
           </div>
+
         </div>
       </div>
       <div className="Coming-soon">hi</div>

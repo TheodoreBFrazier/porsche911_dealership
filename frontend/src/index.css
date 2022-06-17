@@ -1,6 +1,4 @@
-* div {
-  border: 2px solid black;
-}
+
 
 body {
   margin: 0;
@@ -35,8 +33,7 @@ code {
 }
 
 .Current-model-922 {
-  height: 100vh;
-  background-color: purple;
+  height: 150vh;
 }
 
 .Current-model-922 h1 {
@@ -47,27 +44,23 @@ code {
   width: 1200px;
 }
 
-.gt3 img {
-  width: 550px;
-}
-
-.turbo img {
-  width: 550px;
-}
 
 .other-992s {
-  background-color: pink;
-  height: 500px;
+  width: 1200px;
+ margin: auto;
 }
 
-.other-992s:after {
+.column { 
+  float: left;
+  width:600px;
+}
+
+.other-992s::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column { 
-  float: left;
-  width: 50%;
+.column img {
+  width: 100%;
 }
-
