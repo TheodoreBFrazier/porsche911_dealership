@@ -12,6 +12,21 @@ code {
     monospace;
 }
 
-.hero {
+.Hero {
   height: 100vh;
+}
+
+.Hero img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Home-intro {
+  height: 75vh;
+  background-color: green;
+}
+
+.Current-model-922 {
+  height: 100vh;
+  background-color: purple;
 }
