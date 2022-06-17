@@ -10,18 +10,26 @@ function Home() {
         />
       </div>
       <div className="Home-intro">
-        <h1>HI this is the intro.</h1>
+        <div className="intro-text">
+          <h1>put an icon in your garage</h1>
+          </div>
+          <div className="sub-intro">
+            <h6>
+              {" "}
+              The Porsche 911 is perhaps the world's most iconic sports cars.{" "}
+              Welcome to the only online marketplace that specializes in 911s
+              all generations from classics to the current 992.
+            </h6>
+          </div>
+        
       </div>
       <div className="Current-model-922">
         <h1>922</h1>
-        <div className="992-carrera-base">992 carrera</div>
         <img
           src="https://www.hdcarwallpapers.com/walls/2020_porsche_911_carrera_4s_2-HD.jpg"
           alt="992-at-speed"
         />
         <div className="other-992s">
-
-
           <div className="column">
             <div className="gt3">
               <img
@@ -41,10 +49,14 @@ function Home() {
               />
             </div>
           </div>
-
         </div>
       </div>
-      <div className="Coming-soon">hi</div>
+      <div className="Coming-soon">
+        <img
+          src="https://mediaassets.pca.org/pages/pca/images/content/img_35.jpg"
+          alt="sport-classic"
+        />
+      </div>
     </div>
   );
 }
