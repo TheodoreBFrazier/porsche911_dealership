@@ -3,13 +3,15 @@ import React from "react";
 function Home() {
   return (
     <div className="Home">
-      <div className="Hero">
+
+      <section className="Hero">
         <img
           src="https://images.hdqwalls.com/wallpapers/porsche-911-carrera-s-2019-rear-ek.jpg"
           alt="911-hero"
         />
-      </div>
-      <div className="Home-intro">
+      </section>
+
+      <section className="Home-intro">
         <div className="intro-text">
           <h1>put an icon in your garage</h1>
         </div>
@@ -21,8 +23,11 @@ function Home() {
             generations from classics to the current 992.
           </h6>
         </div>
-      </div>
-      <div className="Current-model-922">
+      </section>
+
+
+
+      <section className="Current-model-922">
         <img
           src="https://www.hdcarwallpapers.com/walls/2020_porsche_911_carrera_4s_2-HD.jpg"
           alt="992-at-speed"
@@ -48,16 +53,16 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="Coming-soon">
+      <section className="Coming-soon">
         <div className="Coming-soon-hero-image">
           <img
             src="https://mediaassets.pca.org/pages/pca/images/content/img_35.jpg"
             alt="sport-classic"
           />
         </div>
-      </div>
+      </section>
 
 
     </div>
