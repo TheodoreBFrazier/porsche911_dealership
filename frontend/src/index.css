@@ -1,4 +1,4 @@
-*  div {
+div {
   border: 2px, solid, black;
 }
 
@@ -136,6 +136,27 @@ h6 {
   background-color: aqua;
 }
 
+.cta-row {
+  width: 1200px;
+  margin: auto;
+background-color: pink;
+}
+
+.column-cta {
+  float: left;
+  width:600px;
+  background-color: yellow;
+}
+
+.cta-row::after {  
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-cta img {
+  height: 540px;
+}
 /*  TURBO PAGE  */
 
 .hero-section-turbo {
