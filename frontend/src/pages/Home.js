@@ -62,6 +62,7 @@ function Home() {
       </section>
 
       <section className="Home-cta">
+
         <div className="column-cta">
           <img
             src="https://assets.whichcar.com.au/image/upload/s--tPCIOKFH--/c_fill,q_auto:good/c_scale,w_3072/f_auto/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg"
@@ -71,13 +72,15 @@ function Home() {
         </div>
 
         <div className="column-cta">
-<img
-src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/porsche_newsroom/Technik/Schl%C3%BCsselfertig_CPM/Schluesselfertig_991/jcr:content/Schluesselfertig_991.jpg"
-alt="Porsche and key"
-className="porsche"
-/>
+          <img
+            src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/porsche_newsroom/Technik/Schl%C3%BCsselfertig_CPM/Schluesselfertig_991/jcr:content/Schluesselfertig_991.jpg"
+            alt="Porsche and key"
+            className="porsche"
+          />
         </div>
+        
       </section>
+
     </div>
   );
 }
