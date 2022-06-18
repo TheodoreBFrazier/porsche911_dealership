@@ -118,11 +118,17 @@ h6 {
 }
 
 .Coming-soon {
-  height: 100vh;
+  height: 140vh;
+  background-color: #000000;
 }
 
-.Coming-soon img {
-  width: 100vh;
+.Coming-soon-hero-image {
+  height: 756px;
+}
+
+.Coming-soon-hero-image img {
+  margin-top: 210px;
+  max-height: 100%;
 }
 
 /*  TURBO PAGE  */
@@ -135,3 +141,4 @@ h6 {
   max-width: 100%;
   max-height: 100%;
 }
+
