@@ -3,7 +3,6 @@ import React from "react";
 function Home() {
   return (
     <div className="Home">
-
       <section className="Hero">
         <img
           src="https://images.hdqwalls.com/wallpapers/porsche-911-carrera-s-2019-rear-ek.jpg"
@@ -24,8 +23,6 @@ function Home() {
           </h6>
         </div>
       </section>
-
-
 
       <section className="Current-model-922">
         <img
@@ -64,7 +61,12 @@ function Home() {
         </div>
       </section>
 
-
+      <section className="Home-cta">
+        <div className="cta-row">
+          <div className="column-cta-1">First Column</div>
+          <div className="column-cta-1">Second Column</div>
+        </div>
+      </section>
     </div>
   );
 }
