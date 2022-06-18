@@ -12,13 +12,13 @@ body {
 }
 
 
+
+
+
+
+/*  TYPOGRAPHY  */
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -47,6 +47,10 @@ h6 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16pt;
 }
+
+
+
+/*  HOME PAGE  */
 
 .Hero {
   height: 100vh;
@@ -119,4 +123,15 @@ h6 {
 
 .Coming-soon img {
   width: 100vh;
+}
+
+/*  TURBO PAGE  */
+
+.hero-section-turbo {
+  height: 100vh;
+}
+
+.hero-section-turbo img {
+  max-width: 100%;
+  max-height: 100%;
 }
