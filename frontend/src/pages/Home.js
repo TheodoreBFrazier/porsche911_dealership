@@ -62,7 +62,7 @@ function Home() {
       </section>
 
       <section className="Home-cta">
-
+        
         <div className="column-cta">
           <img
             src="https://assets.whichcar.com.au/image/upload/s--tPCIOKFH--/c_fill,q_auto:good/c_scale,w_3072/f_auto/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg"
@@ -78,7 +78,6 @@ function Home() {
             className="porsche"
           />
         </div>
-        
       </section>
 
     </div>
