@@ -6,10 +6,15 @@ function Home() {
   return (
     <div className="Home">
       <section className="Hero">
-        <img
-          src="https://images.hdqwalls.com/wallpapers/porsche-911-carrera-s-2019-rear-ek.jpg"
-          alt="911-hero"
-        />
+        <div className="Hero-image">
+          <img
+            src="https://images.hdqwalls.com/wallpapers/porsche-911-carrera-s-2019-rear-ek.jpg"
+            alt="911-hero"
+          />
+
+            <h1 className="Hero-H1">It's time.</h1>
+
+        </div>
       </section>
 
       <section className="Home-intro">
@@ -64,7 +69,6 @@ function Home() {
       </section>
 
       <section className="Home-cta">
-        
         <div className="column-cta">
           <img
             src="https://assets.whichcar.com.au/image/upload/s--tPCIOKFH--/c_fill,q_auto:good/c_scale,w_3072/f_auto/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg"
@@ -85,7 +89,6 @@ function Home() {
       <section className="contact">
         <ContactForm />
       </section>
-
     </div>
   );
 }
