@@ -1,5 +1,7 @@
 import React from "react";
 
+import ContactForm from "./Contact";
+
 function Home() {
   return (
     <div className="Home">
@@ -78,6 +80,10 @@ function Home() {
             className="porsche"
           />
         </div>
+      </section>
+
+      <section className="contact">
+        <ContactForm />
       </section>
 
     </div>
