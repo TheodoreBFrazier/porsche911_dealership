@@ -4,13 +4,13 @@ import React from "react";
 
 // import the side profile photos of the 992 Turbo model range
 //Standard Turbo
-import turbo992 from "../Assets/images/porsche-model-18.png";
+import turbo992 from "../Assets/images/turbo-profile.png";
 //Turbo S
-import turbo992s from "../Assets/images/porsche-model-19.png";
+import turbo992s from "../Assets/images/turbo-s-profile.png";
 //Standard Turbo Cab
-import turbo992cab from "../Assets/images/porsche-model-21.png";
+import turbo992cab from "../Assets/images/porsche-turbo-cab.png";
 //Turbo S Cab
-import turbo992scab from "../Assets/images/porsche-model-20.png";
+import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
 function TurboPage() {
   return (
