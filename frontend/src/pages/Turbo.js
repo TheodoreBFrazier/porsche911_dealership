@@ -1,5 +1,13 @@
 import React from "react";
 
+//image imports
+
+
+
+import turbo992 from "../Assets/images/porsche-model-18.png";
+
+
+
 function TurboPage() {
   return (
     <div>
@@ -20,7 +28,8 @@ function TurboPage() {
           of a modern 911. Choose from the regular Turbo, or the more
           exhilerating Turbo S.
         </h6>
-        <h5>Starting at $174,300</h5>
+ <img src={turbo992} alt="porsche" />
+
       </div>
     </div>
   );
