@@ -1,3 +1,8 @@
+* {
+  border: solid 2px black;
+}
+
+
 html,
 body {
   width: 100%;
@@ -179,7 +184,7 @@ h6 {
 }
 
 .the-range-turbo img {
- height: 400px;
+ height: 300px;
 }
 
 /*  CARRERA PAGE  */

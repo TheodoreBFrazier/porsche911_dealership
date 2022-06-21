@@ -1,18 +1,18 @@
 import React from "react";
 
+import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
+
 function CarreraPage() {
   return (
     <div>
       <div className="carrera-page-hero">
-        <div className="carrera-hero-text">
-          <h1>Carrera Hero text</h1>
-          <p> Hero text paragraph text will go there. </p>
-        </div>
-        </div>
-        <div className="carrera-introducton">
-          <p> Introduction text will go here. </p>
-        </div>
+        hi
+        <img src={yellowCarrera} alt="porsche" />
       </div>
+      <div className="carrera-introducton">
+        <p> Introduction text will go here. </p>
+      </div>
+    </div>
     //</div>
   );
 }
