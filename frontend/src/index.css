@@ -2,7 +2,6 @@
   border: solid 2px black;
 }
 
-
 html,
 body {
   width: 100%;
@@ -70,7 +69,6 @@ h6 {
 }
 
 .Hero-H1 {
-
   position: relative;
   color: red;
   z-index: 1;
@@ -184,10 +182,16 @@ h6 {
 }
 
 .the-range-turbo img {
- height: 300px;
+  height: 300px;
 }
 
 /*  CARRERA PAGE  */
+
+.carrera-hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
 
 .carrera-page-hero img {
   position: absolute;
@@ -197,9 +201,8 @@ h6 {
   height: 100%;
 }
 
-
 /* GT3 */
 
 .the-range-gt3 img {
   height: 400px;
- }
+}

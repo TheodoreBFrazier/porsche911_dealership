@@ -5,12 +5,10 @@ import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
 function CarreraPage() {
   return (
     <div>
+      <div className="carrera-hero">
       <div className="carrera-page-hero">
-        hi
         <img src={yellowCarrera} alt="porsche" />
       </div>
-      <div className="carrera-introducton">
-        <p> Introduction text will go here. </p>
       </div>
     </div>
     //</div>
