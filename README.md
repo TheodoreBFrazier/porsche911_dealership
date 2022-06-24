@@ -2,7 +2,13 @@
 
 ## Overview
 
-Welcome! This application is a one-stop show of all things related to the Porsche 911.
+A full-stack application using React, Express & SQL that provides users with a interactive experience to learn about and shop the iconic Porsche 911 sports car.
+
+# Wireframes & Mockups
+
+![Screenshot] (Screenshot 2022-06-24 at 3.57.33 PM.jpg)
+
+![Screenshot](Screenshot 2022-06-24 at 3.58.58 PM.jpg)
 
 
 ## Key Funtionality
