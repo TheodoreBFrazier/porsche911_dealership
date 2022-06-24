@@ -6,7 +6,7 @@ A full-stack application using React, Express & SQL that provides users with a i
 
 # Wireframes & Mockups
 
-![Screenshot] (Screenshot 2022-06-24 at 3.57.33 PM.jpg)
+![myimage-alt-tag] (Screenshot 2022-06-24 at 3.57.33 PM.jpg)
 
 ![Screenshot](Screenshot 2022-06-24 at 3.58.58 PM.jpg)
 
