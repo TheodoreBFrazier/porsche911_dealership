@@ -1,6 +1,6 @@
 \c data_dev;
 
-INSERT INTO carreramodels992(model, body_style, price, power_in_hp, zero_to_sixty, description, image) VALUES
+INSERT INTO carrera_models_992(model_name, body_style, price, power_in_hp, top_speed, zero_to_sixty, description) VALUES
 ('Carrera', 'coupe', 106100, 379, 4.0),
 ('Carrera', 'cabriolet', 118900, 379, 4.2),
 ('Carrera 4', 'coupe', 113400, 379, 4.0),
@@ -17,3 +17,8 @@ INSERT INTO carreramodels992(model, body_style, price, power_in_hp, zero_to_sixt
 ('Carrera 4 GTS', 'cabriolet', 162700, 473, 3.3),
 ('Targas 4 GTS', 'Targa', 162700, 473, 3.3);
 
+INSERT INTO turbo_models_992(model_name, body_style, price, power_in_hp, top_speed, zero_to_sixty, description) VALUES
+('Turbo', 'coupe', 182900, ),
+('Turbo S', 'coupe',),
+('Turbo', 'Cabriolet'),
+('Turbo S', 'Cabriolet');
