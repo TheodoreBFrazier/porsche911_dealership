@@ -1,6 +1,4 @@
-* {
-  border: solid 2px black;
-}
+
 
 html,
 body {
@@ -75,7 +73,7 @@ h6 {
 }
 
 .Home-intro {
-  height: 75vh;
+  height: 100vh;
 }
 
 .Home-intro h1 {
@@ -143,9 +141,10 @@ h6 {
 }
 
 .Home-cta {
+  margin: auto;
+
   width: 1200px;
   height: 945px;
-  background-color: aqua;
 }
 
 .cta-row {
@@ -157,7 +156,6 @@ h6 {
 .column-cta {
   float: left;
   width: 600px;
-  background-color: yellow;
 }
 
 .cta-row::after {

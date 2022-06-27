@@ -1,6 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 import ContactForm from "./Contact";
+
 
 function Home() {
   return (
@@ -31,11 +34,14 @@ function Home() {
       </section>
 
       <section className="Current-model-922">
+      
         <img
           src="https://www.hdcarwallpapers.com/walls/2020_porsche_911_carrera_4s_2-HD.jpg"
           alt="992-at-speed"
         />
+       
         <div className="other-992s">
+
           <div className="column">
             <div className="gt3">
               <img
@@ -55,34 +61,44 @@ function Home() {
               />
             </div>
           </div>
+
         </div>
+
       </section>
 
       <section className="Coming-soon">
+
         <div className="Coming-soon-hero-image">
           <img
             src="https://mediaassets.pca.org/pages/pca/images/content/img_35.jpg"
             alt="sport-classic"
           />
         </div>
+        <Link to="/sportclassic">
+          <h4>Learn More</h4>
+                
+                </Link>
+
       </section>
 
       <section className="Home-cta">
+
         <div className="column-cta">
+
           <img
             src="https://assets.whichcar.com.au/image/upload/s--tPCIOKFH--/c_fill,q_auto:good/c_scale,w_3072/f_auto/v1/archive/whichcar/2018/11/28/-1/Seven-generations-of-the-Porsche-911-in-pictures.jpg"
             alt="all gens"
             className="generations-picture"
           />
+
         </div>
 
         <div className="column-cta">
-          <img
-            src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/porsche_newsroom/Technik/Schl%C3%BCsselfertig_CPM/Schluesselfertig_991/jcr:content/Schluesselfertig_991.jpg"
-            alt="Porsche and key"
-            className="porsche"
-          />
+
+          <p>This is a test of columns</p>
+
         </div>
+
       </section>
 
       <section className="contact">
