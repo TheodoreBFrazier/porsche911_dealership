@@ -30,7 +30,7 @@ CREATE TABLE turbo_models_992 (
 
 --data for the GTS models
 
-CREATE TABLE gts_models_992 (
+CREATE TABLE gt3_models_992 (
     gts_id SERIAL PRIMARY KEY,
     model_name TEXT,
     price INT,
