@@ -1,7 +1,7 @@
 // Installation of Dependencies //
 
 //CORS
-const cors = require(cors);
+const cors = require("cors");
 //EXPRESS
 const express = require("express");
 

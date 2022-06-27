@@ -1,7 +1,7 @@
 \c data_dev;
 
 INSERT INTO carrera_models_992(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
-('Carrera Coupe', 106100, 379, 182, 4.0),
+('Carrera Coupe', 106100, 379, 182, 4.0, 'A icon reborn. With instantly recognizable styling and the timeless flat-six, now turbo charged. When it comes to pratical sports cars, the 911 is still very difficult to beat, '),
 ('Carrera Cabriolet', 118900, 379, 180, 4.2, 'The open-top variant of the 911 heightens the 911 experience by adding freedom and fresh air. When closed, the Cabriolet maintains the same clean lines of the coupe models.'),
 ('Carrera 4 Coupe', 113400, 379, 180, 4.0, 'The 4 in Porsche Designation represents all wheel drive. The Carrera 4 adds additional traction over the standard Carrera.' ),
 ('Careera 4 Cabriolet' 126200, 179, 379, 4.2),
@@ -15,7 +15,7 @@ INSERT INTO carrera_models_992(model_name, price, power_in_hp, top_speed_mph, ze
 ('GTS Cabriolet', 155400, 473, 192, 3.4, 'Lightweight GTS package with open top make the GTS cabriolet the posterchild for canyon carving'),
 ('Carrera 4 GTS Coupe', 149900, 192, 473, 3.1, '4 GTS designation combines the sporting package with all wheel drive.'),
 ('Carrera 4 GTS Cabriolet', 162700, 190, 473, 3.3, 'All wheel drive for winter and an insulated convertible top for summer. 4 GTS cabriolet is the perfect year-around companion.'),
-('Targas 4 GTS Targa', 162700, 473, 190, 3.3), 'High style of Targa. High practicality of 4. High performance of GTS.';
+('Targas 4 GTS Targa', 162700, 473, 190, 3.3, 'High style of Targa. High practicality of 4. High performance of GTS.');
 
 INSERT INTO turbo_models_992(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),
