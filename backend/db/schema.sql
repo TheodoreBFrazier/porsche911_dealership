@@ -8,7 +8,6 @@ CREATE DATABASE data_dev;
 CREATE TABLE carrera_models_992 (
     model_id SERIAL PRIMARY KEY,
     model_name TEXT,
-    body_style TEXT,
     price INT,
     power_in_hp INT,
     top_speed INT,
@@ -22,7 +21,6 @@ CREATE TABLE carrera_models_992 (
 CREATE TABLE turbo_models_992 (
     turbo_id SERIAL PRIMARY KEY,
     model_name TEXT,
-    body_style TEXT,
     price INT,
     power_in_hp INT,
     top_speed INT,
@@ -35,7 +33,6 @@ CREATE TABLE turbo_models_992 (
 CREATE TABLE gts_models_992 (
     gts_id SERIAL PRIMARY KEY,
     model_name TEXT,
-    body_style TEXT,
     price INT,
     power_in_hp INT,
     top_speed INT,
