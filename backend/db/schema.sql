@@ -10,7 +10,7 @@ CREATE TABLE carrera_models_992 (
     model_name TEXT,
     price INT,
     power_in_hp INT,
-    top_speed INT,
+    top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
 
@@ -23,7 +23,7 @@ CREATE TABLE turbo_models_992 (
     model_name TEXT,
     price INT,
     power_in_hp INT,
-    top_speed INT,
+    top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
 )
@@ -35,7 +35,7 @@ CREATE TABLE gt3_models_992 (
     model_name TEXT,
     price INT,
     power_in_hp INT,
-    top_speed INT,
+    top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
 )
