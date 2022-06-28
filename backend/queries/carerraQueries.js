@@ -7,7 +7,7 @@ const getAllCarreras = async () => {
     try {       
         const allCarreras = await db.many("SELECT * FROM carrera_models");  
         console.log(allCarreras)
-         return allCarreras    
+         return allCarreras;    
          
      } catch (error) {
         return error;

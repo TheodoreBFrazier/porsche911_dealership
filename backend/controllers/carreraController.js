@@ -1,11 +1,11 @@
 const express = require("express");
-const carreras = express.Router();
+const carrera = express.Router();
 
 //Require queries
 const { getAllCarreras } = require("../queries/carerraQueries");
 
 //Index of all Carreras
-carreras.get("/", async (request, response) => {
+carrera.get("/", async (request, response) => {
     const allCarreraModels = await getAllCarreras();
     if (allCarreraModels[0]) {
         response.json({ success: true, result: allCarreraModels })
@@ -14,4 +14,4 @@ carreras.get("/", async (request, response) => {
     }
 });
 
-module.exports = carreras;
+module.exports = carrera;

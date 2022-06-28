@@ -17,7 +17,7 @@ CREATE TABLE carrera_models (
 
 --data for the TURBO models 
 
-CREATE TABLE turbo_models_992 (
+CREATE TABLE turbo_models (
     turbo_id SERIAL PRIMARY KEY,
     model_name TEXT,
     price INT,
@@ -29,7 +29,7 @@ CREATE TABLE turbo_models_992 (
 
 --data for the GTS models
 
-CREATE TABLE gt3_models_992 (
+CREATE TABLE gt3_models (
     gts_id SERIAL PRIMARY KEY,
     model_name TEXT,
     price INT,
