@@ -13,7 +13,7 @@ CREATE TABLE carrera_models_992 (
     top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
-)
+);
 
 --data for the TURBO models 
 
@@ -25,7 +25,7 @@ CREATE TABLE turbo_models_992 (
     top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
-)
+);
 
 --data for the GTS models
 
@@ -37,7 +37,7 @@ CREATE TABLE gt3_models_992 (
     top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
-)
+);
 
 
 --data for the porsches for sale
@@ -49,7 +49,7 @@ CREATE TABLE porsches_4_sale(
     generation INT,
     color TEXT,
     description TEXT 
-)
+);
 
 --data for the porsche generations 
 CREATE TABLE porsche_911_gens(
@@ -58,4 +58,4 @@ CREATE TABLE porsche_911_gens(
     year_began INT,
     year_ended INT,
     description TEXT
-)
+);

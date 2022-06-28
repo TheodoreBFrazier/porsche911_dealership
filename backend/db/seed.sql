@@ -4,7 +4,7 @@ INSERT INTO carrera_models_992(model_name, price, power_in_hp, top_speed_mph, ze
 ('Carrera Coupe', 106100, 379, 182, 4.0, 'A icon reborn. With instantly recognizable styling and the timeless flat-six, now turbo charged. When it comes to pratical sports cars, the 911 is still very difficult to beat, '),
 ('Carrera Cabriolet', 118900, 379, 180, 4.2, 'The open-top variant of the 911 heightens the 911 experience by adding freedom and fresh air. When closed, the Cabriolet maintains the same clean lines of the coupe models.'),
 ('Carrera 4 Coupe', 113400, 379, 180, 4.0, 'The 4 in Porsche Designation represents all wheel drive. The Carrera 4 adds additional traction over the standard Carrera.' ),
-('Careera 4 Cabriolet' 126200, 179, 379, 4.2),
+('Careera 4 Cabriolet', 126200, 179, 379, 4.2, 'With all-while drive and a state of the art folding top, the Carrera 4 Cabriolet is entry into the perfect year around sports car.'),
 ('Carrera S Coupe', 123000, 191, 443, 3.5, 'S stands for Sport an enhanced performance. The Carrera S provides enhanced power output over the the non-sport models.'),
 ('Carrera S Cabriolet', 135800, 190, 443, 3.7, 'The additional performance of S, with extra sunlight and air.'),
 ('Carrera 4S Coupe', 130300, 190, 443, 3.4, 'Not sure to go all-wheel drive or enhanced perfmance? Have both with the Carrera 4S'),
@@ -20,10 +20,8 @@ INSERT INTO carrera_models_992(model_name, price, power_in_hp, top_speed_mph, ze
 INSERT INTO turbo_models_992(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),
 ('Turbo S Coupe', 216100, 640, 199, 2.6, 'Not the widowmaker 911 Turbo of old. Meticulous engineering make the even more powerful Turbo S accessible to every driver, regardless of skill'),
-('Turbo Cabriolet' 195700, 572, 205, 2.8, 'The drop-top Porsche 911 Turbo has million-mile headroom and performance to blow away supercar A-listers'),
-('Turbo S Cabriolet' 228900, 640, 205, 2.7, 'an open-air daily driver that hits 60 mph in just 2.7 seconds.');
-
-3014466
+('Turbo Cabriolet', 195700, 572, 205, 2.8, 'The drop-top Porsche 911 Turbo has million-mile headroom and performance to blow away supercar A-listers'),
+('Turbo S Cabriolet', 228900, 640, 205, 2.7, 'an open-air daily driver that hits 60 mph in just 2.7 seconds.');
 
 INSERT INTO gt3_models_992(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('911 GT3', 169700, 502, 197, 3.2, 'The only 992-generation 911 that does not have a turbocharger, the GT3 brings 502 horses of naturally-aspirated joy. The 911 GT3 is not a daily driver, but you will want to drive it every day.'),
