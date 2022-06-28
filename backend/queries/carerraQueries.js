@@ -5,7 +5,7 @@ const db = require("../db/dbConfig.js");
 
 const getAllCarreras = async () => {
     try {       
-        const allCarreras = await db.any("SELECT * carrera_models_992");
+        const allCarreras = await db.any("SELECT * FROM carrera_models_992");
         return allCarreras
     } catch (error) {
         return error;
@@ -14,4 +14,4 @@ const getAllCarreras = async () => {
 
 //Export connection
 
-module.exports = {}
+module.exports = { getAllCarreras }
