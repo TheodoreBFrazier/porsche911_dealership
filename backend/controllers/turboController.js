@@ -1,9 +1,20 @@
 const express = require("express");
-const turbos = express.Router();
+const turbo = express.Router();
+
+const { getAllTurbos } = require("../queries/turboQueries")
 
 //Index of all Carreras
-turbos.get("/", (request, response) => {
+turbo.get("/", (request, response) => {
     response.json( { status: "okay"});
 });
 
-module.exports = turbos;
+turbo.get("/", async (request, response) => {
+    const allTurboModels = await getAllTurbos();
+    if (allTurboModels[0]) {
+        response.status(200).json(allTurboModels)
+    } else {
+    response.status(500).json({ error: "server error!!"})
+    }
+});
+
+module.exports = turbo;

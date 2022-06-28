@@ -9,6 +9,7 @@ const express = require("express");
 //Controllers will go here 
 
 const carreraController = require("./controllers/carreraController.js");
+const turboController = require("./controllers/turboController.js")
 
 //Configure & evoking APP to express
 const app = express();
@@ -19,15 +20,15 @@ app.use(cors());
 //Parse incoming JSON
 app.use(express.json());
 
+//Porsche Model ROUTES
+
 // Base Carrera Model
 app.use("/carrera", carreraController);
 
-//Porsche Model ROUTES
-
-
+app.use("/turbo", turboController);
 
 // Turbo Model
-
+//app.use("/gt3", gt3Controller);
 
 // GT3 Model
 
