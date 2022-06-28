@@ -14,4 +14,15 @@ carrera.get("/", async (request, response) => {
     }
 });
 
+//Show one porsche model 
+ carrera.get("/:id", async (request, response) => {
+    const { id } = request.params;
+    const carreramodel await getPorscheModel(id);
+    if ( carreramodel ) {
+        response.json(carreramodel)
+    } else {
+        response.status(404).json({ error: "not found"})
+    }
+ });
+
 module.exports = carrera;
