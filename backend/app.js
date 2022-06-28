@@ -19,21 +19,25 @@ app.use(cors());
 //Parse incoming JSON
 app.use(express.json());
 
-require("dotenv").config(); //Loads Environmental Variables 
-
-app.get("/", (request, response) => {
-    response.send("Welcome to the Porsche 911 Exclusive Dealership");
-})
+// Base Carrera Model
+app.use("/carrera", carreraController);
 
 //Porsche Model ROUTES
 
-// Base Carrera Model
-app.use("/carrera", carreraController);
+
 
 // Turbo Model
 
 
 // GT3 Model
+
+require("dotenv").config(); //Loads Environmental Variables 
+
+// Home
+app.get("/", (request, response) => {
+    response.send("Welcome to the Porsche 911 Exclusive Dealership");
+})
+
 
 app.get("*", (request, response) => {
     response.status(404).send("Page not found.")

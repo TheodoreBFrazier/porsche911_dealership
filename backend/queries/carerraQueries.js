@@ -5,9 +5,11 @@ const db = require("../db/dbConfig.js");
 
 const getAllCarreras = async () => {
     try {       
-        const allCarreras = await db.any("SELECT * FROM carrera_models_992");
-        return allCarreras
-    } catch (error) {
+        const allCarreras = await db.many("SELECT * FROM carrera_models");  
+        console.log(allCarreras)
+         return allCarreras    
+         
+     } catch (error) {
         return error;
     }
 };
