@@ -3,6 +3,7 @@ const carrera = express.Router();
 
 //Require queries
 const { getAllCarreras } = require("../queries/carerraQueries");
+const { getCarreraModel} = require("../queries/carerraQueries")
 
 //Index of all Carreras  - SUCCESS!
 carrera.get("/", async (request, response) => {
@@ -17,7 +18,7 @@ carrera.get("/", async (request, response) => {
 //Show one porsche model 
  carrera.get("/:id", async (request, response) => {
     const { id } = request.params;
-    const carreramodel = await getPorscheModel(id);
+    const carreramodel = await getCarreraModel(id);
     if ( carreramodel ) {
         response.json(carreramodel)
     } else {
