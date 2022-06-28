@@ -8,7 +8,7 @@ const { getAllCarreras } = require("../queries/carerraQueries");
 carrera.get("/", async (request, response) => {
     const allCarreraModels = await getAllCarreras();
     if (allCarreraModels[0]) {
-        response.json({ success: true, result: allCarreraModels })
+        response.status(200).json(allCarreraModels)
     } else {
     response.status(500).json({ error: "server error!!"})
     }
