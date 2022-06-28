@@ -4,7 +4,7 @@ const carrera = express.Router();
 //Require queries
 const { getAllCarreras } = require("../queries/carerraQueries");
 
-//Index of all Carreras
+//Index of all Carreras  - SUCCESS!
 carrera.get("/", async (request, response) => {
     const allCarreraModels = await getAllCarreras();
     if (allCarreraModels[0]) {
