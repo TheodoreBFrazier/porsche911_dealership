@@ -25,11 +25,15 @@ app.get("/", (request, response) => {
     response.send("Welcome to the Porsche 911 Exclusive Dealership");
 })
 
-
 //Porsche Model ROUTES
 
-
+// Base Carrera Model
 app.use("/carrera", carreraController);
+
+// Turbo Model
+
+
+// GT3 Model
 
 app.get("*", (request, response) => {
     response.status(404).send("Page not found.")
