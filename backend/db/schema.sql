@@ -5,7 +5,7 @@ CREATE DATABASE data_dev;
 
 --data for the current Porsche generation, the 992 
 
-CREATE TABLE carrera_models_992 (
+CREATE TABLE carrera_models_992 (    
     model_id SERIAL PRIMARY KEY,
     model_name TEXT,
     price INT,
@@ -13,7 +13,6 @@ CREATE TABLE carrera_models_992 (
     top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT
-
 )
 
 --data for the TURBO models 
