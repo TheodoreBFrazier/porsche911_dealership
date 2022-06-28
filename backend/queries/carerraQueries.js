@@ -16,7 +16,7 @@ const getAllCarreras = async () => {
 
 const getCarreraModel = async (id) => {
     try {
-        const getCarreraModel = await db.one("SELECT * FROM carrera_models WHERE id=$1", id);
+        const getCarreraModel = await db.one("SELECT * FROM carrera_models WHERE model_id=$1", id);
         return getCarreraModel
     } catch (error) {
         return error

@@ -2,8 +2,11 @@ const express = require("express");
 const carrera = express.Router();
 
 //Require queries
-const { getAllCarreras } = require("../queries/carerraQueries");
-const { getCarreraModel} = require("../queries/carerraQueries")
+const { 
+    getAllCarreras, 
+    getCarreraModel 
+} = require("../queries/carerraQueries");
+
 
 //Index of all Carreras  - SUCCESS!
 carrera.get("/", async (request, response) => {
@@ -19,7 +22,7 @@ carrera.get("/", async (request, response) => {
  carrera.get("/:id", async (request, response) => {
     const { id } = request.params;
     const carreramodel = await getCarreraModel(id);
-    if ( carreramodel ) {
+    if ( carreramodel.model_id ) {
         response.json(carreramodel)
     } else {
         response.status(404).json({ error: "not found"})
