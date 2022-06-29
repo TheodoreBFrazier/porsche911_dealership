@@ -3,7 +3,8 @@ const gt3 = express.Router();
 
 //Require queries
 const { 
-    getAllGt3s
+    getAllGt3s,
+    getGt3Model
 } = require("../queries/gt3Queries");
 
 //Index of all Carreras
@@ -16,5 +17,18 @@ gt3.get("/", async (request, response) => {
     response.status(500).json({ error: "server error!!"})
     }
 });
+
+//View of one model
+
+gt3.get("/:id", async (request, response) => {
+    const { id } = request.params;
+    // Query Name
+    const gt3model = await getGt3Model(id);
+    if ( gt3model.gt3_id ) {
+        response.json(gt3model)
+    } else {
+        response.status(404).json({ error: "not found"})
+    }
+ });
 
 module.exports = gt3;

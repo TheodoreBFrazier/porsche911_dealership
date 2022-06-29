@@ -13,6 +13,15 @@ const getAllGt3s = async () => {
     }
 };
 
+const getGt3Model = async (id) => {
+    try {
+        const getGt3Model = await db.one("SELECT * FROM gt3_models WHERE gt3_id=$1", id);
+        return getGt3Model
+    } catch (error) {
+        return error
+    }
+}
+
 //Export connection
 
-module.exports = { getAllGt3s }
+module.exports = { getAllGt3s, getGt3Model }
