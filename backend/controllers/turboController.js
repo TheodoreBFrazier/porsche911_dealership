@@ -4,9 +4,6 @@ const turbo = express.Router();
 const { getAllTurbos } = require("../queries/turboQueries")
 
 //Index of all Carreras
-turbo.get("/", (request, response) => {
-    response.json( { status: "okay"});
-});
 
 turbo.get("/", async (request, response) => {
     const allTurboModels = await getAllTurbos();
