@@ -2,11 +2,11 @@
 
 const db = require("../db/dbConfig.js");
 
-const getAllCarreras = async () => {
+const getAllGt3s = async () => {
     try {       
-        const allCarreras = await db.many("SELECT * FROM carrera_models");  
-        console.log(allCarreras)
-         return allCarreras;    
+        const allGt3s = await db.many("SELECT * FROM gt3_models");  
+        console.log(allGt3s)
+        return allGt3s;    
          
      } catch (error) {
         return error;
@@ -15,4 +15,4 @@ const getAllCarreras = async () => {
 
 //Export connection
 
-module.exports = { getAllCarreras }
+module.exports = { getAllGt3s }

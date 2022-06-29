@@ -9,7 +9,8 @@ const express = require("express");
 //Controllers will go here 
 
 const carreraController = require("./controllers/carreraController.js");
-const turboController = require("./controllers/turboController.js")
+const turboController = require("./controllers/turboController.js");
+const gt3Controller = require("./controllers/gt3Controller.js")
 
 //Configure & evoking APP to express
 const app = express();
@@ -28,7 +29,7 @@ app.use("/carrera", carreraController);
 app.use("/turbo", turboController);
 
 // Turbo Model
-//app.use("/gt3", gt3Controller);
+app.use("/gt3", gt3Controller);
 
 // GT3 Model
 
