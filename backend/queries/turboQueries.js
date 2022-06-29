@@ -13,6 +13,15 @@ const getAllTurbos = async () => {
     }
 };
 
+const getTurboModel = async (id) => {
+    try {
+        const getTurboModel = await db.one("SELECT * FROM turbo_models WHERE turbo_id=$1", id);
+        return getTurboModel
+    } catch (error) {
+        return error
+    }
+}
+
 //Export connection
 
-module.exports = { getAllTurbos }
+module.exports = { getAllTurbos, getTurboModel }
