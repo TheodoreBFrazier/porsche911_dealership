@@ -26,3 +26,12 @@ INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_
 INSERT INTO gt3_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('911 GT3', 169700, 502, 197, 3.2, 'The only 992-generation 911 that does not have a turbocharger, the GT3 brings 502 horses of naturally-aspirated joy. The 911 GT3 is not a daily driver, but you will want to drive it every day.'),
 ('911 GT3 with Touring Package', 169700, 502, 199, 3.7, 'The 911 GT3 with Touring Package also sets the performance tone - but with focus primarily on the road. Thanks to ingenious areodynamics, cornering remains impressive, even without a large rear wing.');
+
+INSERT INTO porsche_911_gens(gen_name, year_began, year_ended, description) VALUES
+()
+()
+()
+()
+()
+()
+();
