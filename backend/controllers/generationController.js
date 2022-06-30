@@ -1,9 +1,10 @@
-const express = require("express")
+const express = require("express");
 const generations = express.Router();
 
 // require inquiry 
 const {
-    getAllGenerations
+    getAllGenerations,
+    showOneGeneration
 } = require("../queries/generationsQueries.js")
 
 generations.get("/", async (request, response) => {
@@ -12,6 +13,17 @@ generations.get("/", async (request, response) => {
         response.status(200).json(allGenerations)
     } else {
         response.status(500).json({ error: "server error!" })
+    }
+})
+
+generations.get("/:id", async (request, response) => {
+    const { id } = request.params;
+    const generation = await showOneGeneration(id)
+    if (generation.gen_id) {
+        
+        response.json(generation)
+    } else {
+        response.status(404).json({ error: "not found"})
     }
 })
 
