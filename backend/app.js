@@ -11,6 +11,7 @@ const express = require("express");
 const carreraController = require("./controllers/carreraController.js");
 const turboController = require("./controllers/turboController.js");
 const gt3Controller = require("./controllers/gt3Controller.js")
+const generationController = require("./controllers/generationController")
 
 //Configure & evoking APP to express
 const app = express();
@@ -33,6 +34,10 @@ app.use("/turbo", turboController);
 // GT3 Model
 
 app.use("/gt3", gt3Controller);
+
+// generations
+
+app.use("/generations",  generationController);
 
 
 
