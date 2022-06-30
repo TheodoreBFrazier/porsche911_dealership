@@ -5,7 +5,7 @@ const { getAllTurbos,
     getTurboModel
 } = require("../queries/turboQueries")
 
-//Index of all Carreras
+//Index of all Turbos
 
 turbo.get("/", async (request, response) => {
     const allTurboModels = await getAllTurbos();
@@ -15,6 +15,8 @@ turbo.get("/", async (request, response) => {
     response.status(500).json({ error: "server error!!"})
     }
 });
+
+//One Turbos
 
 turbo.get("/:id", async (request, response) => {
     const { id } = request.params;
