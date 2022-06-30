@@ -26,12 +26,15 @@ app.use(express.json());
 // Base Carrera Model
 app.use("/carrera", carreraController);
 
+// Turbo Model
+
 app.use("/turbo", turboController);
 
-// Turbo Model
+// GT3 Model
+
 app.use("/gt3", gt3Controller);
 
-// GT3 Model
+
 
 require("dotenv").config(); //Loads Environmental Variables 
 
