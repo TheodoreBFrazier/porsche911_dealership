@@ -54,8 +54,8 @@ CREATE TABLE porsches_4_sale(
 --data for the porsche generations 
 CREATE TABLE porsche_911_gens(
     gen_id SERIAL PRIMARY KEY,
-    gen_name INT,
-    year_began INT,
-    year_ended INT,
+    gen_name TEXT,
+    year_began TEXT,
+    year_ended TEXT,
     description TEXT
 );
