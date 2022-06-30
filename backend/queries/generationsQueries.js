@@ -11,10 +11,10 @@ const getAllGenerations = async () => {
     }
 };
 
-const showOneGeneration = async () => {
+const showOneGeneration = async (id) => {
     try {
-        const oneGeneration = await db.one("SELECT * FROM porsche_911_gens WHERE gen_id=$1", id);
-        return oneGeneration;
+        const showOneGeneration = await db.one("SELECT * FROM porsche_911_gens WHERE gen_id=$1", id);
+        return showOneGeneration;
     } catch (error) {
         return error;
     }
