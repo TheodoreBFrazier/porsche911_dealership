@@ -9,8 +9,6 @@ import NavBar from "./Components/NavBar";
 
 import Home from "./pages/Home";
 
-
-
 //992 Gen - current generation Pages 
 
 //base 992 Carrera 

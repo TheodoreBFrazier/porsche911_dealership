@@ -199,6 +199,22 @@ h6 {
   height: 100%;
 }
 
+.targa-picture img {
+  margin-left: 400px;
+  height: 590px;
+}
+
+.targa-section-text {
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  background-color: #1D2238;
+}
+
+.targa-section-text h3 {
+  color: white;
+}
+
 /* GT3 */
 
 .the-range-gt3 img {

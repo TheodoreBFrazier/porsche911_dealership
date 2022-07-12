@@ -14,12 +14,12 @@ function NavBar () {
             <Link to="/992carrera">
                     The New Carrera
                 </Link>
-                <Link to="/">
-                    Home (logo)
+                <Link to="/turbo">
+                    Carrera Turbo 
                 </Link>
-                <Link to="/">
-                    Home (logo)
-                </Link>
+                <Link to="/gt3">
+                    GT3 
+                    </Link>
                 <Link to="/">
                     Home (logo)
                 </Link>
