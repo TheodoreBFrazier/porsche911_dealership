@@ -10,6 +10,22 @@ function NavBar () {
                 </Link>
             </h3>
 
+            <h4 className="navigation-links">
+            <Link to="/992carrera">
+                    The New Carrera
+                </Link>
+                <Link to="/">
+                    Home (logo)
+                </Link>
+                <Link to="/">
+                    Home (logo)
+                </Link>
+                <Link to="/">
+                    Home (logo)
+                </Link>
+
+            </h4>
+
         </nav>
     )
 }
