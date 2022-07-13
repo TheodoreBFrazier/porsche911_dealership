@@ -183,6 +183,18 @@ h6 {
   height: 300px;
 }
 
+.turbo-s {
+  background-color: #000000;
+  height: 1970px;
+}
+
+.turbo-s img {
+  height: 631px;
+}
+
+.turbo-s-text {
+  color: white;
+}
 /*  CARRERA PAGE  */
 
 .carrera-hero {

@@ -34,6 +34,28 @@ function TurboPage() {
           exhilerating Turbo S.
         </h6>
 
+        <img
+          src="https://flatsixes.com/wp-content/uploads/2020/04/Porsche-911-Turbo-S-The-Engine-0-23-screenshot.png?ezimgfmt=rs%3Adevice%2Frscb1-1"
+          alt="Turbo-engine"
+        />
+
+
+        <section className="turbo-s">
+
+          <div className="turbo-s-text">
+<h1>Turbo S Heading</h1>
+<h2>Turbo S Subheading</h2>
+<p>The ultimate "standard" Porsche. the 992-generation Turbo provides supercar levels of Performance <br/> with all the modern luxuries  of a modern 911. Choose from the regular Turbo, or the more exhilerating Turbo S.</p>
+          </div>
+
+          <img
+          classname="turbo-s-picture"
+            src="https://paultan.org/image/2020/03/992-Porsche-911-Turbo-S-Coupe-12-1.jpeg"
+            alt="Turbo-S-coupe"
+          />
+        </section>
+
+
         <div className="the-range-turbo">
           <img src={turbo992} alt="porsche" />
           <h6>Turbo</h6>
