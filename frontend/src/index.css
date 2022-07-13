@@ -50,6 +50,13 @@ h6 {
   font-size: 16pt;
 }
 
+
+/* NAVIGATION */
+
+.home-link-logo {
+  justify-content: left;
+}
+
 /*  HOME PAGE  */
 
 .Hero {

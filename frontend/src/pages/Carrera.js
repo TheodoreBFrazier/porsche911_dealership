@@ -66,9 +66,9 @@ function CarreraPage() {
           />
         </div>
         <div className="targa-section-text">
-<h3>Porsche 911 Targa – features an innovative, fully automatic and motorized transitioning roof that transforms in just 19 seconds at the touch of a button.
+          <h3>Porsche 911 Targa – features an innovative, fully automatic and motorized transitioning roof that transforms in just 19 seconds at the touch of a button.
 
-</h3>
+          </h3>
         </div>
       </section>
 

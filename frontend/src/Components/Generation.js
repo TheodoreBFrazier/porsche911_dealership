@@ -1,3 +1,5 @@
+import React from "react";
+
 function Generation ({ generation }) {
     return (
         <div className="Single-generation">

@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 //Import BrowserRouter info
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

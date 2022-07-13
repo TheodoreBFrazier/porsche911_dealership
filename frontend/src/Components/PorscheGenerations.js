@@ -1,29 +1,33 @@
-import axios from 'axios';
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React from 'react';
 
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import Generation from './Generation';
 
 const API = process.env.REACT_APP_API_URL;
 
 function PorscheGenerations() {
-    const [generations, setGenerations] = useState([]);
-    let { id } = useParams();
+    const [generations, setGenerations] = useState([])
 
     useEffect(() => {
-        axios.get(`${API}/generations/${id}`).then((response) => {
-            console.log(response.data);
-            setGenerations(response.data);
-        });
-    }, [id, API]);
+        axios.get(API + "/generations")
+            .then((response) => {
+                setGenerations(response.data)
+            }).catch((error) => {
+                console.log(error)
+            })
+    }, []);
 
     return (
-        <section className='Generations-arr'>
-            {generations.map((generation) => (
-                <Generation key={generation.gen_id} generation={generation} />
-            ))}
-        </section>
+        <div className>
+                   {generations.map((generation) => {
+                        return <Generation key={generation.gen_id} generation={generation} />
+                    })}
+        </div>
     );
+
+
+
 }
 
 export default PorscheGenerations;
