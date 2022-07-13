@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 
 
-function NavBar () {
+function NavBar() {
     return (
-        <nav className = "navigation">
+        <nav className="navigation">
             <h3 className="home-link-logo">
                 <Link to="/">
                     Home (logo)
@@ -11,17 +11,17 @@ function NavBar () {
             </h3>
 
             <h4 className="navigation-links">
-            <Link to="/992carrera">
+                <Link to="/992carrera">
                     The New Carrera.
                 </Link>
                 <Link to="/turbo">
-                    Carrera Turbo 
+                    Carrera Turbo
                 </Link>
                 <Link to="/gt3">
-                    GT3 
-                    </Link>
-                <Link to="/">
-                    Home (logo)
+                    GT3
+                </Link>
+                <Link to="/generations">
+                    generations
                 </Link>
 
             </h4>
