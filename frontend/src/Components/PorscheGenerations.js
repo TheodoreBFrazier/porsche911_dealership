@@ -19,7 +19,7 @@ function PorscheGenerations() {
     }, []);
 
     return (
-        <div className>
+        <div className="gens-arr">
                    {generations.map((generation) => {
                         return <Generation key={generation.gen_id} generation={generation} />
                     })}
