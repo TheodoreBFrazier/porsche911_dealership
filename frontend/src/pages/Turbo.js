@@ -74,22 +74,23 @@ function TurboPage() {
 
         </section>
 
+        <section className="the-range-turbo">
+        
+            <img src={turbo992} alt="porsche" />
 
-        <div className="the-range-turbo">
-          <img src={turbo992} alt="porsche" />
-          <h6>Turbo</h6>
 
-          <img src={turbo992s} alt="turbo-S" />
-          <h6>Turbo S</h6>
+            <img src={turbo992s} alt="turbo-S" />
 
-          <img src={turbo992cab} alt="turbo-cab" />
-          <h6>Turbo Cabriolet</h6>
 
-          <img src={turbo992scab} alt="turbo-s-cab" />
-          <h6>Turbo S Cabriolet</h6>
-        </div>
+            <img src={turbo992cab} alt="turbo-cab" />
+
+
+            <img src={turbo992scab} alt="turbo-s-cab" />
+
+          
+        </section>
       </div>
-    </div>
+    </div >
   );
 }
 

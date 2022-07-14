@@ -192,9 +192,6 @@ h6 {
   width: 100vw;
 }
 
-.the-range-turbo img {
-  height: 300px;
-}
 
 .turbo-s {
   background-color: #000000;
@@ -214,6 +211,10 @@ h6 {
   display: block;
 }
 
+.turbo-s-text h1 {
+  margin-bottom: 0px;
+}
+
 
 
 .turbo-s-main-text {
@@ -221,6 +222,25 @@ h6 {
   color: red;
   margin: auto;
   display: block;
+}
+
+.the-range-turbo {
+  height: 700px;
+  width: 90%;
+  background-color: pink;
+  margin: auto;
+}
+
+.the-range-turbo img {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+}
+
+.the-range-turbo img {
+  height: 300px;
 }
 
 /*  CARRERA PAGE  */
