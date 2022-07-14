@@ -9,7 +9,10 @@ import CardContent from '@mui/material/CardContent';
 function Generation({ generation }) {
     return (
         <div className="Single-generation">
-            <Card sx={{ height: 500 }}>
+            <Card sx={{ 
+                height: 500,
+                width: 700
+             }}>
                 <CardContent>
                     <h2>  {generation.gen_name} </h2>
                     <h4>

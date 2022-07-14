@@ -31,28 +31,47 @@ function TurboPage() {
           <br />
           supercar levels of Performance with all the modern luxuries <br />
           of a modern 911. Choose from the regular Turbo, or the more
-          exhilerating Turbo S.
+          exhilerating Turbo <div classname="red-s">S</div>.
         </h6>
 
-        <img
-          src="https://flatsixes.com/wp-content/uploads/2020/04/Porsche-911-Turbo-S-The-Engine-0-23-screenshot.png?ezimgfmt=rs%3Adevice%2Frscb1-1"
-          alt="Turbo-engine"
-        />
-
+        <div className="turbo-engine">
+          <img
+            src="https://flatsixes.com/wp-content/uploads/2020/04/Porsche-911-Turbo-S-The-Engine-0-23-screenshot.png?ezimgfmt=rs%3Adevice%2Frscb1-1"
+            alt="Turbo-engine"
+          />
+        </div>
 
         <section className="turbo-s">
 
           <div className="turbo-s-text">
-<h1>Turbo S Heading</h1>
-<h2>Turbo S Subheading</h2>
-<p>The ultimate "standard" Porsche. the 992-generation Turbo provides supercar levels of Performance <br/> with all the modern luxuries  of a modern 911. Choose from the regular Turbo, or the more exhilerating Turbo S.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>Turbo S Heading</h1>
+            <h2>Turbo S Subheading</h2>
           </div>
 
           <img
-          classname="turbo-s-picture"
+            classname="turbo-s-picture"
             src="https://paultan.org/image/2020/03/992-Porsche-911-Turbo-S-Coupe-12-1.jpeg"
             alt="Turbo-S-coupe"
           />
+
+          <br />
+          <br />
+          <br />
+
+          <div className="turbo-s-main-text">
+            <h3>It redefines what it means to be quick and fast, and it does so without sacrificing the top-dog 911's great handling or luxurious grand touring abilities. Porsche offers a new Lightweight Package for its 911 Turbo and Turbo S that adds a few performance goodies while also shedding 66 pounds from the coupe's curb weight.</h3>
+            <br />
+            <h3>The Porsche 911 Turbo S is a fantastic sports car, one that rivals -- and often bests -- some of the world's finest supercars. That statement is true with or without the Lightweight Package. Forgo this option, and you won't miss a thing.</h3>
+          </div>
+
+
+
+
         </section>
 
 

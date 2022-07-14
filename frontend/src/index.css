@@ -1,3 +1,4 @@
+
 html,
 body {
   width: 100%;
@@ -46,6 +47,9 @@ h5 {
 h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
+}
+.red-s {
+  color: red;
 }
 
 
@@ -184,6 +188,10 @@ h6 {
   max-height: 100%;
 }
 
+.turbo-engine img {
+  width: 100vw;
+}
+
 .the-range-turbo img {
   height: 300px;
 }
@@ -194,11 +202,25 @@ h6 {
 }
 
 .turbo-s img {
-  height: 631px;
+  width: 70%;
+  margin: auto;
+  display: block;
 }
 
 .turbo-s-text {
+  width: 70%;
   color: white;
+  margin: auto;
+  display: block;
+}
+
+
+
+.turbo-s-main-text {
+  width: 70%;
+  color: red;
+  margin: auto;
+  display: block;
 }
 
 /*  CARRERA PAGE  */
