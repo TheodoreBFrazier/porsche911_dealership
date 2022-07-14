@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Generation from './Generation';
 
+
+
+
 const API = process.env.REACT_APP_API_URL;
 
 function PorscheGenerations() {
@@ -20,9 +23,14 @@ function PorscheGenerations() {
 
     return (
         <div className="gens-arr">
-                   {generations.map((generation) => {
-                        return <Generation key={generation.gen_id} generation={generation} />
-                    })}
+
+
+                        {generations.map((generation) => {
+                            return <Generation key={generation.gen_id} generation={generation} />
+                        })}
+
+
+
         </div>
     );
 
