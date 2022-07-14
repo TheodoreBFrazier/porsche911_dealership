@@ -1,5 +1,7 @@
 import React from "react";
 
+import TurboModelRange from "../Components/TurboModelStats";
+
 //image imports
 
 // import the side profile photos of the 992 Turbo model range
@@ -88,6 +90,8 @@ function TurboPage() {
             <img src={turbo992scab} alt="turbo-s-cab" />
 
           
+<TurboModelRange />
+
         </section>
       </div>
     </div >
