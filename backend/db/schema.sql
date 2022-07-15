@@ -12,7 +12,8 @@ CREATE TABLE carrera_models (
     power_in_hp INT,
     top_speed_mph INT,
     zero_to_sixty INT,
-    description TEXT
+    description TEXT,
+    model_image TEXT DEFAULT NULL
 );
 
 --data for the TURBO models 
