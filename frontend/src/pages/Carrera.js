@@ -1,5 +1,7 @@
 import React from "react";
 
+import CarreraModelRange from "../Components/CarreraModelStats";
+
 import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
 
 function CarreraPage() {
@@ -72,7 +74,12 @@ function CarreraPage() {
         </div>
       </section>
 
-    //</div>
+      <section>
+        <h1>The Range</h1>
+        < CarreraModelRange />
+      </section>
+
+    </div>
   );
 }
 

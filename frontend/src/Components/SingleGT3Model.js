@@ -9,4 +9,4 @@ function SingleGT3 ({ gt3 }) {
     )
 }
 
-export default SingleGT3
+export default SingleGT3;
