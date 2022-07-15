@@ -11,7 +11,7 @@ function CarreraModelRange () {
     const [carreras, setCarreras] = useState([])
 
     useEffect(() => {
-        axios.get(API + "/carrera")
+        axios.get(API + "/992carrera")
             .then((response) => {
                 setCarreras(response.data)
             }).catch((error) => {
