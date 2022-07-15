@@ -12,7 +12,7 @@ function NavBar() {
             </h3>
 
             <h4 className="navigation-links">
-                <Link to="/992carrera">
+                <Link to="/carrera">
                     The New Carrera.
                 </Link>
                 <Link to="/turbo">

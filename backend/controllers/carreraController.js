@@ -5,7 +5,7 @@ const carrera = express.Router();
 const { 
     getAllCarreras, 
     getCarreraModel 
-} = require("../queries/carerraQueries");
+} = require("../queries/carreraQueries");
 
 
 //Index of all Carreras  - SUCCESS!
@@ -13,6 +13,7 @@ carrera.get("/", async (request, response) => {
     const allCarreraModels = await getAllCarreras();
     if (allCarreraModels[0]) {
         response.status(200).json(allCarreraModels)
+        console.log(allCarreraModels)
     } else {
     response.status(500).json({ error: "server error!!"})
     }

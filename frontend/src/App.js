@@ -37,7 +37,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/992carrera" element={<CarreraPage  />} />
+            <Route path="/carrera" element={<CarreraPage  />} />
             <Route path="/turbo" element={<TurboPage />} />
             <Route path="/GT3" element={<GT3Page />} />
             <Route path="/sportclassic" element={<SportClassic />} />
