@@ -71,26 +71,19 @@ function TurboPage() {
             <h3>The Porsche 911 Turbo S is a fantastic sports car, one that rivals -- and often bests -- some of the world's finest supercars. That statement is true with or without the Lightweight Package. Forgo this option, and you won't miss a thing.</h3>
           </div>
 
-
-
-
         </section>
 
         <section className="the-range-turbo">
-        
-            <img src={turbo992} alt="porsche" />
 
+          <img src={turbo992} alt="porsche" />
 
-            <img src={turbo992s} alt="turbo-S" />
+          <img src={turbo992s} alt="turbo-S" />
 
+          <img src={turbo992cab} alt="turbo-cab" />
 
-            <img src={turbo992cab} alt="turbo-cab" />
+          <img src={turbo992scab} alt="turbo-s-cab" />
 
-
-            <img src={turbo992scab} alt="turbo-s-cab" />
-
-          
-<TurboModelRange />
+          <TurboModelRange />
 
         </section>
       </div>

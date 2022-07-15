@@ -4,6 +4,8 @@ import gt3profile from "../Assets/images/gt3.png";
 
 import gt3touringprofile from "../Assets/images/gt3-touring.png";
 
+import GT3ModelRange from "../Components/GT3ModelStats";
+
 function GT3Page() {
   return (
     <div>
@@ -14,6 +16,7 @@ function GT3Page() {
 
         <img src={gt3touringprofile} alt="porsche-gt3-touring" />
       </div>
+      < GT3ModelRange />
     </div>
   );
 }
