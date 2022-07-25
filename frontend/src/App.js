@@ -25,6 +25,10 @@ import SportClassic from "./pages/SportClassic";
 //Generations 
 import Generations from "./pages/Generations";
 
+//User Panel
+
+import UserPage from "./pages/User"
+
 
 //Style Sheets
 
@@ -42,6 +46,7 @@ function App() {
             <Route path="/GT3" element={<GT3Page />} />
             <Route path="/sportclassic" element={<SportClassic />} />
             <Route path="/generations" element={<Generations />} />
+            <Route path="/user" element={<UserPage />} />
           </Routes>
         </main>
       </Router>
