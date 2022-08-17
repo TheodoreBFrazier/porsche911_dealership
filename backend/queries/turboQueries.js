@@ -4,7 +4,7 @@ const db = require("../db/dbConfig.js");
 
 const getAllTurbos = async () => {
     try {       
-        const allTurbos = await db.many("SELECT * FROM turbo_models");  
+        const allTurbos = await db.any("SELECT * FROM turbo_models");  
         console.log(allTurbos)
          return allTurbos;    
          

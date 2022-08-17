@@ -1,15 +1,15 @@
 import React from "react";
 
-import CarreraModelRange from "../Components/CarreraModelStats";
+//import CarreraModelRange from "../Components/CarreraModelStats";
 
-import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
+//import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
 
 function CarreraPage() {
   return (
     <div>
       <div className="carrera-hero">
         <div className="carrera-page-hero">
-          <img src={yellowCarrera} alt="porsche" />
+
         </div>
       </div>
 
@@ -55,7 +55,7 @@ function CarreraPage() {
       <section className="coupe-and-cabriolet">
 
         <img src="https://www.mad4wheels.com/img/free-car-images/mobile/16989/porsche-911-992-carrera-4s-cabriolet-2019-532097.jpg"
-          alt="coupe-and-cab-photo"
+          alt="coupe-and-cab"
         />
 
 
@@ -76,7 +76,7 @@ function CarreraPage() {
 
       <section>
         <h1>The Range</h1>
-        < CarreraModelRange />
+
       </section>
 
     </div>

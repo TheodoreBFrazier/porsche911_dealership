@@ -1,19 +1,18 @@
 import React from "react";
 
-import TurboModelRange from "../Components/TurboModelStats";
 
 //image imports
 
 // import the side profile photos of the 992 Turbo model range
 
 //Standard Turbo
-import turbo992 from "../Assets/images/turbo-profile.png";
+//import turbo992 from "../Assets/images/turbo-profile.png";
 //Turbo S
-import turbo992s from "../Assets/images/turbo-s-profile.png";
+//import turbo992s from "../Assets/images/turbo-s-profile.png";
 //Standard Turbo Cab
-import turbo992cab from "../Assets/images/porsche-turbo-cab.png";
+//import turbo992cab from "../Assets/images/porsche-turbo-cab.png";
 //Turbo S Cab
-import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
+//import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
 function TurboPage() {
   return (
@@ -74,16 +73,6 @@ function TurboPage() {
         </section>
 
         <section className="the-range-turbo">
-
-          <img src={turbo992} alt="porsche" />
-
-          <img src={turbo992s} alt="turbo-S" />
-
-          <img src={turbo992cab} alt="turbo-cab" />
-
-          <img src={turbo992scab} alt="turbo-s-cab" />
-
-          <TurboModelRange />
 
         </section>
       </div>

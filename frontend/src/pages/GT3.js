@@ -1,10 +1,10 @@
 import React from "react";
 
-import gt3profile from "../Assets/images/gt3.png";
+//import gt3profile from "../Assets/images/gt3.png";
 
-import gt3touringprofile from "../Assets/images/gt3-touring.png";
+//import gt3touringprofile from "../Assets/images/gt3-touring.png";
 
-import GT3ModelRange from "../Components/GT3ModelStats";
+//import GT3ModelRange from "../Components/GT3ModelStats";
 
 function GT3Page() {
   return (
@@ -12,11 +12,9 @@ function GT3Page() {
       <div className="the-range-gt3">
         <h1>All GT3 Info Will go here </h1>
 
-        <img src={gt3profile} alt="porsche-gt3" />
-
-        <img src={gt3touringprofile} alt="porsche-gt3-touring" />
+ 
       </div>
-      < GT3ModelRange />
+
     </div>
   );
 }
