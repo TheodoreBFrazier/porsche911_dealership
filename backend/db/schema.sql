@@ -47,7 +47,8 @@ CREATE TABLE porsches_4_sale(
     model_name TEXT,
     year INT,
     body_style TEXT,
-    generation INT,
+    price INT,
+    generation TEXT,
     color TEXT,
     description TEXT 
 );
