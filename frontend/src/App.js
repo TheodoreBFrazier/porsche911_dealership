@@ -26,8 +26,10 @@ import SportClassic from "./pages/SportClassic";
 import Generations from "./pages/Generations";
 
 //User Panel
-
 import UserPage from "./pages/User"
+
+//About Page
+import About from './pages/AboutMe';
 
 
 //Style Sheets
@@ -47,6 +49,7 @@ function App() {
             <Route path="/sportclassic" element={<SportClassic />} />
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
       </Router>
