@@ -61,25 +61,17 @@ h6 {
 
 /*  HOME PAGE  */
 
-.Hero {
+.Home .Hero {
   width: 100vw;
   height: 100vh;
   position: relative;
+  background: url('./Assets/Images/hero-home-img.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.Hero-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.Hero-H1 {
-  position: relative;
-  color: red;
-  z-index: 1;
-}
 
 .Home-intro {
   height: 100vh;

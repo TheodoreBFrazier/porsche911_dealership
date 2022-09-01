@@ -1,22 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-import ContactForm from "./Contact";
+//Importing images 
 
 
 function Home() {
   return (
     <div className="Home">
       <section className="Hero">
-        <h1 className="Hero-H1">It's time.</h1>
-
-        <div className="Hero-image">
-          <img
-            src="https://images.hdqwalls.com/wallpapers/porsche-911-carrera-s-2019-rear-ek.jpg"
-            alt="911-hero"
-          />
-        </div>
+    
+      </section>
+      <section className="home-intro">
+        Text will go here.
+      </section>
+      <section className="992-carousel">
+        A carousel where user can see carrera, gt3 and turbo models
       </section>
 
     </div>
