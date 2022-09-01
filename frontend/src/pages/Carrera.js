@@ -1,8 +1,5 @@
 import React from "react";
 
-//import CarreraModelRange from "../Components/CarreraModelStats";
-
-//import yellowCarrera from "../Assets/images/922-carrera-yellow.jpg";
 
 function CarreraPage() {
   return (
