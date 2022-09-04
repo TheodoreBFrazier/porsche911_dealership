@@ -15,7 +15,7 @@ function Home() {
         <div className="intro-text">
           <h1 className="intro-heading">It's time.</h1>
           <p>
-            Welcome to the only online store devoted exclusively to Porsche 911.
+            Welcome to the only online store devoted exclusively to Porsche 911!
           </p>
         </div>
       </section>
