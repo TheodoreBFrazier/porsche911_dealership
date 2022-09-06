@@ -58,17 +58,29 @@ INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_
 ('Turbo Cabriolet', 195700, 572, 205, 2.8, 'The drop-top Porsche 911 Turbo has million-mile headroom and performance to blow away supercar A-listers'),
 ('Turbo S Cabriolet', 228900, 640, 205, 2.7, 'an open-air daily driver that hits 60 mph in just 2.7 seconds.');
 
-INSERT INTO turbo_body_stats (height, width, length, curb_weight, TEXT) VALUES
+INSERT INTO turbo_body_stats (height, width, length, curb_weight, wheelbase) VALUES
+('51.3 in', '74.9 in', '178.6 in', '3,635 lb','96.5'),
+('51.3 in', '74.9 in', '178.6 in', '3,790 lb','96.5'),
+('51.3 in', '74.9 in', '178.6 in', '3,636 lb','96.5'),
+('51.3 in', '74.9 in', '178.6 in', '3,790 lb','96.5'),
 
 CREATE TABLE turbo_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '2,981 cc', '572 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
+('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '2,981 cc', '572 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
+('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '3,745 cc', '640 hp', '6,750 rpm','7,200 rpm', '590 lb-ft', '2,500- 4,000 rpm', '168.4 hp/l', '5.7 lb/hp'),
+('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '3,745 cc', '640 hp', '6,750 rpm','7,200 rpm', '590 lb-ft', '2,500- 4,000 rpm', '168.4 hp/l', '5.9 lb/hp');
 
 INSERT INTO gt3_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('911 GT3', 169700, 502, 197, 3.2, 'The only 992-generation 911 that does not have a turbocharger, the GT3 brings 502 horses of naturally-aspirated joy. The 911 GT3 is not a daily driver, but you will want to drive it every day.'),
 ('911 GT3 with Touring Package', 169700, 502, 199, 3.7, 'The 911 GT3 with Touring Package also sets the performance tone - but with focus primarily on the road. Thanks to ingenious areodynamics, cornering remains impressive, even without a large rear wing.');
 
-INSERT INTO gt3_body_stats (height, width, length, curb_weight, TEXT) VALUES
+INSERT INTO gt3_body_stats (height, width, length, curb_weight, wheelbase) VALUES
+('50.4','72.9 in','180.0 in', '3,126 lb', '96.7 in'),
+('50.4','72.9 in','180.0 in', '3,126 lb', '96.7 in');
 
 CREATE TABLE gt3_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+('4.0-liter naturally aspirated boxer 6', '102.0 mm', '81.5 mm', '3,996 cc', '502 hp', '8,400 rpm','9,000 rpm', '346 lb-ft', '6,100 rpm', '125.6 hp/l', '6.3 lb/hp'),
+('4.0-liter naturally aspirated boxer 6', '102.0 mm', '81.5 mm', '3,996 cc', '502 hp', '8,400 rpm','9,000 rpm', '346 lb-ft', '6,100 rpm', '125.6 hp/l', '6.3 lb/hp');
 
 INSERT INTO porsches_4_sale(model_name, year, body_style, price, generation, color, transmission, description) VALUES
 ('Carrera', 1994, 'Carbiolet', 54900, 993, 'Black', 'manual', '1995 Carrera cabriolet with 3.6 liter flat-six paired with the very diserable manual transmission. Only 47,000 miles. Aftermaker exhaust, replacement black soft top, 18" Turbo-style wheels, cruise control and air conditioning. Owners manual, service record, tool kit and a clean Carfax and title present. Unique chance to own a air-cooler 911!.' ),
