@@ -16,6 +16,31 @@ CREATE TABLE carrera_models (
     model_image TEXT DEFAULT NULL
 );
 
+CREATE TABLE carrera_body_stats (
+    technical_id SERIAL PRIMARY KEY,
+    height TEXT,
+    width TEXT,
+    length TEXT,
+    curb_weight TEXT,
+    wheelbase TEXT
+);
+
+CREATE TABLE carrera_technical (
+    technical_id SERIAL PRIMARY KEY,
+    motor TEXT,
+    bore TEXT,
+    stroke TEXT,
+    displacement TEXT,
+    max_power TEXT,
+    max_power_at_rpm TEXT,
+    max_engine_speed TEXT,
+    max_torque TEXT,
+    max_torque_at_rpm TEXT,
+    max_power_per_liter TEXT,
+    power_to_weight TEXT
+)
+
+
 --data for the TURBO models 
 
 CREATE TABLE turbo_models (
@@ -27,6 +52,30 @@ CREATE TABLE turbo_models (
     zero_to_sixty INT,
     description TEXT
 );
+
+CREATE TABLE turbo_body_stats (
+    technical_id SERIAL PRIMARY KEY,
+    height TEXT,
+    width TEXT,
+    length TEXT,
+    curb_weight TEXT,
+    wheelbase TEXT
+);
+
+CREATE TABLE turbo_technical (
+    technical_id SERIAL PRIMARY KEY,
+    motor TEXT,
+    bore TEXT,
+    stroke TEXT,
+    displacement TEXT,
+    max_power TEXT,
+    max_power_at_rpm TEXT,
+    max_engine_speed TEXT,
+    max_torque TEXT,
+    max_torque_at_rpm TEXT,
+    max_power_per_liter TEXT,
+    power_to_weight TEXT
+)
 
 --data for the GTS models
 
@@ -40,6 +89,29 @@ CREATE TABLE gt3_models (
     description TEXT
 );
 
+CREATE TABLE gt3_body_stats (
+    technical_id SERIAL PRIMARY KEY,
+    height TEXT,
+    width TEXT,
+    length TEXT,
+    curb_weight TEXT,
+    wheelbase TEXT
+);
+
+CREATE TABLE gt3_technical (
+    technical_id SERIAL PRIMARY KEY,
+    motor TEXT,
+    bore TEXT,
+    stroke TEXT,
+    displacement TEXT,
+    max_power TEXT,
+    max_power_at_rpm TEXT,
+    max_engine_speed TEXT,
+    max_torque TEXT,
+    max_torque_at_rpm TEXT,
+    max_power_per_liter TEXT,
+    power_to_weight TEXT
+)
 
 --data for the porsches for sale
 CREATE TABLE porsches_4_sale(
