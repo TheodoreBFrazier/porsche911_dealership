@@ -18,7 +18,7 @@ CREATE TABLE carrera_models (
 
 CREATE TABLE carrera_body_stats (
     technical_id SERIAL PRIMARY KEY,
-    model_name,
+    model_name TEXT,
     height TEXT,
     width TEXT,
     length TEXT,
@@ -39,7 +39,7 @@ CREATE TABLE carrera_technical (
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
     power_to_weight TEXT
-)
+);
 
 
 --data for the TURBO models 
@@ -76,7 +76,7 @@ CREATE TABLE turbo_technical (
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
     power_to_weight TEXT
-)
+);
 
 --data for the GTS models
 
@@ -112,7 +112,7 @@ CREATE TABLE gt3_technical (
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
     power_to_weight TEXT
-)
+);
 
 --data for the porsches for sale
 CREATE TABLE porsches_4_sale(
