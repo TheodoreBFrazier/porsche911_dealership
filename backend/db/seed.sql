@@ -21,8 +21,6 @@ INSERT INTO carrera_body_stats (height, width, length, curb_weight, TEXT) VALUES
 
 CREATE TABLE carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
 
-
-
 INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),
 ('Turbo S Coupe', 216100, 640, 199, 2.6, 'Not the widowmaker 911 Turbo of old. Meticulous engineering make the even more powerful Turbo S accessible to every driver, regardless of skill'),
