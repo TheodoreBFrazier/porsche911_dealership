@@ -17,15 +17,29 @@ INSERT INTO carrera_models(model_name, price, power_in_hp, top_speed_mph, zero_t
 ('Carrera 4 GTS Cabriolet', 162700, 190, 473, 3.3, 'All wheel drive for winter and an insulated convertible top for summer. 4 GTS cabriolet is the perfect year-around companion.'),
 ('Targa 4 GTS Targa', 162700, 473, 190, 3.3, 'High style of Targa. High practicality of 4. High performance of GTS.');
 
+INSERT INTO carrera_body_stats (height, width, length, curb_weight, TEXT) VALUES
+
+CREATE TABLE carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+
+
+
 INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),
 ('Turbo S Coupe', 216100, 640, 199, 2.6, 'Not the widowmaker 911 Turbo of old. Meticulous engineering make the even more powerful Turbo S accessible to every driver, regardless of skill'),
 ('Turbo Cabriolet', 195700, 572, 205, 2.8, 'The drop-top Porsche 911 Turbo has million-mile headroom and performance to blow away supercar A-listers'),
 ('Turbo S Cabriolet', 228900, 640, 205, 2.7, 'an open-air daily driver that hits 60 mph in just 2.7 seconds.');
 
+INSERT INTO turbo_body_stats (height, width, length, curb_weight, TEXT) VALUES
+
+CREATE TABLE turbo_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+
 INSERT INTO gt3_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('911 GT3', 169700, 502, 197, 3.2, 'The only 992-generation 911 that does not have a turbocharger, the GT3 brings 502 horses of naturally-aspirated joy. The 911 GT3 is not a daily driver, but you will want to drive it every day.'),
 ('911 GT3 with Touring Package', 169700, 502, 199, 3.7, 'The 911 GT3 with Touring Package also sets the performance tone - but with focus primarily on the road. Thanks to ingenious areodynamics, cornering remains impressive, even without a large rear wing.');
+
+INSERT INTO gt3_body_stats (height, width, length, curb_weight, TEXT) VALUES
+
+CREATE TABLE gt3_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
 
 INSERT INTO porsches_4_sale(model_name, year, body_style, price, generation, color, transmission, description) VALUES
 ('Carrera', 1994, 'Carbiolet', 54900, 993, 'Black', 'manual', '1995 Carrera cabriolet with 3.6 liter flat-six paired with the very diserable manual transmission. Only 47,000 miles. Aftermaker exhaust, replacement black soft top, 18" Turbo-style wheels, cruise control and air conditioning. Owners manual, service record, tool kit and a clean Carfax and title present. Unique chance to own a air-cooler 911!.' ),
