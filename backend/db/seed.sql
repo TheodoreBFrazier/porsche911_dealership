@@ -18,8 +18,39 @@ INSERT INTO carrera_models(model_name, price, power_in_hp, top_speed_mph, zero_t
 ('Targa 4 GTS Targa', 162700, 473, 190, 3.3, 'High style of Targa. High practicality of 4. High performance of GTS.');
 
 INSERT INTO carrera_body_stats (height, width, length, curb_weight, TEXT) VALUES
+('Carrera Coupe', ),
+('Carrera Cabriolet', ),
+('Carrera 4 Coupe', ),
+('Careera 4 Cabriolet', ),
+('Carrera S Coupe', ),
+('Carrera S Cabriolet', ),
+('Carrera 4S Coupe', ),
+('Carrera 4S Cabriolet', ),
+('Targa 4 ',),
+('Targa 4S Targa', ),
+('GTS Coupe', ),
+('GTS Cabriolet', ),
+('Carrera 4 GTS Coupe', ),
+('Carrera 4 GTS Cabriolet',),
+('Targa 4 GTS Targa',);
 
 CREATE TABLE carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+(),
+();
+
 
 INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),

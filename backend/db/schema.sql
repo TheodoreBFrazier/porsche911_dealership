@@ -18,6 +18,7 @@ CREATE TABLE carrera_models (
 
 CREATE TABLE carrera_body_stats (
     technical_id SERIAL PRIMARY KEY,
+    model_name,
     height TEXT,
     width TEXT,
     length TEXT,
