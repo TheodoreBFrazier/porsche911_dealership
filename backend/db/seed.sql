@@ -17,39 +17,39 @@ INSERT INTO carrera_models(model_name, price, power_in_hp, top_speed_mph, zero_t
 ('Carrera 4 GTS Cabriolet', 162700, 190, 473, 3.3, 'All wheel drive for winter and an insulated convertible top for summer. 4 GTS cabriolet is the perfect year-around companion.'),
 ('Targa 4 GTS Targa', 162700, 473, 190, 3.3, 'High style of Targa. High practicality of 4. High performance of GTS.');
 
-INSERT INTO carrera_body_stats (height, width, length, curb_weight, TEXT) VALUES
-('Carrera Coupe', ),
-('Carrera Cabriolet', ),
-('Carrera 4 Coupe', ),
-('Careera 4 Cabriolet', ),
-('Carrera S Coupe', ),
-('Carrera S Cabriolet', ),
-('Carrera 4S Coupe', ),
-('Carrera 4S Cabriolet', ),
-('Targa 4 ',),
-('Targa 4S Targa', ),
-('GTS Coupe', ),
-('GTS Cabriolet', ),
-('Carrera 4 GTS Coupe', ),
-('Carrera 4 GTS Cabriolet',),
-('Targa 4 GTS Targa',);
+INSERT INTO carrera_body_stats (height, width, length, curb_weight, wheelbase) VALUES
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,354 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,658 lb','96.5 in'),
+('51.1 in', '72.9 in', '177.9 in', '3,658 lb','96.5 in'),
+('50.9 in', '72.9 in', '178.5 in', '3,658 lb','96.5 in'),
+('50.8 in', '72.9 in', '178.5 in', '3,501 lb','96.5 in'),
+('50.9 in', '72.9 in', '178.5 in', '3,452 lb','96.5 in'),
+('50.8 in', '72.9 in', '178.5 in', '3,605 lb','96.5 in'),
+('51.1 in', '72.9 in', '178.5 in', '3,653 lb','96.5 in');
 
 CREATE TABLE carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-(),
-();
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '9.3 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '9.1 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '9.5 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '443 hp', '6,500 rpm','7,500 rpm', '390 lb-ft', '2,300 - 5,000 rpm', '147.6 hp/l', '7.6 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '443 hp', '6,500 rpm','7,500 rpm', '390 lb-ft', '2,300 - 5,000 rpm', '147.6 hp/l', '8.0 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '443 hp', '6,500 rpm','7,500 rpm', '390 lb-ft', '2,300 - 5,000 rpm', '147.6 hp/l', '7.9 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '443 hp', '6,500 rpm','7,500 rpm', '390 lb-ft', '2,300 - 5,000 rpm', '147.6 hp/l', '8.2 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '2,300 - 5,000 rpm', '126.3 hp/l', '9.7 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '443 hp', '6,500 rpm','7,500 rpm', '390 lb-ft', '2,300 - 5,000 rpm', '126.3 hp/l', '8.3 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '473 hp', '6,500 rpm','7,500 rpm', '420 lb-ft', '2,300 - 5,000 rpm', '158.7 hp/l', '7.3 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '473 hp', '6,500 rpm','7,500 rpm', '420 lb-ft', '2,300 - 5,000 rpm', '158.7 hp/l', '7.5 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '473 hp', '6,500 rpm','7,500 rpm', '420 lb-ft', '2,300 - 5,000 rpm', '158.7 hp/l', '7.5 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '473 hp', '6,500 rpm','7,500 rpm', '420 lb-ft', '2,300 - 5,000 rpm', '158.7 hp/l', '7.8 lb/hp'),
+('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '473 hp', '6,500 rpm','7,500 rpm', '420 lb-ft', '2,300 - 5,000 rpm', '158.7 hp/l', '7.9 lb/hp');
 
 
 INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_sixty, description) VALUES
