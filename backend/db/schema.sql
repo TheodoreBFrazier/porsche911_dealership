@@ -123,6 +123,7 @@ CREATE TABLE porsches_4_sale(
     price INT,
     generation TEXT,
     color TEXT,
+    transmission TEXT,
     description TEXT 
 );
 

@@ -34,7 +34,7 @@ INSERT INTO carrera_body_stats (height, width, length, curb_weight, wheelbase) V
 ('50.8 in', '72.9 in', '178.5 in', '3,605 lb','96.5 in'),
 ('51.1 in', '72.9 in', '178.5 in', '3,653 lb','96.5 in');
 
-CREATE TABLE carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+INSERT INTO carrera_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
 ('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
 ('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '9.3 lb/hp'),
 ('3.0-liter twin turbocharged boxer 6', '91.0 mm', '76.4 mm', '2.981 cc', '379 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '9.1 lb/hp'),
@@ -62,9 +62,9 @@ INSERT INTO turbo_body_stats (height, width, length, curb_weight, wheelbase) VAL
 ('51.3 in', '74.9 in', '178.6 in', '3,635 lb','96.5'),
 ('51.3 in', '74.9 in', '178.6 in', '3,790 lb','96.5'),
 ('51.3 in', '74.9 in', '178.6 in', '3,636 lb','96.5'),
-('51.3 in', '74.9 in', '178.6 in', '3,790 lb','96.5'),
+('51.3 in', '74.9 in', '178.6 in', '3,790 lb','96.5');
 
-CREATE TABLE turbo_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+INSERT INTO turbo_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
 ('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '2,981 cc', '572 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
 ('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '2,981 cc', '572 hp', '6,500 rpm','7,500 rpm', '331 lb-ft', '1,950 - 5,000 rpm', '126.3 hp/l', '8.8 lb/hp'),
 ('3,745 cc twin-turbocharged boxer 6', '102.0 mm', '76.4 mm', '3,745 cc', '640 hp', '6,750 rpm','7,200 rpm', '590 lb-ft', '2,500- 4,000 rpm', '168.4 hp/l', '5.7 lb/hp'),
@@ -78,7 +78,7 @@ INSERT INTO gt3_body_stats (height, width, length, curb_weight, wheelbase) VALUE
 ('50.4','72.9 in','180.0 in', '3,126 lb', '96.7 in'),
 ('50.4','72.9 in','180.0 in', '3,126 lb', '96.7 in');
 
-CREATE TABLE gt3_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
+INSERT INTO gt3_technical (motor, bore, stroke, displacement, max_power, max_power_at_rpm, max_engine_speed, max_torque, max_torque_at_rpm, max_power_per_liter, power_to_weight) VALUES
 ('4.0-liter naturally aspirated boxer 6', '102.0 mm', '81.5 mm', '3,996 cc', '502 hp', '8,400 rpm','9,000 rpm', '346 lb-ft', '6,100 rpm', '125.6 hp/l', '6.3 lb/hp'),
 ('4.0-liter naturally aspirated boxer 6', '102.0 mm', '81.5 mm', '3,996 cc', '502 hp', '8,400 rpm','9,000 rpm', '346 lb-ft', '6,100 rpm', '125.6 hp/l', '6.3 lb/hp');
 
@@ -86,9 +86,9 @@ INSERT INTO porsches_4_sale(model_name, year, body_style, price, generation, col
 ('Carrera', 1994, 'Carbiolet', 54900, 993, 'Black', 'manual', '1995 Carrera cabriolet with 3.6 liter flat-six paired with the very diserable manual transmission. Only 47,000 miles. Aftermaker exhaust, replacement black soft top, 18" Turbo-style wheels, cruise control and air conditioning. Owners manual, service record, tool kit and a clean Carfax and title present. Unique chance to own a air-cooler 911!.' ),
 ('Carrera', 1995, 'Coupe', 98000, 993, 'Speed Yellow', 'manual','Unique opporunity to own a 993 carerra coupe. This striking yellow on black carrera has been with the seller since 2003. This 993 Carrera coupe has 70,000 miles and comes with a car cover, spare set of 18-inch Turbo-style wheels, a clean Carfax and clean title. '),
 ('Turbo', 2004, 'Coupe', 93000, 996, 'Black','manual', 'Probably the best budget 911 Turbo on the market!! Black on black Turbo coupe with only 24,000 miles. Sunroof, xenon headlights, spoiler and stainless steel exhausts. Interior features yellow seatbelts and stitching, metal door sills and a leather interior package as well as modern luxuries such as heated seats, cruise control, navigation system and a Bose sound system. Some light paintwork done on rear bumper but clean Carfax with no accidents or damage.'),
-('911', 2011, 'Speedster', 1300, 333333, 997, 'Special', 'PDK automatic', 'A truly one-of-a-kind 911, this 2011 Speedster is one of only 356 Speedsters produced. Special ordered in a Cream over black with orrange trimmed cabin to match the San Francisco Giants colors, this speedster features a PDK automatic transmission, 19-inch Sport wheels, ceramic brakes, heated seats, climate control and the diserable Sport Chrono Package. Only 1,300 miles with orignal window sticket, manufacturer literature, clean carfax and title.'),
-('Turbo S', 2021, 'Coupe', 230, 265000, 992, 'Olive', 'PDK automatic','Finished in a paint-to-sample Olive Green over two tone interior. This Turbo S is like new, with on 230 miles. Features include staggered-diameter Turbo S Exclusive Design wheels finished in black, ceramic-composite brakes with high-gloss black calipers, a front-axle lift system, Lane Change Assist, a glass sunroof, a sport exhaust system, and ventilated front seats. One owner with no accidents or damage.'),
-('Turbo S', 2021, 'Cabriolet', 1600, 262000, 992, 'White', 'PDK automatic', 'Carrera S Cabriolet finished in White Matallic over Slate Grey interior.  Features include a black soft top, a lowered sport suspension with PASM, staggered-diameter center-lock wheels, Porsche InnoDrive, ceramic-composite brakes, a front-axle lift system, a surround-view camera system, a sport exhaust system, Power Steering Plus, heated and ventilated front seats, a heated steering wheel, and a Burmester surround-sound system. Clean title and accident-free Carfax report.')
+('911', 2011, 'Speedster', 333333, 997, 'Special', 'PDK automatic', 'A truly one-of-a-kind 911, this 2011 Speedster is one of only 356 Speedsters produced. Special ordered in a Cream over black with orrange trimmed cabin to match the San Francisco Giants colors, this speedster features a PDK automatic transmission, 19-inch Sport wheels, ceramic brakes, heated seats, climate control and the diserable Sport Chrono Package. Only 1,300 miles with orignal window sticket, manufacturer literature, clean carfax and title.'),
+('Turbo S', 2021, 'Coupe', 265000, 992, 'Olive', 'PDK automatic','Finished in a paint-to-sample Olive Green over two tone interior. This Turbo S is like new, with on 230 miles. Features include staggered-diameter Turbo S Exclusive Design wheels finished in black, ceramic-composite brakes with high-gloss black calipers, a front-axle lift system, Lane Change Assist, a glass sunroof, a sport exhaust system, and ventilated front seats. One owner with no accidents or damage.'),
+('Turbo S', 2021, 'Cabriolet', 262000, 992, 'White', 'PDK automatic', 'Carrera S Cabriolet finished in White Matallic over Slate Grey interior.  Features include a black soft top, a lowered sport suspension with PASM, staggered-diameter center-lock wheels, Porsche InnoDrive, ceramic-composite brakes, a front-axle lift system, a surround-view camera system, a sport exhaust system, Power Steering Plus, heated and ventilated front seats, a heated steering wheel, and a Burmester surround-sound system. Clean title and accident-free Carfax report.');
 
 
 INSERT INTO porsche_911_gens(gen_name, year_began, year_ended, description) VALUES
