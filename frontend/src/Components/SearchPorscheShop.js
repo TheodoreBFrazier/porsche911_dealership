@@ -3,12 +3,14 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 import { IconButton, TextField } from "@mui/material";
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from "@mui/icons-material/Search";
 
 const API = process.env.REACT_APP_API_URL;
 
-function ShopSearchBar({ userPorscheSearch }) {
+function ShopSearchBar({ searchPorscheInput }) {
+  // Grab the data from the API
   const [porschesForSale, setPorschesForSale] = useState([]);
+  //The filtered data
 
   useEffect(() => {
     axios
@@ -23,33 +25,20 @@ function ShopSearchBar({ userPorscheSearch }) {
 
   // Set the search inputs
   const [searchPorscheInput, setSearchPorscheInput] = useState("");
-
-  const handleChange = (event) => {
-    event.preventDefault();
-    setState: setSearchPorscheInput(event.target.value);
-  };
-
-  if (searchPorscheInput.length > 0) {
-    porschesForSale.filter((porsche) => {
-      return porsche.model_name.match(searchPorscheInput);
-    });
-  }
+  // Call back the search function with user search and data as parameters
+  const filteredPorsches = userPorscheSearch(userQuery, setPorschesForSale);
 
   return (
     <div className="shop-searchbar">
-      <TextField
-        id="shop-search-bar"
-        className="text"
-        onInput={(event) => {
-          userPorscheSearch(event.target.value);
-        }}
-        label="Search for a Porsche:'"
-        variant="outlined"
-        placeholder=" Ex: 'Turbo','Cabriolet','Targa...'"
+      <ShopSearchBar
+        userQuery={userQuery}
+        setSearchPorscheInput={setSearchPorscheInput}
       />
-      <IconButton type="submit" aria-label="search-test">
-        <SearchIcon style={{ fill: "pink" }} />
-      </IconButton>
+      <div className="filtered-results">
+        {filteredPorsches.map((porscheData) => (
+          <div key={porscheData.porsche_id}>{porscheData}</div>
+        ))}
+      </div>
     </div>
   );
 }
