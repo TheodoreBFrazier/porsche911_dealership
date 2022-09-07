@@ -1,44 +1,23 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import axios from "axios";
 
-import { IconButton, TextField } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
+//import hook
+import porscheFetch from "../hooks/fetchForSalePorsches";
 
-const API = process.env.REACT_APP_API_URL;
-
-function ShopSearchBar({ searchPorscheInput }) {
-  // Grab the data from the API
-  const [porschesForSale, setPorschesForSale] = useState([]);
-  //The filtered data
-
-  useEffect(() => {
-    axios
-      .get(API + "/porschestore")
-      .then((response) => {
-        setPorschesForSale(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
-
-  // Set the search inputs
-  const [searchPorscheInput, setSearchPorscheInput] = useState("");
-  // Call back the search function with user search and data as parameters
-  const filteredPorsches = userPorscheSearch(userQuery, setPorschesForSale);
-
+export default function ShopSearchBar() {
+  const { data, setData } = porscheFetch();
   return (
-    <div className="shop-searchbar">
-      <ShopSearchBar
-        userQuery={userQuery}
-        setSearchPorscheInput={setSearchPorscheInput}
+    <div>
+      <input
+        type="text"
+        placeholder="Search for a Porsche"
+        /* set data to search*/
+        value={data.slug}
+        onChange={(event) => setData({ ...data, slug: event.target.valye })}
       />
-      <div className="filtered-results">
-        {filteredPorsches.map((porscheData) => (
-          <div key={porscheData.porsche_id}>{porscheData}</div>
-        ))}
-      </div>
+      <br />
+      {data.results.length > 0 ? (
+        <PorscheForSale car={data.results[0]} />
+      ) : null}
     </div>
   );
 }
