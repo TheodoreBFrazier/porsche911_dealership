@@ -1,23 +1,23 @@
 import React from "react";
 
 //import hook
-import porscheFetch from "../hooks/fetchForSalePorsches";
+//import porscheFetch from "../hooks/fetchForSalePorsches";
+import PorscheForSale from "./PorschesForSale";
+import fetchForSalePorsches from "../hooks/fetchForSalePorsches";
 
 export default function ShopSearchBar() {
-  const { data, setData } = porscheFetch();
+  const { porschesForSale, setPorschesForSale } = fetchForSalePorsches();
   return (
     <div>
       <input
         type="text"
         placeholder="Search for a Porsche"
-        /* set data to search*/
-        value={data.slug}
-        onChange={(event) => setData({ ...data, slug: event.target.valye })}
+        value={porschesForSale.model_name}
+        onChange={(event) => setPorschesForSale({ ...porschesForSale, model_name: event.target.value })}
       />
-      <br />
-      {data.results.length > 0 ? (
-        <PorscheForSale car={data.results[0]} />
-      ) : null}
+      {porschesForSale.results.length > 0 ? 
+        <PorscheForSale car={porschesForSale.results[0]} />
+       : null}
     </div>
   );
 }

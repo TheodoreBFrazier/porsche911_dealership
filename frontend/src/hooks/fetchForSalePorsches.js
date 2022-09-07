@@ -6,20 +6,20 @@ const API = process.env.REACT_APP_API_URL;
 function fetchForSalePorsches() {
   // Grab the data from the API
   const [porschesForSale, setPorschesForSale] = useState({
-    slug: "",
+    model_name: "",
     results: [],
   });
   //The filtered data
 
   useEffect(() => {
-    if (data.slug !== "") {
+    if (porschesForSale.model_name !== "") {
       const timeoutId = setTimeout(() => {
         //.......
         const forSaleFetch = async () => {
           try {
-            const forSaleResults = await axios.get(API + "/porschestore");
+            const forSaleResults = await axios.get(`API + "/porschestore"${porschesForSale.model_name}`);
             setPorschesForSale({
-              ...API,
+              ...porschesForSale,
               results: forSaleResults.porschesForSale,
             });
           } catch (error) {
@@ -30,7 +30,7 @@ function fetchForSalePorsches() {
       }, 1000);
       return () => clearTimeout(timeoutId);
     }
-  }, [porschesForSale.slug]);
+  }, [porschesForSale.model_name]);
 
   return { porschesForSale, setPorschesForSale };
 }
