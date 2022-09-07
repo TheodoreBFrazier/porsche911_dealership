@@ -24,6 +24,9 @@ function NavBar() {
                 <Link to="/generations">
                     generations
                 </Link>
+                <Link to="/porscheshop">
+                    Shop
+                </Link>
 
             </h4>
 
