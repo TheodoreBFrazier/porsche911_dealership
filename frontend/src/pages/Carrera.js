@@ -1,5 +1,9 @@
 import React from "react";
 
+//Importing all images
+
+import heroImage from "../Assets/Images/carrera_hero.jpg"
+
 import CarerraModelStats from "../Components/CarreraModelStats.js"
 
 
@@ -8,6 +12,7 @@ function CarreraPage() {
     <div>
       <div className="carrera-hero">
         <div className="carrera-page-hero">
+        <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
         </div>
       </div>
       <section className="Home-intro">
