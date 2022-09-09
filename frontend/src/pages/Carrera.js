@@ -1,5 +1,7 @@
 import React from "react";
 
+import CarerraModelStats from "../Components/CarreraModelStats.js"
+
 
 function CarreraPage() {
   return (
@@ -58,7 +60,7 @@ function CarreraPage() {
       <section>
         <h1>The Range</h1>
       </section>
-
+<CarerraModelStats />
     </div>
   );
 }

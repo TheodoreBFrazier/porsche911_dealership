@@ -12,15 +12,16 @@ function fetchForSalePorsches() {
   //The filtered data
 
   useEffect(() => {
-    if (porschesForSale.model_name !== "") {
+    if (porschesForSale.porsche_id !== "") {
       const timeoutId = setTimeout(() => {
         //.......
         const forSaleFetch = async () => {
           try {
-            const forSaleResults = await axios.get(`API + "/porschestore"${porschesForSale.model_name}`);
+            const forSaleResults = await axios.get(API + "/porschestore");
             setPorschesForSale({
               ...porschesForSale,
               results: forSaleResults.porschesForSale,
+          
             });
           } catch (error) {
             console.log(error);
@@ -30,7 +31,7 @@ function fetchForSalePorsches() {
       }, 1000);
       return () => clearTimeout(timeoutId);
     }
-  }, [porschesForSale.model_name]);
+  }, [porschesForSale.porsche_id]);
 
   return { porschesForSale, setPorschesForSale };
 }

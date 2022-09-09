@@ -34,7 +34,7 @@ import UserPage from "./pages/User"
 import About from './pages/AboutMe';
 
 //Online Shop
-import PorscheShop from "./pages/PorscheShop"
+import Shop from './pages/Shop';
 
 
 //Style Sheets
@@ -52,10 +52,10 @@ function App() {
             <Route path="/turbo" element={<TurboPage />} />
             <Route path="/GT3" element={<GT3Page />} />
             <Route path="/sportclassic" element={<SportClassic />} />
-            <Route path="/porscheshop" element={<PorscheShop />} />
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
+    
           </Routes>
         </main>
       </Router>

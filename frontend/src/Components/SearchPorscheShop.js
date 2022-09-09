@@ -1,9 +1,12 @@
 import React from "react";
 
 //import hook
-//import porscheFetch from "../hooks/fetchForSalePorsches";
-import PorscheForSale from "./PorschesForSale";
 import fetchForSalePorsches from "../hooks/fetchForSalePorsches";
+//import porscheFetch from "../hooks/fetchForSalePorsches";
+import DealerInventory from "./AvailableCars"
+
+
+//DO queries have to change to return values in line 35 in fetch?
 
 export default function ShopSearchBar() {
   const { porschesForSale, setPorschesForSale } = fetchForSalePorsches();
@@ -15,8 +18,9 @@ export default function ShopSearchBar() {
         value={porschesForSale.model_name}
         onChange={(event) => setPorschesForSale({ ...porschesForSale, model_name: event.target.value })}
       />
-      {porschesForSale.results.length > 0 ? 
-        <PorscheForSale car={porschesForSale.results[0]} />
+      <br />
+      {porschesForSale.length > 0 ? 
+        <DealerInventory dealerInventory={porschesForSale.results[0]} />
        : null}
     </div>
   );
