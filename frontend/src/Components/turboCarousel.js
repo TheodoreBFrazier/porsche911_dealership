@@ -5,11 +5,13 @@ import { useState, useEffect } from "react";
 
 import SingleTurbo from "./SingleTurboModel";
 
+//Importing Carousel Package
+import { Carousel } from 'react-responsive-carousel'
+
 const API = process.env.REACT_APP_API_URL;
 
 function TurboCarouselData() {
   const [turbos, setTurbos] = useState([]);
-  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     axios
@@ -23,12 +25,9 @@ function TurboCarouselData() {
   }, []);
 
   return (
-    <div className="carousel">
-      <div className="turbo-carousel">
-        <div
-          className="turbo-arr-carousel-inner"
-          style={{ transform: "translateX(-0%)" }}
-        >
+  
+      <Carousel>
+    
           {turbos.map((turbo) => {
             return (
               <SingleTurbo
@@ -38,9 +37,9 @@ function TurboCarouselData() {
               />
             );
           })}
-        </div>
-      </div>
-    </div>
+      
+      </Carousel>
+    
   );
 }
 
