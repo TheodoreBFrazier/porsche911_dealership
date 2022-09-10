@@ -15,6 +15,15 @@ function GT3Page() {
  
       </div>
 
+      <div className="gt3-carousel-buttons">
+            <button>
+              <h5>RAW PERFORMANCE</h5>
+            </button>
+            <button>
+              <h5>TOURING</h5>
+            </button>
+          </div>
+
     </div>
   );
 }

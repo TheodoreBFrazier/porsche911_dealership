@@ -253,6 +253,24 @@ h6 {
   background-color: #a70000;
 }
 
+/* TURBO carousel styling */
+
+.carousel {
+  display: inline-flex;
+  background-color: green;
+  height: 200px;
+  width: 100%;
+}
+
+.turbo-carousel {
+  overflow: hidden;
+}
+
+.turbo-arr-carousel-inner {
+white-space:  nowrap;
+transition: tranform 0.4s;
+}
+
 /*  CARRERA PAGE  */
 
 .carrera-hero {
@@ -314,6 +332,29 @@ h6 {
 
 .the-range-gt3 img {
   height: 400px;
+}
+
+
+
+.gt3-carousel-buttons {
+  color: white;
+  background-color: black;
+}
+
+.gt3-carousel-buttons button {
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.gt3-carousel-buttons button:active {
+  border-style: none;
+  color: none;
+}
+
+.gt3-carousel-buttons button:hover {
+  background-color: #a70000;
 }
 
 /* GENERATIONS */

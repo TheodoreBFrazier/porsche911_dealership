@@ -1,11 +1,13 @@
 import React from "react";
-import { useState, useEffect } fromt "react"
+import { useState, useEffect } from "react"
 
-//Import API
-const API = process.env.REACT_APP_API_URL;
+//Can reuse SingleCarreraModel component 
+import SingleCarreraModelData from "./SingleCarreraCarouselData.js";
+import axios from "axios";
+
 //Import PNG images of the Carrera models -> static 
 import carreraCoupe from "../Assets/Images/carrera.png"
-import carreraCab from "../Assets/Images/carrera_cabriolet.png"
+import carreraCab from "../Assets/Images/carrera-s-cabriolet.png"
 import carreraFour from "../Assets/Images/carrera-4.png"
 import carreraFourCab from "../Assets/Images/carrera-4-cabriolet.png"
 import carreraSCoupe from "../Assets/Images/carrera-s.png"
@@ -38,12 +40,14 @@ const carreraPngs = [
     fourGtsTarga
 ]
 
-//Can reuse SingleCarreraModel component 
-import SingleCarreraModel from "./SingleCarreraModel";
-import axios from "axios";
+//Import API
+const API = process.env.REACT_APP_API_URL;
+
+
 
 export default function CarouselCarrera () {
     const [carreraData, setCarreraData] = useState([])
+
 
     useEffect(() => {
         axios.get(API + "/carrera")
@@ -53,5 +57,17 @@ export default function CarouselCarrera () {
             console.log(error)
         })
     }, [])
+
+    return (
+        <div className="carrera-carousel">
+            <p>Model Title will go here</p>
+
+
+            {carreraData.map((carrera) => {
+                    return <SingleCarreraModelData key={carrera.model_id} carrera={carrera} />
+                })}
+            
+        </div>
+    )
 
 }

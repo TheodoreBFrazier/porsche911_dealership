@@ -8,6 +8,10 @@ import coupePhoto from "../Assets/Images/carrera_coupe_prompt.jpg";
 
 import CarerraModelStats from "../Components/CarreraModelStats.js";
 
+//Importing the carousel function 
+
+import CarouselCarrera from "../Components/CarreraCarousel"
+
 function CarreraPage() {
   return (
     <div>
@@ -88,6 +92,7 @@ function CarreraPage() {
         </div>
       </section>
       <CarerraModelStats />
+   
     </div>
   );
 }
