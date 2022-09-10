@@ -1,4 +1,3 @@
-
 html,
 body {
   width: 100%;
@@ -52,7 +51,6 @@ h6 {
   color: red;
 }
 
-
 /* NAVIGATION */
 
 .home-link-logo {
@@ -65,12 +63,11 @@ h6 {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url('./Assets/Images/hero-home-img.jpg');
+  background: url("./Assets/Images/hero-home-img.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-
 
 .Home-intro {
   height: 100vh;
@@ -88,7 +85,7 @@ h6 {
 }
 
 .intro-heading {
-  color: #A70000;
+  color: #a70000;
 }
 
 .sub-intro {
@@ -187,7 +184,6 @@ h6 {
   width: 100vw;
 }
 
-
 .turbo-s {
   background-color: #000000;
   height: 1970px;
@@ -209,8 +205,6 @@ h6 {
 .turbo-s-text h1 {
   margin-bottom: 0px;
 }
-
-
 
 .turbo-s-main-text {
   width: 70%;
@@ -238,6 +232,27 @@ h6 {
   height: 300px;
 }
 
+.turbo-carousel-buttons {
+  color: white;
+  background-color: black;
+}
+
+.turbo-carousel-buttons button {
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.turbo-carousel-buttons button:active {
+  border-style: none;
+  color: none;
+}
+
+.turbo-carousel-buttons button:hover {
+  background-color: #a70000;
+}
+
 /*  CARRERA PAGE  */
 
 .carrera-hero {
@@ -255,7 +270,6 @@ h6 {
 }
 
 .coupe img {
-  
   height: 700px;
 }
 
@@ -268,7 +282,7 @@ h6 {
   z-index: 1;
   height: 500px;
   width: 500px;
-  background-color: #1D2238;
+  background-color: #1d2238;
 }
 
 .targa-section-text h3 {
@@ -277,7 +291,7 @@ h6 {
 
 .carrera-carousel-buttons {
   color: white;
-background-color: black;
+  background-color: black;
 }
 
 .carrera-carousel-buttons button {
@@ -289,14 +303,12 @@ background-color: black;
 
 .carrera-carousel-buttons button:active {
   border-style: none;
-color: none;
+  color: none;
 }
 
 .carrera-carousel-buttons button:hover {
-background-color: #A70000;
+  background-color: #a70000;
 }
-
-
 
 /* GT3 */
 

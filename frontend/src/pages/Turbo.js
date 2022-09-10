@@ -1,6 +1,5 @@
 import React from "react";
 
-
 //image imports
 
 // import the side profile photos of the 992 Turbo model range
@@ -43,7 +42,6 @@ function TurboPage() {
         </div>
 
         <section className="turbo-s">
-
           <div className="turbo-s-text">
             <br />
             <br />
@@ -65,18 +63,34 @@ function TurboPage() {
           <br />
 
           <div className="turbo-s-main-text">
-            <h3>It redefines what it means to be quick and fast, and it does so without sacrificing the top-dog 911's great handling or luxurious grand touring abilities. Porsche offers a new Lightweight Package for its 911 Turbo and Turbo S that adds a few performance goodies while also shedding 66 pounds from the coupe's curb weight.</h3>
+            <h3>
+              It redefines what it means to be quick and fast, and it does so
+              without sacrificing the top-dog 911's great handling or luxurious
+              grand touring abilities. Porsche offers a new Lightweight Package
+              for its 911 Turbo and Turbo S that adds a few performance goodies
+              while also shedding 66 pounds from the coupe's curb weight.
+            </h3>
             <br />
-            <h3>The Porsche 911 Turbo S is a fantastic sports car, one that rivals -- and often bests -- some of the world's finest supercars. That statement is true with or without the Lightweight Package. Forgo this option, and you won't miss a thing.</h3>
+            <h3>
+              The Porsche 911 Turbo S is a fantastic sports car, one that rivals
+              -- and often bests -- some of the world's finest supercars. That
+              statement is true with or without the Lightweight Package. Forgo
+              this option, and you won't miss a thing.
+            </h3>
           </div>
-
         </section>
 
-        <section className="the-range-turbo">
-
-        </section>
+          <div className="turbo-carousel-buttons">
+            <button>
+              <h5>COUPE</h5>
+            </button>
+            <button>
+              <h5>CABRIOLET</h5>
+            </button>
+          </div>
+     
       </div>
-    </div >
+    </div>
   );
 }
 
