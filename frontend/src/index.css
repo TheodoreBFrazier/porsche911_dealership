@@ -254,6 +254,11 @@ h6 {
   height: 100%;
 }
 
+.coupe img {
+  
+  height: 700px;
+}
+
 .targa-picture img {
   margin-left: 400px;
   height: 590px;
@@ -269,6 +274,29 @@ h6 {
 .targa-section-text h3 {
   color: white;
 }
+
+.carrera-carousel-buttons {
+  color: white;
+background-color: black;
+}
+
+.carrera-carousel-buttons button {
+  width: 33.3%;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.carrera-carousel-buttons button:active {
+  border-style: none;
+color: none;
+}
+
+.carrera-carousel-buttons button:hover {
+background-color: #A70000;
+}
+
+
 
 /* GT3 */
 

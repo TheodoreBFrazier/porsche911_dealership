@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 
 //Importing of images
-
+// HERO ---- 
 import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
+// Carrera COUPE
 //Hero image is in CSS file
 
 function Home() {
