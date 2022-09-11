@@ -279,6 +279,13 @@ h6 {
   background-color: aqua;
 }
 
+.model-card {
+  height: 250px;
+  width: 420px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+}
+
 /* TURBO carousel styling */
 
 /*  CARRERA PAGE  */

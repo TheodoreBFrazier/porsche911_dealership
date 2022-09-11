@@ -1,6 +1,5 @@
 import React from "react";
 
-import TestCarousel from "../Components/turboCarousel";
 
 //image imports
 
