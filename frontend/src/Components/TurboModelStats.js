@@ -34,7 +34,7 @@ function TurboModelRange() {
       <div>
       </div>
       <div className="carousel-item" style={{ width: "100%" }}>
-        <div className="carousel-inner">
+        <div className="turbo-array" style={{ display: "grid", gridTemplateColumns: "auto auto"}} >
           {turbos.map((turbo) => {
             return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
           })}

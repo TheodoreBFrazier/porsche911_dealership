@@ -1,5 +1,7 @@
 import React from "react";
 
+import TestCarousel from "../Components/turboCarousel";
+
 //image imports
 
 // import the side profile photos of the 992 Turbo model range
@@ -13,9 +15,7 @@ import React from "react";
 //Turbo S Cab
 //import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
-
-import TurboModelRange from "../Components/TurboModelStats"
-
+import TurboModelRange from "../Components/TurboModelStats";
 
 function TurboPage() {
   return (
@@ -84,17 +84,18 @@ function TurboPage() {
           </div>
         </section>
 
-          <div className="turbo-carousel-buttons">
-            <button>
-              <h5>COUPE</h5>
-            </button>
-            <button>
-              <h5>CABRIOLET</h5>
-            </button>
-          </div>
-
-          <h1>Hi</h1>
-     <TurboModelRange />
+        <div className="turbo-carousel-buttons">
+          <button>
+            <h5>COUPE</h5>
+          </button>
+          <button>
+            <h5>CABRIOLET</h5>
+          </button>
+        </div>
+        <div>
+          <TurboModelRange />
+         
+        </div>
       </div>
     </div>
   );

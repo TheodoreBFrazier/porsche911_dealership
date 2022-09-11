@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TheodoreBFrazier/porsche911_dealership/issues"
   },
-  "homepage": "https://github.com/TheodoreBFrazier/porsche911_dealership#readme"
+  "homepage": "https://github.com/TheodoreBFrazier/porsche911_dealership#readme",
+  "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4"
+  }
 }

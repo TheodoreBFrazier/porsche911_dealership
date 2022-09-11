@@ -253,6 +253,32 @@ h6 {
   background-color: #a70000;
 }
 
+.carousel {
+  overflow: hidden;
+  background-color: yellow;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: pink;
+}
+
+.carousel-inner {
+  background-color: green;
+  display: inline-flex;
+  white-space: nowrap;
+  transition: transform 0.3s;
+  width: 75%;
+}
+
+.turbo-array {
+  height: 650px;
+  background-color: aqua;
+}
+
 /* TURBO carousel styling */
 
 /*  CARRERA PAGE  */
