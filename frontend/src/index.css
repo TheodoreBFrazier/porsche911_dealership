@@ -255,22 +255,6 @@ h6 {
 
 /* TURBO carousel styling */
 
-.carousel {
-  display: inline-flex;
-  background-color: green;
-  height: 200px;
-  width: 100%;
-}
-
-.turbo-carousel {
-  overflow: hidden;
-}
-
-.turbo-arr-carousel-inner {
-white-space:  nowrap;
-transition: tranform 0.4s;
-}
-
 /*  CARRERA PAGE  */
 
 .carrera-hero {

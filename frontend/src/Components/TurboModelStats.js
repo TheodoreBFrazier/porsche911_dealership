@@ -15,6 +15,7 @@ function TurboModelRange () {
         axios.get(API + "/turbo")
             .then((response) => {
                 setTurbos(response.data)
+                console.log(response.data)
             }).catch((error) => {
                 console.log(error)
             })

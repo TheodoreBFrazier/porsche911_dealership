@@ -13,8 +13,8 @@ import React from "react";
 //Turbo S Cab
 //import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
-import TurboModelStats from "../Components/TurboModelStats"
-import TurboCarouselData from "../Components/TurboCarousel";
+
+import TurboModelRange from "../Components/TurboModelStats"
 
 
 function TurboPage() {
@@ -92,11 +92,9 @@ function TurboPage() {
               <h5>CABRIOLET</h5>
             </button>
           </div>
-          <TurboModelStats />
 
           <h1>Hi</h1>
-          <TurboCarouselData />
-     
+     <TurboModelRange />
       </div>
     </div>
   );
