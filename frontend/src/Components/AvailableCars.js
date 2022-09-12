@@ -3,11 +3,11 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 /*import PorschesForSale from "./ModelsForSale";*/
-/* import the SingleCarForSale */
+import SingleCarForSale from "./SinglePorscheForSale";
 
 const API = process.env.REACT_APP_API_URL;
 
-function DealerInventory() {
+export default function DealerInventory() {
   const [inventory, setInventory] = useState([])
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function DealerInventory() {
 return (
   <div className="for-sale-array">
     {inventory.map((porsche) => {
-      return // <SingleCarForSale key={inventory.porsche_id} porsche={porsche} />
+      return  <SingleCarForSale key={inventory.porsche_id} porsche={porsche} />
     })}
 
   </div>
