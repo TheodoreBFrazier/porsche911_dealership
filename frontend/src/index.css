@@ -316,14 +316,19 @@ h6 {
 }
 
 .carrera-models {
+  font-size: 0;
   width: 1200px;
-  text-align: center;
+  margin: auto;
 }
 
 .carrera-coupe img {
   height: 800px;
+  margin-bottom: 0px;
 }
 
+.cab-and-targa-column {
+  margin-top: 0;
+}
 
 .carrera-carousel-buttons {
   color: white;
