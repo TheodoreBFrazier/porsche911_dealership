@@ -20,7 +20,6 @@ function CarreraPage() {
           <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
         </div>
       </section>
-
       <section className="Home-intro">
         <div className="intro-text">
           <div>
@@ -35,7 +34,6 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
-
       <section className="model-range-text">
         <div>
           <h6> 02 </h6> &nbsp; <h2> Three Unique Bodystyles.</h2>
@@ -44,7 +42,6 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
-
       <section className="carrera-models">
         <div className="carrera-coupe">
           <img src={coupePhoto} alt="image of the Carrera coupe." />
@@ -58,21 +55,35 @@ function CarreraPage() {
           </div>
         </div>
       </section>
-
-      <section className="engine">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <section className="carrera-engine">
+        <div className="engine-info-text">
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <h6> 04 </h6> &nbsp;{" "}
+          <h2>A Time-test Formula, now more powerful and efficient.</h2>
+          <p> Info about the flat-six engine goes here.</p>
+        </div>
         <img
           src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
           alt="911 cutaway"
         />
       </section>
-
       <section className="interior">
+        <div className="interior-info-card">
+          <div className="interior-info-card-text">
+            <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
+            <p>
+              {" "}
+              Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
+            </p>
+          </div>
+        </div>
         <img
           src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
           alt="922 interior"
         />
       </section>
-
       <section>
         <div className="carrera-carousel-buttons">
           <button>
@@ -93,7 +104,6 @@ function CarreraPage() {
           <CarerraModelStats />
         </div>
       </section>
-      
     </div>
   );
 }
