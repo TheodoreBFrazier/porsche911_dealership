@@ -23,14 +23,12 @@ function CarreraPage() {
       <section className="Home-intro">
         <div className="intro-text">
           <div>
-            {" "}
-            <h6> 01 </h6> &nbsp; <h1>An Icon Reimagined</h1>{" "}
+            <h6> 01 </h6> &nbsp; <h1>An Icon Reimagined</h1>
           </div>
         </div>
         <div className="sub-intro">
           <h6>
-            {" "}
-            The Porsche 911 is perhaps the world's most iconic sports cars.{" "}
+            The Porsche 911 is perhaps the world's most iconic sports cars.
             Welcome to the only online marketplace that specializes in 911s all
             generations from classics to the current 992.
           </h6>
@@ -42,10 +40,10 @@ function CarreraPage() {
         </div>
         <div className="cab-and-targa-column">
           <div className="column">
-          <img src={cabriolet} alt="image of the Carrera cabriolet." />
+            <img src={cabriolet} alt="image of the Carrera cabriolet." />
           </div>
           <div className="column">
-          <img src={targa} alt="image of the Targa." />
+            <img src={targa} alt="image of the Targa." />
           </div>
         </div>
       </section>
