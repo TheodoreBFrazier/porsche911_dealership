@@ -55,6 +55,7 @@ function App() {
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
+            <Route path="/porscheShop" element={<Shop />} />
     
           </Routes>
         </main>
