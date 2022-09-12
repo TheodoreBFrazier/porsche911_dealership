@@ -16,7 +16,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 /*  TYPOGRAPHY  */
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
@@ -190,7 +194,11 @@ h6 {
   height: 540px;
 }
 
+
+
 /*  TURBO PAGE  */
+
+
 
 .hero-section-turbo {
   height: 100vh;
@@ -293,9 +301,12 @@ h6 {
   margin-bottom: 200px;
 }
 
-/* TURBO carousel styling */
+
 
 /*  CARRERA PAGE  */
+
+
+
 
 .carrera-hero {
   width: 100vw;
@@ -413,15 +424,21 @@ h6 {
   margin-bottom: 0px;
 }
 
-.gt3-page-hero img {
-  height: 100vh;
-}
-
 .interior-info-card-text h6 {
   margin-bottom: 10px;
 }
 
+
+
+
 /* GT3 */
+
+
+
+
+.gt3-page-hero img {
+  height: 100vh;
+}
 
 .the-range-gt3 img {
   height: 400px;

@@ -39,7 +39,7 @@ function TurboModelRange() {
 
 
   return (
-    <div class="turbo-model-data">
+    <div className="turbo-model-data">
             {turbos.map((turbo) => {
               return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
                 
