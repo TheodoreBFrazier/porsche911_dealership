@@ -1,5 +1,6 @@
 import React from "react";
 
+import TurboPngs from "../Components/TurboModelPngs";
 
 //image imports
 
@@ -91,9 +92,9 @@ function TurboPage() {
             <h5>CABRIOLET</h5>
           </button>
         </div>
-        <div>
+        <div className="model-card">
+          <TurboPngs />
           <TurboModelRange />
-         
         </div>
       </div>
     </div>

@@ -3,13 +3,27 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 import SingleTurbo from "./SingleTurboModel";
-import TurboPngs from "./TurboModelPngs"
+
+import turbo from "../Assets/Images/turbo.png";
+import turboS from "../Assets/Images/turbo-s.png";
+import turboCab from "../Assets/Images/turbo-cab.png";
+import turboSCab from "../Assets/Images/turbo-s-cab.png";
+
+import TurboPngs from "./TurboModelPngs";
+
 
 const API = process.env.REACT_APP_API_URL;
 
 function TurboModelRange() {
   const [turbos, setTurbos] = useState([]);
-  const [ modelPngs, setModelPngs ] = useState([])
+  const [modelPngs, setModelPngs] = useState([])
+
+  const turboPngArr = [
+    <img src={turbo} />,
+    <img src={turboS} />,
+    <img src={turboCab} />,
+    <img src={turboSCab} />,
+  ]
 
   useEffect(() => {
     axios
@@ -26,22 +40,16 @@ function TurboModelRange() {
 
   return (
     <div>
+            {turbos.map((turbo) => {
+              return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
+                
+            })}
+       
   
-      <div
-        className="turbo-array"
-        style={{ display: "grid", gridTemplateColumns: "auto auto" }}
-      >
-        <div>
-        <TurboPngs />
-        </div>
-        <div>
-        {turbos.map((turbo) => {
-          return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
-        })}
-        </div>
-      </div>
+
     </div>
-  );
+  )
 }
+
 
 export default TurboModelRange;

@@ -51,6 +51,15 @@ h6 {
   color: red;
 }
 
+.model-png img {
+  position: relative;
+  height: 250px;
+}
+
+.single-model {
+  border: 3px solid black;
+}
+
 /* NAVIGATION */
 
 .home-link-logo {
@@ -279,11 +288,23 @@ h6 {
   background-color: aqua;
 }
 
+.turbo-model-png {
+  column-count: 2;
+  grid-template-columns: 1fr 60px;
+}
+
+.turbo-model-png img {
+  height: 350px;
+  
+}
+
+
+
 .model-card {
-  height: 250px;
-  width: 420px;
-  border: 1px solid darkblue;
+  height: 400px;
+  width: 600px;
   border-radius: 5px;
+  background-color: #a70000;
 }
 
 /* TURBO carousel styling */
