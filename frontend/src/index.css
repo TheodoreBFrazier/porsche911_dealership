@@ -56,7 +56,15 @@ h6 {
   height: 250px;
 }
 
+.turbo-model-data {
+  margin: auto;
+  width: 90%;
+  column-count: 2;
+  grid-template-columns: 50% 50%;
+}
+
 .single-model {
+  width: 600px;
   border: 3px solid black;
 }
 
@@ -262,47 +270,23 @@ h6 {
   background-color: #a70000;
 }
 
-.carousel {
-  overflow: hidden;
-  background-color: yellow;
-}
-
-.carousel-item {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-  background-color: pink;
-}
-
-.carousel-inner {
-  background-color: green;
-  display: inline-flex;
-  white-space: nowrap;
-  transition: transform 0.3s;
-  width: 75%;
-}
-
-.turbo-array {
-  height: 650px;
-  background-color: aqua;
-}
-
 .turbo-model-png {
+  margin: auto;
+  width: 90%;
+  background-color: yellow;
   column-count: 2;
-  grid-template-columns: 1fr 60px;
+  grid-template-columns: 50% 50%;
 }
 
 .turbo-model-png img {
   height: 350px;
-  
+  margin-bottom: 500px;
 }
 
 
 
 .model-card {
   height: 400px;
-  width: 600px;
   border-radius: 5px;
   background-color: #a70000;
 }

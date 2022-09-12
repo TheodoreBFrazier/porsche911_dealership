@@ -7,24 +7,17 @@ import turboSCab from "../Assets/Images/turbo-s-cab.png";
 
 import SingleTurbo from "./SingleTurboModel";
 
-
 export default function TurboPngs() {
+  const turboPngArr = [
+    <img src={turbo} />,
+    <img src={turboS} />,
+    <img src={turboCab} />,
+    <img src={turboSCab} />,
+  ];
 
-    const turboPngArr = [
-        <img src={turbo} />,
-        <img src={turboS} />,
-        <img src={turboCab} />,
-        <img src={turboSCab} />,
-    ]
+  let returnTurboPng = turboPngArr.map((png) => {
+    return png;
+  });
 
-    let returnTurboPng = turboPngArr.map(png => {
-        return png
-    })
-
-    return (
-      <div className="turbo-model-png">
-{returnTurboPng}
-     
-      </div>
-    )
+  return <div className="turbo-model-png">{returnTurboPng}</div>;
 }
