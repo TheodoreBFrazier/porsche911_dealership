@@ -1,10 +1,10 @@
 import React from "react";
 
 import gt3 from "../Assets/Images/gt3.png";
-import gt3Touring from "../Assets/Images/gt3-tourning.png";
+import gt3Touring from "../Assets/Images/gt3-touring.png";
 
 
-export default function TurboPngs() {
+export default function Gt3Pngs() {
   const gt3PngArr = [
     <img src={gt3} />,
     <img src={gt3Touring} />,
