@@ -34,6 +34,14 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
+      <section className="model-range-text">
+        <div>
+          <h6> 02 </h6> &nbsp; <h2> Three Unique Bodystyles.</h2>
+          <h6>
+            Classic coupe, airy cabriolet or stylish targa. Take your pick.
+          </h6>
+        </div>
+      </section>
       <section className="carrera-models">
         <div className="carrera-coupe">
           <img src={coupePhoto} alt="image of the Carrera coupe." />

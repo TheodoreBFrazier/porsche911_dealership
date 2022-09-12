@@ -315,6 +315,10 @@ h6 {
   height: 100%;
 }
 
+.model-range-text {
+  margin-left: 250px;
+}
+
 .carrera-models {
   font-size: 0;
   width: 1200px;
@@ -362,6 +366,7 @@ h6 {
   height: 275px;
   margin-bottom: 200px;
 }
+
 
 /* GT3 */
 
