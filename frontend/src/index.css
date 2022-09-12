@@ -413,6 +413,10 @@ h6 {
   margin-bottom: 0px;
 }
 
+.gt3-page-hero img {
+  height: 100vh;
+}
+
 .interior-info-card-text h6 {
   margin-bottom: 10px;
 }
