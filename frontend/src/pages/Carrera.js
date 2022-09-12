@@ -9,17 +9,18 @@ import coupePhoto from "../Assets/Images/carrera_coupe_prompt.jpg";
 import CarerraModelStats from "../Components/CarreraModelStats.js";
 
 import CarreraPngs from "../Components/CarreraModelsPngs";
-import cabriolet from "../Assets/Images/carrera_cabriolet.jpg"
-import targa from "../Assets/Images/targa.jpg"
+import cabriolet from "../Assets/Images/carrera_cabriolet.jpg";
+import targa from "../Assets/Images/targa.jpg";
 
 function CarreraPage() {
   return (
     <div>
-      <div className="carrera-hero">
+      <section className="carrera-hero">
         <div className="carrera-page-hero">
           <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
         </div>
-      </div>
+      </section>
+
       <section className="Home-intro">
         <div className="intro-text">
           <div>
@@ -34,6 +35,7 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
+
       <section className="model-range-text">
         <div>
           <h6> 02 </h6> &nbsp; <h2> Three Unique Bodystyles.</h2>
@@ -42,6 +44,7 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
+
       <section className="carrera-models">
         <div className="carrera-coupe">
           <img src={coupePhoto} alt="image of the Carrera coupe." />
@@ -62,6 +65,7 @@ function CarreraPage() {
           alt="911 cutaway"
         />
       </section>
+
       <section className="interior">
         <img
           src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
@@ -84,11 +88,12 @@ function CarreraPage() {
             <h5>TARGA</h5>
           </button>
         </div>
+        <div className="model-data">
+          <CarreraPngs />
+          <CarerraModelStats />
+        </div>
       </section>
-      <div className="model-data">
-        <CarreraPngs />
-        <CarerraModelStats />
-      </div>
+      
     </div>
   );
 }
