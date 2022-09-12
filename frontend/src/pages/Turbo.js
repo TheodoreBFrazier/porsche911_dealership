@@ -92,7 +92,7 @@ function TurboPage() {
             <h5>CABRIOLET</h5>
           </button>
         </div>
-        <div className="model-card">
+        <div className="model-data">
           <TurboPngs />
           <TurboModelRange />
         </div>
