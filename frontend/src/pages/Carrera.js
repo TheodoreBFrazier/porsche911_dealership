@@ -16,9 +16,9 @@ function CarreraPage() {
   return (
     <div>
       <section className="carrera-hero">
-        <div className="carrera-page-hero">
-          <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
-        </div>
+
+        <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
+
       </section>
       <section className="Home-intro">
         <div className="intro-text">
@@ -42,6 +42,7 @@ function CarreraPage() {
           </h6>
         </div>
       </section>
+
       <section className="carrera-models">
         <div className="carrera-coupe">
           <img src={coupePhoto} alt="image of the Carrera coupe." />
@@ -55,34 +56,53 @@ function CarreraPage() {
           </div>
         </div>
       </section>
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      <section className="carrera-engine">
-        <div className="engine-info-text">
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp;
-          <h6> 04 </h6> &nbsp;{" "}
-          <h2>A Time-test Formula, now more powerful and efficient.</h2>
-          <p> Info about the flat-six engine goes here.</p>
+      &nbsp,
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+
+      <section className="engine-info">
+<div className="engine">
+        <div className="column">
+          <div className="column-card">
+          <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
+          <p>
+            Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
+          </p>
+          </div>
         </div>
-        <img
-          src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
-          alt="911 cutaway"
-        />
+
+        <div className="column">
+          <img
+            src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
+            alt="911 cutaway"
+          />
+        </div>
+        </div>
       </section>
+
+
       <section className="interior">
         <div className="interior-info-card">
-          <div className="interior-info-card-text">
+          <div className>
             <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
             <p>
-              {" "}
               Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
             </p>
           </div>
         </div>
-        <img
-          src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
-          alt="922 interior"
-        />
+        <div className>
+          <img
+            src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
+            alt="922 interior"
+          />
+        </div>
       </section>
       <section>
         <div className="carrera-carousel-buttons">

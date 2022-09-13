@@ -305,22 +305,18 @@ h6 {
 
 /*  CARRERA PAGE  */
 
-
-
-
 .carrera-hero {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
+  height: 125vh;
 }
 
-.carrera-page-hero img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+.carrera-hero img {
+height: 135vh;
+  background-size: cover;
+
 }
+
+
 
 .model-range-text {
   margin-left: 250px;
@@ -342,16 +338,30 @@ h6 {
   margin-top: 0;
 }
 
-.carrera-engine {
-  font-size: 0;
-  width: 90%;
-  height: 100vh;
-  margin: auto;
+
+
+.engine {
+  margin-top: 300px;
 }
+
+.engine-info {
+  height: 75vh;
+  grid-template-columns: 1fr 2fr;
+  margin: 0px;
+}
+
+
 
 .engine-info-text {
   margin: 200px;
 }
+
+.engine .column .column-card {
+  margin-top: -50px;
+  margin-left: 200px;
+}
+
+
 
 .engine-info-text h6 {
   margin-bottom: 10px;
@@ -408,7 +418,7 @@ h6 {
   margin-left: 250px;
   left: 0px;
   top: 0px;
-  height: 672px;
+  height: 300px;
   width: 400px;
   background-color: rgba(255, 0, 0, 0.8);
   border-radius: 10px;
