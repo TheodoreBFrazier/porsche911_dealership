@@ -22,30 +22,32 @@ body {
 
 h1 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 72pt;
+  font-size: 32pt;
 }
 
 h2 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 36pt;
+  font-size: 24pt;
 }
 
 h3 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 h4 {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
 }
 
 h5 {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 13pt;
 }
 
 h6 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16pt;
+  font-size: 10pt;
 }
 .red-s {
   color: red;
@@ -74,22 +76,26 @@ h6 {
   grid-template-columns: 50% 50%;
 }
 
+.gt3-model-data h5 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .gt3-model-data h6 {
   text-align: center;
- margin-top: 0px;
- margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .gt3-model-data p {
-  text-align: center;
- margin-top: 10px;
- margin-bottom: 0px;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 0px;
 }
-
 
 .single-model {
   width: 600px;
-  border: 3px solid pink;
   height: 200px;
   margin-bottom: 350px;
 }
