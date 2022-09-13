@@ -16,11 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 /*  TYPOGRAPHY  */
-
-
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
@@ -68,6 +64,28 @@ h6 {
   column-count: 2;
   grid-template-columns: 50% 50%;
 }
+
+.gt3-model-data {
+  align-items: center;
+  margin-top: -250px;
+  margin-left: 100px;
+  width: 90%;
+  column-count: 2;
+  grid-template-columns: 50% 50%;
+}
+
+.gt3-model-data h6 {
+  text-align: center;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+.gt3-model-data p {
+  text-align: center;
+ margin-top: 10px;
+ margin-bottom: 0px;
+}
+
 
 .single-model {
   width: 600px;
@@ -194,11 +212,7 @@ h6 {
   height: 540px;
 }
 
-
-
 /*  TURBO PAGE  */
-
-
 
 .hero-section-turbo {
   height: 100vh;
@@ -301,22 +315,16 @@ h6 {
   margin-bottom: 200px;
 }
 
-
-
 /*  CARRERA PAGE  */
 
 .carrera-hero {
   height: 125vh;
 }
 
-
 .carrera-hero img {
-height: 135vh;
+  height: 135vh;
   background-size: cover;
-
 }
-
-
 
 .model-range-text {
   margin-left: 250px;
@@ -338,8 +346,6 @@ height: 135vh;
   margin-top: 0;
 }
 
-
-
 .engine {
   margin-top: 300px;
 }
@@ -350,8 +356,6 @@ height: 135vh;
   margin: 0px;
 }
 
-
-
 .engine-info-text {
   margin: 200px;
 }
@@ -360,8 +364,6 @@ height: 135vh;
   margin-top: -50px;
   margin-left: 200px;
 }
-
-
 
 .engine-info-text h6 {
   margin-bottom: 10px;
@@ -438,9 +440,6 @@ height: 135vh;
   margin-bottom: 10px;
 }
 
-
-
-
 /* GT3 */
 
 .gt3-hero {
@@ -457,28 +456,28 @@ height: 135vh;
 }
 
 .gt3-intro-text {
- width: 300px;
- height: 504px;
- border: solid black 2px;
+  width: 300px;
+  height: 504px;
+  border: solid black 2px;
 }
 
-.gt3 .text-section{
+.gt3 .text-section {
   position: absolute;
   margin-top: 150px;
   margin-left: 200px;
   top: 0px;
   width: 300px;
   height: 500px;
- }
+}
 
- .gt3 .text-section h6{
-color: white;
- }
+.gt3 .text-section h6 {
+  color: white;
+}
 
- .word-fast h2 {
+.word-fast h2 {
   margin-bottom: 0px;
   color: white;
-} 
+}
 
 .word-fast h1 {
   margin-top: 0px;
@@ -486,7 +485,7 @@ color: white;
 }
 
 .gt3 .gt3-intro img {
- width: 100vw;
+  width: 100vw;
 }
 
 .gt3-touring {
@@ -495,17 +494,21 @@ color: white;
 }
 
 .gt3-touring-intro img {
-  width:100vw;
+  width: 100vw;
 }
 
-.gt3-touring .text-section{
+.gt3-touring .text-section {
   position: absolute;
   margin-top: 150px;
   margin-left: 200px;
   top: 0px;
   width: 300px;
   height: 500px;
- }
+}
+
+.gt3-touring .text-section h6 {
+  color: white;
+}
 
 .the-range-gt3 img {
   height: 400px;

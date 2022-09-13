@@ -22,7 +22,7 @@ function GT3ModelRange () {
 
     return (
         <div>
-            <div className="gt3-arr">
+            <div className="gt3-model-data">
                 {gt3s.map((gt3) => {
                     return <SingleGT3 key={gt3.gt3_id} gt3={gt3} />
                 })}

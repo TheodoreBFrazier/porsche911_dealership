@@ -40,20 +40,21 @@ export default function GT3Page() {
       <section className="gt3-touring">
 
         <div className="gt3-touring-intro">
-        <img src={fastGt3Touring} alt="gt3 touring at speed" />
-       </div>
-    
-
+          <img src={fastGt3Touring} alt="gt3 touring at speed" />
+        </div>
 
         <div className="text-section">
           <div className="word-fast"> <h2> Fast can be </h2><h1> Luxurious </h1> </div>
-          The innate preserve of the 911 GT3 with Touring Package is the open road – ideally a terrain full of challenging corners.
-          With a performance of 502 hp and 4.0-liter six-cylinder horizontally opposed high-revving naturally aspirated engine, it sets a sporty tone.
-          <br />
-          It will not be instantly recognizable to everyone on the road. But that is precisely what increases its puristic appeal. And the experience of driving it.
+          <h6>
+            The innate preserve of the 911 GT3 with Touring Package is the open road – ideally a terrain full of challenging corners.
+            With a performance of 502 hp and 4.0-liter six-cylinder horizontally opposed high-revving naturally aspirated engine, it sets a sporty tone.
+            <br />
+            <br />
+            It will not be instantly recognizable to everyone on the road. But that is precisely what increases its puristic appeal. And the experience of driving it.
+          </h6>
         </div>
-        
-        </section>
+
+      </section>
 
 
       <div className="gt3-carousel-buttons">
