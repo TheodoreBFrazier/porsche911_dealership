@@ -16,8 +16,6 @@ import carreraFourGts from "../Assets/Images/gts-4.png";
 import carreraFourGtsCab from "../Assets/Images/carrera-4-gts-cab.png";
 import gtsTarga from "../Assets/Images/4-gts-targa.png"
 
-import SingleTurbo from "./SingleTurboModel";
-
 export default function CarreraPngs() {
   const carreraPngArr = [
     <img src={carreraCoupe} />,
