@@ -444,7 +444,9 @@ height: 135vh;
 /* GT3 */
 
 
-
+.gt3 {
+  position: relative;
+}
 
 .gt3-page-hero img {
   height: 100vh;
@@ -456,16 +458,22 @@ height: 135vh;
  border: solid black 2px;
 }
 
-.gt3-intro-text .text-section{
-  margin: 25px;
+.gt3 .text-section{
+  position: absolute;
+  top: 8px;
+  right: 16px;
  }
 
 .word-fast {
   color: #a70000;
 }
 
-.gt3-intro img {
+.gt3 .gt3-intro img {
  width: 100vw;
+}
+
+.gt3-touring-intro img {
+  width:100vw;
 }
 
 .the-range-gt3 img {
