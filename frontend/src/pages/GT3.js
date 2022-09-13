@@ -16,8 +16,6 @@ export default function GT3Page() {
         </div>
       </section>
 
-
-
       <section className="gt3">
 
         <div className="gt3-intro">
@@ -26,8 +24,8 @@ export default function GT3Page() {
 
 
         <div className="text-section">
-          <h2>Go. <div className="word-fast"> Fast. </div> </h2>
-          <p> Carpe diem, they say – seize the day. But we are Porsche. And so our motto for the new 911 GT3 models is: carpe secundum –
+          <div className="word-fast"> <h2> Go. </h2><h1> Go Fast. </h1> </div>
+          <h6> Carpe diem, they say – seize the day. But we are Porsche. And so our motto for the new 911 GT3 models is: carpe secundum –
             get the most out of every second.
             <br />
             <br />
@@ -35,29 +33,27 @@ export default function GT3Page() {
             So, we have once again intensified everything that makes a sports car: performance, tuning, aerodynamics.
             <br />
             <br />
-            Time flies. This is your time. Hop in.</p>
+            Time flies. This is your time. Hop in.</h6>
         </div>
       </section>
 
-      <section className="gt3-touring-intro">
+      <section className="gt3-touring">
+
+        <div className="gt3-touring-intro">
         <img src={fastGt3Touring} alt="gt3 touring at speed" />
-        <h5></h5>
-      </section>
+       </div>
+    
 
-      <section className="gt3-touring-intro-text">
+
         <div className="text-section">
-          <h2>Go. <div className="word-fast"> Fast. </div> </h2>
-          <p> Carpe diem, they say – seize the day. But we are Porsche. And so our motto for the new 911 GT3 models is: carpe secundum –
-            get the most out of every second.
-            <br />
-            <br />
-            We know that your time is precious. And every minute in the cockpit is valuable.
-            So, we have once again intensified everything that makes a sports car: performance, tuning, aerodynamics.
-            <br />
-            <br />
-            Time flies. This is your time. Hop in.</p>
+          <div className="word-fast"> <h2> Fast can be </h2><h1> Luxurious </h1> </div>
+          The innate preserve of the 911 GT3 with Touring Package is the open road – ideally a terrain full of challenging corners.
+          With a performance of 502 hp and 4.0-liter six-cylinder horizontally opposed high-revving naturally aspirated engine, it sets a sporty tone.
+          <br />
+          It will not be instantly recognizable to everyone on the road. But that is precisely what increases its puristic appeal. And the experience of driving it.
         </div>
-      </section>
+        
+        </section>
 
 
       <div className="gt3-carousel-buttons">

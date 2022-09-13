@@ -443,9 +443,13 @@ height: 135vh;
 
 /* GT3 */
 
+.gt3-hero {
+  margin-bottom: 0px;
+}
 
 .gt3 {
   position: relative;
+  margin-top: 0px;
 }
 
 .gt3-page-hero img {
@@ -460,11 +464,24 @@ height: 135vh;
 
 .gt3 .text-section{
   position: absolute;
-  top: 8px;
-  right: 16px;
+  margin-top: 150px;
+  margin-left: 200px;
+  top: 0px;
+  width: 300px;
+  height: 500px;
  }
 
-.word-fast {
+ .gt3 .text-section h6{
+color: white;
+ }
+
+ .word-fast h2 {
+  margin-bottom: 0px;
+  color: white;
+} 
+
+.word-fast h1 {
+  margin-top: 0px;
   color: #a70000;
 }
 
@@ -472,9 +489,23 @@ height: 135vh;
  width: 100vw;
 }
 
+.gt3-touring {
+  position: relative;
+  margin-top: 0px;
+}
+
 .gt3-touring-intro img {
   width:100vw;
 }
+
+.gt3-touring .text-section{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+  top: 0px;
+  width: 300px;
+  height: 500px;
+ }
 
 .the-range-gt3 img {
   height: 400px;
