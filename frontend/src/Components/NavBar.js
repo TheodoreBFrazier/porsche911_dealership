@@ -11,24 +11,45 @@ function NavBar() {
                 </Link>
             </h3>
 
-            <h4 className="navigation-links">
-                <Link to="/carrera">
-                    The New Carrera.
-                </Link>
-                <Link to="/turbo">
-                    Carrera Turbo
-                </Link>
-                <Link to="/gt3">
-                    GT3
-                </Link>
-                <Link to="/generations">
-                    generations
-                </Link>
-                <Link to="/porscheshop">
-                    Shop
-                </Link>
 
-            </h4>
+            <ul className="navigation-links">
+                <li>
+                    <Link to="/carrera">
+                        <h3>
+                            The New Carrera.
+                        </h3>
+                    </Link>
+                </li>
+                <li>
+                    <h3>
+                        <Link to="/turbo">
+                            Carrera Turbo
+                        </Link>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        <Link to="/gt3">
+                            GT3
+                        </Link>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        <Link to="/generations">
+                            generations
+                        </Link>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        <Link to="/porscheshop">
+                            Shop
+                        </Link>
+                    </h3>
+                </li>
+            </ul>
+
 
         </nav>
     )

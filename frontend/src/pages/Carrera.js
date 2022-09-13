@@ -2,15 +2,22 @@ import React from "react";
 
 //Importing all images
 
+// HERO 
 import heroImage from "../Assets/Images/carrera_hero.jpg";
 
+//Bodystyle Sections
 import coupePhoto from "../Assets/Images/carrera_coupe_prompt.jpg";
+import cabriolet from "../Assets/Images/carrera_cabriolet.jpg";
+import targa from "../Assets/Images/targa.jpg";
+
+//Model Data
 
 import CarerraModelStats from "../Components/CarreraModelStats.js";
 
+//PNGs of Carrera Models
+
 import CarreraPngs from "../Components/CarreraModelsPngs";
-import cabriolet from "../Assets/Images/carrera_cabriolet.jpg";
-import targa from "../Assets/Images/targa.jpg";
+
 
 function CarreraPage() {
   return (
@@ -20,6 +27,7 @@ function CarreraPage() {
         <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
 
       </section>
+      
       <section className="Home-intro">
         <div className="intro-text">
           <div>
@@ -68,22 +76,22 @@ function CarreraPage() {
 
 
       <section className="engine-info">
-<div className="engine">
-        <div className="column">
-          <div className="column-card">
-          <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
-          <p>
-            Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
-          </p>
+        <div className="engine">
+          <div className="column">
+            <div className="column-card">
+              <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
+              <p>
+                Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div className="column">
-          <img
-            src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
-            alt="911 cutaway"
-          />
-        </div>
+          <div className="column">
+            <img
+              src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
+              alt="911 cutaway"
+            />
+          </div>
         </div>
       </section>
 
