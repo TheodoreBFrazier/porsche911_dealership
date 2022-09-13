@@ -20,7 +20,7 @@ export default function GT3Page() {
         <h5></h5>
       </section>
 
-      <section className="gt3-touring-intro-text">
+      <section className="gt3-intro-text">
         <div className="text-section">
           <h2>Go. <div className="word-fast"> Fast. </div> </h2>
           <p> Carpe diem, they say – seize the day. But we are Porsche. And so our motto for the new 911 GT3 models is: carpe secundum – get the most out of every second. 
@@ -32,6 +32,8 @@ export default function GT3Page() {
             Time flies. This is your time. Hop in.</p>
         </div>
       </section>
+
+      <section className="gt3"
 
       <div className="gt3-carousel-buttons">
         <button>

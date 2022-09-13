@@ -450,13 +450,13 @@ height: 135vh;
   height: 100vh;
 }
 
-.gt3-touring-intro-text {
+.gt3-intro-text {
  width: 300px;
  height: 504px;
  border: solid black 2px;
 }
 
-.gt3-touring-intro-text .text-section{
+.gt3-intro-text .text-section{
   margin: 25px;
  }
 
