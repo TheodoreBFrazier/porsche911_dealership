@@ -15,6 +15,9 @@ import TurboPngs from "../Components/TurboModelPngs";
 //Turbo S Cab
 //import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
+
+import greenCab from "../Assets/Images/python-green-turbo-cab.jpg"
+
 import TurboModelRange from "../Components/TurboModelStats";
 
 function TurboPage() {
@@ -38,10 +41,13 @@ function TurboPage() {
           exhilerating Turbo <div classname="red-s">S</div>.
         </h6>
 
-        <div className="turbo-engine">
+        <div className="green-cab-turbo">
+          <h1 className="turbo-cab-warning">Hats and hairpeices be warned.</h1>
+          <h3>2021 Porsche 911 Turbo and Turbo S Cabriolet Go Ballistic</h3>
+          <p> It goes without saying that the air supply plays a decisive role in a 911 Turbo. But why limit it to the engine? Finally, the Cabriolet experience can also be rigorously driven to the top. The 911 Turbo Cabriolet models unite the classic silhouette of the 911 Turbo with the possibility of enjoying the unmistakable sound of the turbo engine even more intensively with the roof open. They are fitted with a fully automatic fabric roof. It has a fixed glass rear windshield and three integral magnesium elements that make the roof highly robust and yet particularly lightweight. The roof opens or closes in around 12 seconds – up to a speed of 31 mph. Also can be operated by remote control, if you like.</p>
           <img
-            src="https://flatsixes.com/wp-content/uploads/2020/04/Porsche-911-Turbo-S-The-Engine-0-23-screenshot.png?ezimgfmt=rs%3Adevice%2Frscb1-1"
-            alt="Turbo-engine"
+            src={greenCab}
+            alt="python green"
           />
         </div>
 
