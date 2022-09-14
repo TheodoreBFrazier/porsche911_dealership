@@ -3,9 +3,10 @@ const db = require("../db/dbConfig.js");
 const getAllForSale = async () => {
   try {
     const allForSalePorsches = await db.any("SELECT * FROM porsches_4_sale");
+    console.log(allForSalePorsches)
     return allForSalePorsches;
   } catch (error) {
-    console.log(error);
+    return error
   }
 };
 
@@ -19,6 +20,6 @@ const singlePorscheForSale = async (id) => {
   } catch (error) {
     return error
   }
-};
+}
 
 module.exports = { getAllForSale, singlePorscheForSale };

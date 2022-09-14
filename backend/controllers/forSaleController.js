@@ -4,14 +4,14 @@ const porschestore = express.Router();
 const { getAllForSale, singlePorscheForSale} = require("../queries/forSaleQueries");
 
 porschestore.get("/", async (request, response) => {
-  const allPorschesForSale = await getAllForSale();
+  const allPorschesForSale = await getAllForSale()
   if (allPorschesForSale[0]) {
     response.status(200).json(allPorschesForSale);
     console.log(allPorschesForSale);
   } else {
     response.status(500).json({ error: "server error!!" });
   }
-});
+})
 
 porschestore.get("/:id", async (request, response) => {
     const { id } = request.params;

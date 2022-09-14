@@ -15,10 +15,13 @@ import Home from "./pages/Home";
 
 //base 992 Carrera 
 import CarreraPage from "./pages/Carrera";
+
 //GT3 High Performance Model Page
 import GT3Page from "./pages/GT3";
+
 //Turbo Models
 import TurboPage from "./pages/Turbo";
+
 //Coming soon page for the upcoming Sport Classic Model
 import SportClassic from "./pages/SportClassic";
 

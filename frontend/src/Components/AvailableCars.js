@@ -15,20 +15,20 @@ export default function DealerInventory() {
       .get(API + "/porschestore")
       .then((response) => {
         setInventory(response.data);
-    console.log(response.data);
-  })
-    .catch((error) => {
-      console.log(error);
-    });
-}, []);
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
 
-return (
-  <div className="for-sale-array">
-    {inventory.map((porsche) => {
-      return  <SingleCarForSale key={inventory.porsche_id} porsche={porsche} />
-    })}
+  return (
+    <div className="for-sale-array">
+      {inventory.map((porsche) => {
+        return <SingleCarForSale key={inventory.porsche_id} porsche={porsche} />
+      })}
 
-  </div>
-)
+    </div>
+  )
 } // something // })

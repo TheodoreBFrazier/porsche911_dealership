@@ -5,12 +5,12 @@ import DealerInventory from "../Components/AvailableCars";
 
 function Shop() {
   return (
-    <Fragment>
+    <div>
       <h1>Hi</h1>
-            <ShopSearchBar />
+           
             <DealerInventory />
            
-    </Fragment>
+    </div>
   );
 }
 
