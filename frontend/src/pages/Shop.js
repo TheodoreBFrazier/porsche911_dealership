@@ -6,6 +6,7 @@ import DealerInventory from "../Components/AvailableCars";
 function Shop() {
   return (
     <Fragment>
+      <h1>Hi</h1>
             <ShopSearchBar />
             <DealerInventory />
            
