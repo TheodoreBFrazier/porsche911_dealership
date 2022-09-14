@@ -28,9 +28,7 @@ function CarreraModelRange () {
             </div>
         </div>
     );
-
-
-
+    
 }
 
 export default CarreraModelRange;

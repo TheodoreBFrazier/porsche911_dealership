@@ -2,13 +2,11 @@ import React, { Component }  from 'react';
 //Import BrowserRouter info
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 // Import Navigaion
 
 import NavBar from "./Components/NavBar";
 
 //Import Pages
-
 import Home from "./pages/Home";
 
 //992 Gen - current generation Pages 
@@ -37,10 +35,6 @@ import About from './pages/AboutMe';
 //Online Shop
 import Shop from './pages/Shop';
 
-
-//Style Sheets
-
-
 function App() {
   return (
     <div className="App">
@@ -55,8 +49,7 @@ function App() {
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/porschestore" element={<Shop />} />
-    
+            <Route path="/porschestore" element={<Shop />} />    
           </Routes>
         </main>
       </Router>

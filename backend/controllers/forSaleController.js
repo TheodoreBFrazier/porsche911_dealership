@@ -9,7 +9,7 @@ porschestore.get("/", async (request, response) => {
     response.status(200).json(allPorschesForSale);
     console.log(allPorschesForSale);
   } else {
-    response.status(500).json({ error: "server error!!" });
+    response.status(500).json({ error: "server error!! 😳" });
   }
 })
 

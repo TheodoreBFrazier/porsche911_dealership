@@ -1,15 +1,12 @@
-import React, { Fragment } from "react";
-import ShopSearchBar from "../Components/SearchPorscheShop";
+import React from "react";
 import DealerInventory from "../Components/AvailableCars";
-
+import SingleCarForSale from "../Components/SinglePorscheForSale";
 
 function Shop() {
   return (
     <div>
-      <h1>Hi</h1>
-           
-            <DealerInventory />
-           
+      <h1>Hi</h1>     
+            <DealerInventory />    
     </div>
   );
 }

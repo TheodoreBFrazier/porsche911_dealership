@@ -22,13 +22,11 @@ export default function DealerInventory() {
       });
   }, []);
 
-
   return (
     <div className="for-sale-array">
       {inventory.map((porsche) => {
-        return <SingleCarForSale key={inventory.porsche_id} porsche={porsche} />
+        return <SingleCarForSale key={porsche.porsche_id} porsche={porsche} />
       })}
-
     </div>
   )
-} // something // })
+} 
