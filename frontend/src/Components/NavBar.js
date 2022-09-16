@@ -17,7 +17,7 @@ function NavBar() {
             </h3>
 
 
-            <ul className="navigation-links" style={{ textDecoration: 'none' }}>
+            <ul className="navigation-links">
                 <li>
                     <Link to="/carrera" style={{ textDecoration: 'none' }}>
                         <h3>
@@ -54,8 +54,6 @@ function NavBar() {
                     </h3>
                 </li>
             </ul>
-
-
         </nav>
     )
 }

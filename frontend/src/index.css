@@ -93,6 +93,10 @@ h6 {
   list-style-type: none;
 }
 
+.navigation-links li {
+  display: inline-block;
+}
+
 /*  HOME PAGE  */
 
 .Home .Hero {
