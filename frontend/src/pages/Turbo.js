@@ -99,7 +99,6 @@ function TurboPage() {
           </button>
         </div>
         <div className="model-data">
-          <TurboPngs />
           <TurboModelRange />
         </div>
       </div>

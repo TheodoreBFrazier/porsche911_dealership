@@ -54,13 +54,11 @@ h6 {
 }
 
 .model-png img {
-  position: relative;
   height: 250px;
 }
 
 .turbo-model-data {
   align-items: center;
-  height: 800px;
   margin-top: -800px;
   width: 90%;
   column-count: 2;
