@@ -39,8 +39,8 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <NavBar />
         <main>
-          <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carrera" element={<CarreraPage  />} />

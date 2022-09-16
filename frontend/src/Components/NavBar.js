@@ -1,23 +1,27 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 
-import logoMenu from "../Assets/Images/hero-home-img.jpg"
+import logoMenu from "../Assets/Images/porsche_logo.png"
 
 
 function NavBar() {
     return (
         <nav className="navigation">
-            <h3 className="home-link-logo">
-                <Link to="/">
-                    <img
-                        src={logoMenu}
-                        alt="python green"
-                    />
-                </Link>
-            </h3>
-
 
             <ul className="navigation-links">
+                <li>
+                    <div className="home-link-logo">
+                        <Link to="/">
+                            <img
+                                src={logoMenu}
+                                alt="python green"
+                            />
+                        </Link>
+                    </div>
+                </li>
+
+
+
                 <li>
                     <Link to="/carrera" style={{ textDecoration: 'none' }}>
                         <h3>
@@ -54,7 +58,7 @@ function NavBar() {
                     </h3>
                 </li>
             </ul>
-        </nav>
+        </nav >
     )
 }
 
