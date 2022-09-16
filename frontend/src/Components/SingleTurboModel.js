@@ -10,7 +10,7 @@ function SingleTurbo({ turbo, props }) {
   return (
     <div className = "single-model">
       <h3>{turbo.model_name}</h3>
-      <p>Starting at ${turbo.price.toLocaleString()}</p>
+      <h6>Starting at ${turbo.price.toLocaleString()}</h6>
       <p>{turbo.description}</p>
       <h6>Explore</h6>
     </div>

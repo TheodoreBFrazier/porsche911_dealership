@@ -53,17 +53,6 @@ h6 {
   color: red;
 }
 
-.model-png img {
-  height: 250px;
-}
-
-.turbo-model-data {
-  align-items: center;
-  margin-top: -800px;
-  width: 90%;
-  column-count: 2;
-  grid-template-columns: 50% 50%;
-}
 
 .gt3-model-data {
   align-items: center;
@@ -307,14 +296,23 @@ h6 {
   background-color: #a70000;
 }
 
+
+.turbo {
+  border: 3px solid pink;
+}
+
 .turbo-model-png {
-  margin: auto;
   width: 90%;
+  border: 3px solid red;
   column-count: 2;
   grid-template-columns: 50% 50%;
+  margin: auto;
 }
 
 .turbo-model-png img {
+  border: 3px solid green;
+  margin-left: auto;
+  margin-right: auto;
   height: 350px;
   margin-bottom: 200px;
 }
@@ -324,6 +322,25 @@ h6 {
   border: 3px solid pink;
   border-radius: 5px;
   margin-bottom: 200px;
+}
+
+.model-png img {
+  height: 250px;
+}
+
+.turbo-model-data {
+  border: 3px solid blue;
+  margin-top: -800px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 90%;
+  column-count: 2;
+  grid-template-columns: 50% 50%;
+}
+
+.turbo-model-data h3, h6 {
+  text-align: center;
 }
 
 /*  CARRERA PAGE  */

@@ -24,7 +24,7 @@ function TurboModelRange() {
   }, []);
 
   return (
-    <div>
+    <div class="turbo">
         <TurboPngs />
     <div className="turbo-model-data">
       {turbos.map((turbo) => {
