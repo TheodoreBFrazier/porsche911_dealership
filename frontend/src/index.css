@@ -89,22 +89,49 @@ h6 {
 
 /* NAVIGATION */
 
-.navigation li {
-  display: inline-block
+.navigation {
+  height: 125px;
+}
+
+.home-link-logo {
+  width: 100vh;
+  margin-bottom: 0px;
+  margin-left: 50%;
 }
 
 .home-link-logo img {
-  display: inline-block;
-  height: 18px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  justify-content: center;
+  height: 36px;
 }
 
 .navigation-links  {
-  list-style-type: none;
+  text-align: center;
 }
 
 .navigation-links li {
   display: inline-block;
   margin-right: 10px;
+}
+
+.navigation-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navigation-links li h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+
+.navigation-links li h5:hover {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a70000;
+  margin-top: 0px;
+  margin-bottom: 0px;  
 }
 
 /*  HOME PAGE  */

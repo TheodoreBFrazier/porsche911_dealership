@@ -8,55 +8,63 @@ function NavBar() {
     return (
         <nav className="navigation">
 
+
+
+
+            <div className="home-link-logo">
+                <Link to="/">
+                    <img
+                        src={logoMenu}
+                        alt="python green"
+                    />
+                </Link>
+            </div>
+
+
+
             <ul className="navigation-links">
                 <li>
-                    <div className="home-link-logo">
-                        <Link to="/">
-                            <img
-                                src={logoMenu}
-                                alt="python green"
-                            />
-                        </Link>
-                    </div>
-                </li>
-
-
-
-                <li>
                     <Link to="/carrera" style={{ textDecoration: 'none' }}>
-                        <h3>
-                            The New Carrera.
-                        </h3>
+                        <h5>
+                            The New Carrera
+                        </h5>
                     </Link>
                 </li>
                 <li>
-                    <h3>
-                        <Link to="/turbo" style={{ textDecoration: 'none' }}>
+
+                    <Link to="/turbo" style={{ textDecoration: 'none' }}>
+                        <h5>
                             Carrera Turbo
-                        </Link>
-                    </h3>
+                        </h5>
+                    </Link>
+
                 </li>
                 <li>
-                    <h3>
-                        <Link to="/gt3" style={{ textDecoration: 'none' }}>
+
+                    <Link to="/gt3" style={{ textDecoration: 'none' }}>
+                        <h5>
                             GT3
-                        </Link>
-                    </h3>
+                        </h5>
+                    </Link>
+
                 </li>
                 <li>
-                    <h3>
-                        <Link to="/generations" style={{ textDecoration: 'none' }}>
+                    <Link to="/generations" style={{ textDecoration: 'none' }}>
+                        <h5>
                             generations
-                        </Link>
-                    </h3>
+                        </h5>
+                    </Link>
                 </li>
                 <li>
-                    <h3>
-                        <Link to="/porschestore" style={{ textDecoration: 'none' }}>
+
+                    <Link to="/porschestore" style={{ textDecoration: 'none' }}>
+                        <h5>
                             Shop
-                        </Link>
-                    </h3>
+                        </h5>
+                    </Link>
+
                 </li>
+
             </ul>
         </nav >
     )
