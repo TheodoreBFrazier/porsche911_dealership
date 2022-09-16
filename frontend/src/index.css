@@ -89,8 +89,8 @@ h6 {
 
 /* NAVIGATION */
 
-.home-link-logo {
-  justify-content: left;
+.navigation-links  {
+  list-style-type: none;
 }
 
 /*  HOME PAGE  */
@@ -301,6 +301,7 @@ h6 {
   border: 3px solid pink;
 }
 
+
 .turbo-model-png {
   width: 90%;
   border: 3px solid red;
@@ -320,6 +321,7 @@ h6 {
 .model-png img {
   height: 250px;
 }
+
 
 .turbo-model-data {
   height: 90vh;

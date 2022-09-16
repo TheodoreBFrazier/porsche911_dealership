@@ -24,13 +24,15 @@ function TurboModelRange() {
   }, []);
 
   return (
-    <div class="turbo">
-        <TurboPngs />
-    <div className="turbo-model-data">
-      {turbos.map((turbo) => {
-        return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
-      })};
-    </div>
+    <div className="turbo">
+      <div className="display-turbo-pngs">
+      </div>
+      <TurboPngs />
+      <div className="turbo-model-data">
+        {turbos.map((turbo) => {
+          return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
+        })};
+      </div>
     </div>
   )
 }

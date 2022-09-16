@@ -56,7 +56,7 @@ INSERT INTO turbo_models(model_name, price, power_in_hp, top_speed_mph, zero_to_
 ('Turbo Coupe', 182900, 572, 199, 2.7, 'Aside from the explosive acceleration, the 911 Turbo exhibits insane levels of cornering grip and strong brakes, making it a true performance powerhouse.' ),
 ('Turbo S Coupe', 216100, 640, 199, 2.6, 'Not the widowmaker 911 Turbo of old. Meticulous engineering make the even more powerful Turbo S accessible to every driver, regardless of skill'),
 ('Turbo Cabriolet', 195700, 572, 205, 2.8, 'The drop-top Porsche 911 Turbo has million-mile headroom and performance to blow away supercar A-listers'),
-('Turbo S Cabriolet', 228900, 640, 205, 2.7, 'an open-air daily driver that hits 60 mph in just 2.7 seconds.');
+('Turbo S Cabriolet', 228900, 640, 205, 2.7, 'An open-air daily driver that hits 60 mph in just 2.7 seconds.');
 
 INSERT INTO turbo_body_stats (height, width, length, curb_weight, wheelbase) VALUES
 ('51.3 in', '74.9 in', '178.6 in', '3,635 lb','96.5'),
