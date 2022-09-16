@@ -6,10 +6,12 @@ import oldAndNewPorsche from "../Assets/Images/orginal-and-997.jpg"
 function Generations() {
     return (
         <div>
-            <img
-                src={oldAndNewPorsche}
-                alt="An orginal 911 and a Porsche 997"
-            />
+            <div className="generations-hero">
+                <img
+                    src={oldAndNewPorsche}
+                    alt="An orginal 911 and a Porsche 997"
+                />
+            </div>
             <PorscheGenerations />
         </div>
     )

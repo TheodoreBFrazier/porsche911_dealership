@@ -616,9 +616,20 @@ h6 {
 
 /* GENERATIONS */
 
+.generations-hero img {
+ height: 100vh;
+}
+
 .gens-arr {
+  width: 90%;
   text-align: center;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.single-generation {
+  border: solid 2px black;
+  height: 350px;
+  width: 567px;
 }
