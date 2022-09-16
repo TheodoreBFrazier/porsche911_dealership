@@ -317,30 +317,25 @@ h6 {
   margin-bottom: 200px;
 }
 
-.model-card {
-  height: 400px;
-  border: 3px solid pink;
-  border-radius: 5px;
-  margin-bottom: 200px;
-}
-
 .model-png img {
   height: 250px;
 }
 
 .turbo-model-data {
+  height: 90vh;
   border: 3px solid blue;
   margin-top: -800px;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
   width: 90%;
   column-count: 2;
   grid-template-columns: 50% 50%;
 }
 
 .turbo-model-data h3, h6 {
-  text-align: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*  CARRERA PAGE  */
