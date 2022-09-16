@@ -1,12 +1,14 @@
 import React from "react";
+import shopSearchBar from "../Components/SearchPorscheShop"
 import DealerInventory from "../Components/AvailableCars";
-import SingleCarForSale from "../Components/SinglePorscheForSale";
+import ForSaleImages from "../Components/forSaleImages";
 
 function Shop() {
   return (
     <div>
-      <h1>Hi</h1>     
-            <DealerInventory />    
+  <ForSaleImages />
+            <DealerInventory /> 
+            <ForSaleImages />   
     </div>
   );
 }

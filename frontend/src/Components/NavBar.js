@@ -43,7 +43,7 @@ function NavBar() {
                 </li>
                 <li>
                     <h3>
-                        <Link to="/porscheshop">
+                        <Link to="/porschestore">
                             Shop
                         </Link>
                     </h3>

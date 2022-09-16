@@ -40,6 +40,7 @@ function App() {
     <div className="App">
       <Router>
         <main>
+          <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carrera" element={<CarreraPage  />} />

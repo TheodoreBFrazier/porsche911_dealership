@@ -69,7 +69,7 @@ export default function ForSaleImages () {
     ];
 
     let returnForSalePng = forSaleArr.map((image) => {
-        return image;
+        return image[1];
     });
 
     return <div className="turbo-model-png">{returnForSalePng}</div>;
