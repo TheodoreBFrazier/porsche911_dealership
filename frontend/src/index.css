@@ -53,7 +53,6 @@ h6 {
   color: red;
 }
 
-
 .gt3-model-data {
   align-items: center;
   margin-top: -250px;
@@ -106,7 +105,7 @@ h6 {
   height: 36px;
 }
 
-.navigation-links  {
+.navigation-links {
   text-align: center;
 }
 
@@ -124,14 +123,14 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   color: black;
   margin-top: 0px;
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
 }
 
 .navigation-links li h5:hover {
   font-family: "Source Sans Pro", sans-serif;
   color: #a70000;
   margin-top: 0px;
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
 }
 
 /*  HOME PAGE  */
@@ -266,7 +265,7 @@ h6 {
 }
 
 .turbo-cab-warning {
-  color:#a70000;
+  color: #a70000;
 }
 
 .turbo-s img {
@@ -337,11 +336,9 @@ h6 {
   background-color: #a70000;
 }
 
-
 .turbo {
   border: 3px solid pink;
 }
-
 
 .turbo-model-png {
   width: 90%;
@@ -363,7 +360,6 @@ h6 {
   height: 250px;
 }
 
-
 .turbo-model-data {
   height: 90vh;
   border: 3px solid blue;
@@ -375,7 +371,8 @@ h6 {
   grid-template-columns: 50% 50%;
 }
 
-.turbo-model-data h3, h6 {
+.turbo-model-data h3,
+h6 {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -617,7 +614,7 @@ h6 {
 /* GENERATIONS */
 
 .generations-hero img {
- height: 100vh;
+  height: 100vh;
 }
 
 .gens-arr {
@@ -632,4 +629,35 @@ h6 {
   border: solid 2px black;
   height: 350px;
   width: 567px;
+}
+
+.search {
+  width: 100vw;
+  height: 250px;
+  background-color: black;
+}
+
+.search .search-text {
+  display: inline-block;
+  width: 700px;
+  color: white;
+  margin-left: 200px;
+}
+
+.search .search-text h2 {
+  margin-bottom: 15px;
+}
+
+.search .search-text h5 {
+  margin-top: 0;
+}
+
+.search .searchbar input {
+  display: block;
+  height: 50px;
+  width: 700px;
+  margin-top: 10px;
+  margin-left: 200px;
+  border-style: none;
+  border-radius: 25px;
 }

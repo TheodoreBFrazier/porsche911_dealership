@@ -1,9 +1,9 @@
 import React from "react"
 
-function UserPage () {
+function UserPage() {
     return (
         <div>
-        Welcome User!
+            Welcome User!
         </div>
     )
 }

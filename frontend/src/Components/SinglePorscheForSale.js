@@ -4,9 +4,8 @@ export default function SingleCarForSale({ porsche }) {
 
     return (
         <div className="single-car">
-            <h1>Hi there</h1>
-            <h3>{porsche.model_name}</h3>
-            <h6>{porsche.description}</h6>
+            <h3>{porsche.year}  {porsche.model_name} {porsche.body_style}</h3>
+            <h6>${porsche.price.toLocaleString()}</h6>
         </div>
     )
 

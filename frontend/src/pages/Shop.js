@@ -6,7 +6,6 @@ import ForSaleImages from "../Components/forSaleImages";
 function Shop() {
   return (
     <div>
-  <ForSaleImages />
   <ShopSearchBar />
             <DealerInventory /> 
             <ForSaleImages />   
