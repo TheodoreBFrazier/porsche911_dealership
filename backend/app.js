@@ -28,6 +28,7 @@ app.use(express.json());
 // Base Carrera Model
 app.use("/carrera", carreraController);
 
+
 // Turbo Model
 
 app.use("/turbo", turboController);

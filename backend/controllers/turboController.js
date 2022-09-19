@@ -2,7 +2,8 @@ const express = require("express");
 const turbo = express.Router();
 
 const { getAllTurbos,
-    getTurboModel
+    getTurboModel,
+    turboModelTechInfo
 } = require("../queries/turboQueries")
 
 //Index of all Turbos
@@ -28,5 +29,19 @@ turbo.get("/:id", async (request, response) => {
         response.status(404).json({ error: "not found"})
     }
  });
+
+ turbo.get("/:id/technical", async (request, response) => {
+    const { id } = request.params;
+    try {
+        const turboTechStats = await turboModelTechInfo(id);
+        if (turbo.turbo_id) {
+            response.status(200).json(turboTechStats);
+        } else {
+            response.status(404).json({ error: "server error" })
+        }
+    } catch (error) {
+        console.log(error)
+    }
+})
 
 module.exports = turbo;

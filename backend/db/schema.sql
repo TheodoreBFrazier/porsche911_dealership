@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS data_dev;
 CREATE DATABASE data_dev;
 
-\c data_dev
+\c data_dev;
 
 --data for the current Porsche generation, the 992 
 
@@ -13,21 +13,12 @@ CREATE TABLE carrera_models (
     top_speed_mph INT,
     zero_to_sixty INT,
     description TEXT,
-    model_image TEXT DEFAULT NULL
-);
-
-CREATE TABLE carrera_body_stats (
-    technical_id SERIAL PRIMARY KEY,
-    model_name TEXT,
+    model_image TEXT DEFAULT NULL,
     height TEXT,
     width TEXT,
     length TEXT,
     curb_weight TEXT,
-    wheelbase TEXT
-);
-
-CREATE TABLE carrera_technical (
-    technical_id SERIAL PRIMARY KEY,
+    wheelbase TEXT,
     motor TEXT,
     bore TEXT,
     stroke TEXT,
@@ -51,20 +42,12 @@ CREATE TABLE turbo_models (
     power_in_hp INT,
     top_speed_mph INT,
     zero_to_sixty INT,
-    description TEXT
-);
-
-CREATE TABLE turbo_body_stats (
-    technical_id SERIAL PRIMARY KEY,
+    description TEXT,
     height TEXT,
     width TEXT,
     length TEXT,
     curb_weight TEXT,
-    wheelbase TEXT
-);
-
-CREATE TABLE turbo_technical (
-    technical_id SERIAL PRIMARY KEY,
+    wheelbase TEXT,
     motor TEXT,
     bore TEXT,
     stroke TEXT,
@@ -87,20 +70,12 @@ CREATE TABLE gt3_models (
     power_in_hp INT,
     top_speed_mph INT,
     zero_to_sixty INT,
-    description TEXT
-);
-
-CREATE TABLE gt3_body_stats (
-    technical_id SERIAL PRIMARY KEY,
+    description TEXT,
     height TEXT,
     width TEXT,
     length TEXT,
     curb_weight TEXT,
-    wheelbase TEXT
-);
-
-CREATE TABLE gt3_technical (
-    technical_id SERIAL PRIMARY KEY,
+    wheelbase TEXT,
     motor TEXT,
     bore TEXT,
     stroke TEXT,
@@ -133,5 +108,5 @@ CREATE TABLE porsche_911_gens(
     gen_name TEXT,
     year_began TEXT,
     year_ended TEXT,
-    description TEXT,
+    description TEXT
 );
