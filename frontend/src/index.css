@@ -623,12 +623,16 @@ h6 {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: aqua;
 }
 
 .single-generation {
   border: solid 2px black;
+  border-radius: 25px;
   height: 350px;
   width: 567px;
+  background-color: green;
+margin-bottom: 25px;
 }
 
 .search {

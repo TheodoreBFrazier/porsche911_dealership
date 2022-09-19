@@ -44,13 +44,17 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carrera" element={<CarreraPage  />} />
+            <Route exact path="/carrera/:id"  />  
             <Route path="/turbo" element={<TurboPage />} />
+            <Route exact path="/turbo/:id"  />  
             <Route path="/GT3" element={<GT3Page />} />
+            <Route exact path="/GT3/:id"  />  
             <Route path="/sportclassic" element={<SportClassic />} />
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/porschestore" element={<Shop />} />    
+            <Route path="/porschestore" element={<Shop />} />  
+            <Route exact path="/porschestore/:id"  />  
           </Routes>
         </main>
       </Router>

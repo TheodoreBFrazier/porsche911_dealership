@@ -19,7 +19,7 @@ export default function ShopSearchBar() {
       <div className="searchbar">
         <input
           type="text"
-          placeholder="Search for a Porsche"
+          placeholder="   Search for a Porsche"
           value={porschesForSale.model_name}
           onChange={(event) => setPorschesForSale({ ...porschesForSale, model_name: event.target.value })}
         />
@@ -27,7 +27,7 @@ export default function ShopSearchBar() {
       </div>
       <div>
         {porschesForSale.length > 0 ?
-          <DealerInventory dealerInventory={porschesForSale.results[0]} />
+          <DealerInventory dealerInventory={porschesForSale.model_name.results[0]} />
           : null}
       </div>
     </div>
