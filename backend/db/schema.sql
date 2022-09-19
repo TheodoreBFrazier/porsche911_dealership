@@ -134,5 +134,4 @@ CREATE TABLE porsche_911_gens(
     year_began TEXT,
     year_ended TEXT,
     description TEXT,
-    picture
 );
