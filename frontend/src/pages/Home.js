@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
 // Carrera COUPE
 //Hero image is in CSS file
+import SingleCarreraModelStats from "../Components/CarreraTechnicalSpecs";
+
 
 function Home() {
   return (
@@ -22,12 +24,16 @@ function Home() {
       </section>
       <section className="CTA">
         <div className="generations-CTA">
-          <img src={newoldporsche} alt="older porsche and current 992"></img>
+          <div className="cta-row">Shop</div>
+          <div className="cta-row">Sell</div>
+          <div className="cta-row">Learn</div>
+          <div className="cta-row">Test</div>
         </div>
       </section>
       <section className="992-carousel">
         A carousel where user can see carrera, gt3 and turbo models
       </section>
+  
     </div>
   );
 }

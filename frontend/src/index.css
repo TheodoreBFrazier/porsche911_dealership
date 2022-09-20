@@ -86,6 +86,16 @@ h6 {
   margin-bottom: 350px;
 }
 
+.technical-data-collaspable {
+  width: 400px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+.data {
+  display: inline-block;
+}
+
 /* NAVIGATION */
 
 .navigation {
@@ -160,8 +170,30 @@ h6 {
   text-align: left;
 }
 
+.generations-CTA {
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.generations-CTA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.generations-CTA .cta-row {
+  float: left;
+  width: 50%;
+  height: 50%
+}
+
+
+
 .intro-heading {
   color: #a70000;
+
 }
 
 .sub-intro {
