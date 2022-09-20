@@ -9,7 +9,7 @@ import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
 //Hero image is in CSS file
 import SingleCarreraModelStats from "../Components/CarreraTechnicalSpecs";
 
-import sell from "../Assets/Images/porsche-normal.jpg"
+import currentPorsche from "../Assets/Images/992-top-view.jpeg"
 
 
 function Home() {
@@ -39,6 +39,16 @@ function Home() {
             <p>Learn about the history of perhaps the most iconic sports car.</p>
           </div>
         </div>
+      </section>
+      <section className="current-model-992">
+        <section className="text">
+          <h3>Near perfection</h3>
+          <p>The 992 generation is the result of 50 years of 911. Coupe, Cabriolet or Targa. Turbocharged or naturally aspirated. Learn more about the 992 and take your pick.</p>
+        </section>
+        <img
+          src={currentPorsche}
+          alt="The Porsche 992"
+        />
       </section>
 
     </div>

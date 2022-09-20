@@ -193,10 +193,28 @@ h6 {
   max-height:100%;
 }
 
+.current-model-992 {
+
+  background-color: black;
+  height: 100vh;
+}
+
+.current-model-992 .text {
+  color: white;
+}
+
+.current-model-992 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+
+
 .intro-heading {
   color: #a70000;
-
 }
+
 
 .sub-intro {
   width: 500px;
