@@ -174,7 +174,6 @@ h6 {
   margin: auto;
   width: 800px;
   height: 800px;
-  border: 2px solid black;
 }
 
 .generations-CTA:after {
@@ -186,7 +185,16 @@ h6 {
 .generations-CTA .cta-row {
   float: left;
   width: 50%;
-  height: 50%
+  height: 50%;
+  background-color: #ebebeb;
+}
+
+.generations-CTA .cta-row:hover {
+  float: left;
+  width: 50%;
+  height: 50%;
+  background-color: #a70000;
+  color: white;
 }
 
 .generations-CTA .cta-row img {
