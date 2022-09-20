@@ -189,7 +189,9 @@ h6 {
   height: 50%
 }
 
-
+.generations-CTA .cta-row img {
+  max-height:100%;
+}
 
 .intro-heading {
   color: #a70000;
