@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 import SingleTurbo from "./SingleTurboModel";
-import TurboPngs from "../Components/TurboModelPngs";
+
 
 
 const API = process.env.REACT_APP_API_URL;
@@ -27,7 +27,6 @@ function TurboModelRange() {
     <div className="turbo">
       <div className="display-turbo-pngs">
       </div>
-      <TurboPngs />
       <div className="turbo-model-data">
         {turbos.map((turbo) => {
           return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;

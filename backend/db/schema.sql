@@ -29,7 +29,8 @@ CREATE TABLE carrera_models (
     max_torque TEXT,
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
-    power_to_weight TEXT
+    power_to_weight TEXT,
+    image TEXT
 );
 
 
@@ -58,7 +59,8 @@ CREATE TABLE turbo_models (
     max_torque TEXT,
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
-    power_to_weight TEXT
+    power_to_weight TEXT,
+    image TEXT
 );
 
 --data for the GTS models

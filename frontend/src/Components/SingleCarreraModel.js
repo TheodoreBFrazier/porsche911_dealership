@@ -1,10 +1,15 @@
 import React from "react";
 
+
+
 function SingleCarreraModel({ carrera }) {
     return (
         <div className="turbo-card">
             <div>{carrera.model_image}</div>
             <h2>{carrera.model_name}</h2>
+            <img src={`/images/${carrera.image}`}
+            alt="carrera"
+            />
             <p>Starting at ${carrera.price.toLocaleString()}</p>
             <div className="technical-data-collaspable">
                 <p><strong>Engine: </strong>{carrera.motor}</p>

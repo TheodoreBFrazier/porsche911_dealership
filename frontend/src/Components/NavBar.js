@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom"
 
 import logoMenu from "../Assets/Images/porsche_logo.png"
+import sellIcon from "../Assets/Images/porsche-sell-icon.png"
 
 
 function NavBar() {
@@ -55,17 +56,23 @@ function NavBar() {
                         </h5>
                     </Link>
                 </li>
+
                 <li>
-
-                    <Link to="/porschestore" style={{ textDecoration: 'none' }}>
-                        <h5>
-                            Shop
-                        </h5>
-                    </Link>
-
+                    <div className='sell-icon'>
+                        <Link to="/porschestore" style={{ textDecoration: 'none' }}>
+                            <img src={sellIcon}
+                                alt="png for sell"
+                            />
+                            <h5>
+                                Shop
+                            </h5>
+                        </Link>
+                    </div>
                 </li>
 
             </ul>
+
+
         </nav >
     )
 }

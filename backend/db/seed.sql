@@ -23,7 +23,8 @@ INSERT INTO
         max_torque,
         max_torque_at_rpm,
         max_power_per_liter,
-        power_to_weight
+        power_to_weight,
+        image
     )
 VALUES
     (
@@ -48,7 +49,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '8.8 lb/hp'
+        '8.8 lb/hp',
+        'carrera.png'
     ),
     (
         'Carrera Cabriolet',
@@ -72,7 +74,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '9.3 lb/hp'
+        '9.3 lb/hp',
+        'carrera-cabriolet.png'
     ),
     (
         'Carrera 4 Coupe',
@@ -96,7 +99,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '9.1 lb/hp'
+        '9.1 lb/hp',
+        'carrera-4.png'
     ),
     (
         'Careera 4 Cabriolet',
@@ -120,7 +124,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '9.5 lb/hp'
+        '9.5 lb/hp',
+        'carrera-4-cabriolet.png'
     ),
     (
         'Carrera S Coupe',
@@ -144,7 +149,8 @@ VALUES
         '390 lb-ft',
         '2,300 - 5,000 rpm',
         '147.6 hp/l',
-        '7.6 lb/hp'
+        '7.6 lb/hp',
+        'carrera-s.png'
     ),
     (
         'Carrera S Cabriolet',
@@ -168,7 +174,8 @@ VALUES
         '390 lb-ft',
         '2,300 - 5,000 rpm',
         '147.6 hp/l',
-        '8.0 lb/hp'
+        '8.0 lb/hp',
+        'carrera-s-cabriolet.png'
     ),
     (
         'Carrera 4S Coupe',
@@ -192,7 +199,8 @@ VALUES
         '390 lb-ft',
         '2,300 - 5,000 rpm',
         '147.6 hp/l',
-        '7.9 lb/hp'
+        '7.9 lb/hp',
+        'carrera-4s-coupe.png'
     ),
     (
         'Carrera 4S Cabriolet',
@@ -216,7 +224,8 @@ VALUES
         '390 lb-ft',
         '2,300 - 5,000 rpm',
         '147.6 hp/l',
-        '8.2 lb/hp'
+        '8.2 lb/hp',
+        'carrera-4s-cab.png'
     ),
     (
         'Targa 4 ',
@@ -240,7 +249,8 @@ VALUES
         '331 lb-ft',
         '2,300 - 5,000 rpm',
         '126.3 hp/l',
-        '9.7 lb/hp'
+        '9.7 lb/hp',
+        'targa-4.png'
     ),
     (
         'Targa 4S Targa',
@@ -264,7 +274,8 @@ VALUES
         '390 lb-ft',
         '2,300 - 5,000 rpm',
         '126.3 hp/l',
-        '8.3 lb/hp'
+        '8.3 lb/hp',
+        'targa-4s.png'
     ),
     (
         'GTS Coupe',
@@ -288,7 +299,8 @@ VALUES
         '420 lb-ft',
         '2,300 - 5,000 rpm',
         '158.7 hp/l',
-        '7.3 lb/hp'
+        '7.3 lb/hp',
+        'gts.png'
     ),
     (
         'GTS Cabriolet',
@@ -312,7 +324,8 @@ VALUES
         '420 lb-ft',
         '2,300 - 5,000 rpm',
         '158.7 hp/l',
-        '7.5 lb/hp'
+        '7.5 lb/hp',
+        'gts-cab.png'
     ),
     (
         'Carrera 4 GTS Coupe',
@@ -336,7 +349,8 @@ VALUES
         '420 lb-ft',
         '2,300 - 5,000 rpm',
         '158.7 hp/l',
-        '7.5 lb/hp'
+        '7.5 lb/hp',
+        'gts-4.png'
     ),
     (
         'Carrera 4 GTS Cabriolet',
@@ -360,7 +374,8 @@ VALUES
         '420 lb-ft',
         '2,300 - 5,000 rpm',
         '158.7 hp/l',
-        '7.8 lb/hp'
+        '7.8 lb/hp',
+        'carrera-4-gts-cab.png'
     ),
     (
         'Targa 4 GTS Targa',
@@ -384,7 +399,8 @@ VALUES
         '420 lb-ft',
         '2,300 - 5,000 rpm',
         '158.7 hp/l',
-        '7.9 lb/hp'
+        '7.9 lb/hp',
+        '4-gts-targa.png'
     );
 
 INSERT INTO
@@ -410,7 +426,8 @@ INSERT INTO
         max_torque,
         max_torque_at_rpm,
         max_power_per_liter,
-        power_to_weight
+        power_to_weight,
+        image
     )
 VALUES
     (
@@ -435,7 +452,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '8.8 lb/hp'
+        '8.8 lb/hp',
+        'turbo.png'
     ),
     (
         'Turbo S Coupe',
@@ -459,7 +477,8 @@ VALUES
         '331 lb-ft',
         '1,950 - 5,000 rpm',
         '126.3 hp/l',
-        '8.8 lb/hp'
+        '8.8 lb/hp',
+        'turbo-s.png'
     ),
     (
         'Turbo Cabriolet',
@@ -483,7 +502,8 @@ VALUES
         '590 lb-ft',
         '2,500- 4,000 rpm',
         '168.4 hp/l',
-        '5.7 lb/hp'
+        '5.7 lb/hp',
+        'turbo-cab.png'
     ),
     (
         'Turbo S Cabriolet',
@@ -507,7 +527,8 @@ VALUES
         '590 lb-ft',
         '2,500- 4,000 rpm',
         '168.4 hp/l',
-        '5.9 lb/hp'
+        '5.9 lb/hp',
+        'turbo-s-cab.png'
     );
 
 INSERT INTO

@@ -8,7 +8,9 @@ const {
 } = require("../queries/generationsQueries.js")
 
 generations.get("/", async (request, response) => {
+
     const allGenerations = await getAllGenerations();
+    console.log(allGenerations)
     if (allGenerations[0]) {
         response.status(200).json(allGenerations)
     } else {

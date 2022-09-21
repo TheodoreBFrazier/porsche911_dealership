@@ -16,8 +16,6 @@ import CarerraModelStats from "../Components/CarreraModelStats.js";
 
 //PNGs of Carrera Models
 
-import CarreraPngs from "../Components/CarreraModelsPngs";
-
 
 function CarreraPage() {
   return (
@@ -128,7 +126,6 @@ function CarreraPage() {
           </button>
         </div>
         <div className="model-data">
-          <CarreraPngs />
           <CarerraModelStats />
         </div>
       </section>

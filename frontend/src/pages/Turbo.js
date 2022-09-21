@@ -1,6 +1,5 @@
 import React from "react";
 
-import TurboPngs from "../Components/TurboModelPngs";
 
 //image imports
 
