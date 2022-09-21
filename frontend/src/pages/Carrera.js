@@ -125,9 +125,9 @@ function CarreraPage() {
             <h5>TARGA</h5>
           </button>
         </div>
-        <div className="model-data">
+  <div className="carrera-stats">
           <CarerraModelStats />
-        </div>
+          </div>   
       </section>
     </div>
   );

@@ -87,9 +87,9 @@ h6 {
 }
 
 .technical-data-collaspable {
-  width: 400px;
-  border: solid 3px black;
-  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+ 
 }
 
 .data {
@@ -529,16 +529,55 @@ h6 {
   background-color: #a70000;
 }
 
-.carrera-model-png {
-  margin: auto;
-  width: 90%;
-  column-count: 3;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+.carrera-arr {
+
 }
 
-.carrera-model-png img {
-  height: 275px;
-  margin-bottom: 200px;
+.carrera-card {
+  height: 1000px;
+  float: left;
+  width: 33.33%;
+  margin: auto;
+}
+
+.carrera-arr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carrera-card .carrera-model-image img {
+  margin-left: 55px;
+  height: 250px;
+}
+
+.carrera-stats {
+  width: 90%;
+  margin: auto;
+}
+
+.model-name {
+  width: 90%;
+  margin: auto;
+}
+
+.model-name h2 {
+  text-align: center;
+}
+
+.model-price {
+  width: 90%;
+  margin: auto;
+}
+
+.model-price p {
+  text-align: center;
+}
+
+.model-description {
+  width: 90%;
+  margin: auto;
+  text-align: left;
 }
 
 .interior img {
