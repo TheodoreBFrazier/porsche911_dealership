@@ -551,13 +551,31 @@ h6 {
   background-color: #a70000;
 }
 
+.carrera-model-intro {
+  height: 350px;
+  width: 90%;
+background-color: aqua;
+margin: auto;
+}
+
 .carrera-card {
-  height: 650px;
+  height: 670px;
   float: left;
   width: 33.33%;
   margin: auto;
   z-index: -10;
 }
+
+.carrera-card:hover {
+  height: 670px;
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  z-index: -10;
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
 
 .carrera-arr:after {
   content: "";
@@ -571,7 +589,6 @@ h6 {
   margin-right: auto;
   height: 250px;
   z-index: -9;
-  border: 2px solid red;
 }
 
 .carrera-stats {
@@ -582,7 +599,6 @@ h6 {
 .model-name {
   width: 90%;
   margin: auto;
-  border: 2px solid red;
 }
 
 .model-name h2 {

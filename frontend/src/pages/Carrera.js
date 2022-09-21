@@ -25,7 +25,7 @@ function CarreraPage() {
         <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
 
       </section>
-      
+
       <section className="Home-intro">
         <div className="intro-text">
           <div>
@@ -125,9 +125,12 @@ function CarreraPage() {
             <h5>TARGA</h5>
           </button>
         </div>
-  <div className="carrera-stats">
+        <div className="carrera-model-intro">
+<h6>Hi</h6>
+        </div>
+        <div className="carrera-stats">
           <CarerraModelStats />
-          </div>   
+        </div>
       </section>
     </div>
   );
