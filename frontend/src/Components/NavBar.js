@@ -10,20 +10,21 @@ function NavBar() {
         <nav className="navigation">
 
 
-
-
-            <div className="home-link-logo">
-                <Link to="/">
-                    <img
-                        src={logoMenu}
-                        alt="python green"
-                    />
-                </Link>
-            </div>
-
-
-
             <ul className="navigation-links">
+
+                <li>
+                    <div className="home-link-logo">
+                        <Link to="/">
+                            <img
+                                src={logoMenu}
+                                alt="python green"
+                            />
+                        </Link>
+                    </div>
+                </li>
+
+
+
                 <li>
                     <Link to="/carrera" style={{ textDecoration: 'none' }}>
                         <h5>

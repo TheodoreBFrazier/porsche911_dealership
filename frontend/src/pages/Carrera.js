@@ -62,12 +62,6 @@ function CarreraPage() {
           </div>
         </div>
       </section>
-      &nbsp,
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <br />
       <br />
       <br />
@@ -103,7 +97,7 @@ function CarreraPage() {
             </p>
           </div>
         </div>
-        <div className>
+        <div className="interior-background">
           <img
             src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
             alt="922 interior"
@@ -111,6 +105,9 @@ function CarreraPage() {
         </div>
       </section>
       <section>
+      <div className="carrera-model-intro">
+          <h6>Hi</h6>
+        </div>
         <div className="carrera-carousel-buttons">
           <button>
             <h5>ALL MODELS</h5>
@@ -125,9 +122,7 @@ function CarreraPage() {
             <h5>TARGA</h5>
           </button>
         </div>
-        <div className="carrera-model-intro">
-<h6>Hi</h6>
-        </div>
+
         <div className="carrera-stats">
           <CarerraModelStats />
         </div>

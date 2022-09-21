@@ -1,3 +1,7 @@
+* { 
+  border: 0.5px solid black;
+}
+
 html,
 body {
   width: 100%;
@@ -130,21 +134,14 @@ h6 {
   height: 125px;
 }
 
-.home-link-logo {
-  width: 100vh;
-  margin-bottom: 0px;
-  margin-left: 50%;
-}
 
 .home-link-logo img {
-  margin-top: 20px;
   margin-bottom: 0px;
-  justify-content: center;
   height: 36px;
 }
 
 .navigation-links {
-  text-align: center;
+  height: 40px;
 }
 
 .navigation-links li {
@@ -188,7 +185,7 @@ h6 {
 }
 
 .Home-intro {
-  height: 100vh;
+  height: 75vh;
 }
 
 .Home-intro h1 {
@@ -257,6 +254,7 @@ h6 {
   margin-top: 200px;
   margin-left: 700px;
   text-align: left;
+  background-color: aquamarine;
 }
 
 .Current-model-922 {
@@ -542,6 +540,12 @@ h6 {
   background-color: black;
 }
 
+.carrera-carousel-buttons button h5{
+margin: 15px;
+  color: white;
+
+}
+
 .carrera-carousel-buttons button:active {
   border-style: none;
   color: none;
@@ -631,13 +635,16 @@ margin-right: auto;
 }
 
 .interior-info-card {
-  margin-left: 250px;
-  left: 0px;
-  top: 0px;
   height: 300px;
   width: 400px;
   background-color: rgba(255, 0, 0, 0.8);
-  border-radius: 10px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+}
+
+.interior-background {
+  z-index: -1;
 }
 
 .interior-info-card-text {
@@ -732,6 +739,7 @@ margin-right: auto;
   color: white;
   background-color: black;
 }
+
 
 .gt3-carousel-buttons button {
   width: 33.3%;
