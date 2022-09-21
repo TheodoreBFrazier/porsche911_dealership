@@ -20,20 +20,25 @@ function SingleCarreraModel({ carrera }) {
             <div className="model-description">
                 <h5>{carrera.description}</h5>
             </div>
-            <Collapsible className="collaspibleTrigger" trigger="Explore">
+            <Collapsible className="collaspibleTrigger" trigger="Technical Data">
                 <div className="technical-data-collaspable">
-                    <h3>TECHNICAL DATA</h3>
-                    <p><strong>Engine: </strong>{carrera.motor}</p>
-                    <p><strong>Bore:</strong>{carrera.bore}</p>
-                    <p><strong>Stroke: </strong>{carrera.stroke}</p>
-                    <p><strong>Displacment:</strong>{carrera.displacement}</p>
-                    <p><strong>Power Output:</strong>{carrera.max_power}</p>
-                    <p><strong>Max Power:</strong>{carrera.max_power_at_rpm}</p>
-                    <p><strong>Max Engine Speed:</strong>{carrera.max_engine_speed}</p>
-                    <p><strong>Max Torque:</strong>{carrera.max_torque}</p>
-                    <p><strong>Max Torque @ RPM:</strong>{carrera.max_torque_at_rpm}</p>
-                    <p><strong>Max Power Per Liter:</strong>{carrera.max_power_per_liter}</p>
-                    <p><strong>Power To Weight Ratio:</strong>{carrera.power_to_weight}</p>
+                    <div className="technincal-data">
+                        <br />
+                        <br />
+                        <br />
+                        <p><strong>Engine: </strong>{carrera.motor}</p>
+                        <p><strong>Bore:</strong>{carrera.bore}</p>
+                        <p><strong>Stroke: </strong>{carrera.stroke}</p>
+                        <p><strong>Displacment:</strong>{carrera.displacement}</p>
+                        <p><strong>Power Output:</strong>{carrera.max_power}</p>
+                        <p><strong>Max Power:</strong>{carrera.max_power_at_rpm}</p>
+                        <p><strong>Max Engine Speed:</strong>{carrera.max_engine_speed}</p>
+                        <p><strong>Max Torque:</strong>{carrera.max_torque}</p>
+                        <p><strong>Max Torque @ RPM:</strong>{carrera.max_torque_at_rpm}</p>
+                        <p><strong>Max Power Per Liter:</strong>{carrera.max_power_per_liter}</p>
+                        <p><strong>Power To Weight Ratio:</strong>{carrera.power_to_weight}</p>
+
+                    </div>
                 </div>
             </Collapsible>
         </div>
