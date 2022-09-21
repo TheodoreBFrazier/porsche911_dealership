@@ -87,9 +87,32 @@ h6 {
 }
 
 .technical-data-collaspable {
-  width: 90%;
+  width: 350px;
+  height: 588px;
   margin: auto;
- background-color: antiquewhite;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.technical-data-collaspable h3 {
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+.technical-data-collaspable p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+.collaspibleTrigger {
+  margin: auto;
+  height: 25px;
+  width: 90%;
+  color: white;
+  background-color: #000000;
 }
 
 .data {
@@ -143,10 +166,8 @@ h6 {
   margin-bottom: 0px;
 }
 
-
-
-.sell-icon  img{
- height: 16px;
+.sell-icon img {
+  height: 16px;
 }
 
 /*  HOME PAGE  */
@@ -204,11 +225,10 @@ h6 {
 }
 
 .generations-CTA .cta-row img {
-  max-height:100%;
+  max-height: 100%;
 }
 
 .current-model-992 {
-
   background-color: black;
   height: 100vh;
 }
@@ -222,13 +242,10 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
- 
-
 
 .intro-heading {
   color: #a70000;
 }
-
 
 .sub-intro {
   width: 500px;
@@ -529,7 +546,6 @@ h6 {
   background-color: #a70000;
 }
 
-
 .carrera-card {
   height: 1000px;
   float: left;
@@ -576,7 +592,6 @@ h6 {
   margin: auto;
   text-align: left;
 }
-
 
 .interior img {
   z-index: -1;
@@ -735,7 +750,7 @@ h6 {
   height: 350px;
   width: 567px;
   background-color: green;
-margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .search {

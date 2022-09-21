@@ -20,8 +20,9 @@ function SingleCarreraModel({ carrera }) {
             <div className="model-description">
                 <h5>{carrera.description}</h5>
             </div>
-            <Collapsible trigger="Start here">
+            <Collapsible className="collaspibleTrigger" trigger="Explore ">
                 <div className="technical-data-collaspable">
+                    <h3>TECHNICAL DATA</h3>
                     <p><strong>Engine: </strong>{carrera.motor}</p>
                     <p><strong>Bore:</strong>{carrera.bore}</p>
                     <p><strong>Stroke: </strong>{carrera.stroke}</p>
