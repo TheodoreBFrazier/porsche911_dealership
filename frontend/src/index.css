@@ -121,6 +121,11 @@ h6 {
   display: inline-block;
 }
 
+.model-description {
+  height:150px;
+  border: solid 2px green;
+}
+
 /* NAVIGATION */
 
 .navigation {
