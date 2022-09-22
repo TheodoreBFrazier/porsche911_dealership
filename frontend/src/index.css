@@ -786,3 +786,27 @@ margin-right: auto;
   border-style: none;
   border-radius: 25px;
 }
+
+/* FOR SALE */
+
+.for-sale-arr {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.single-car-card {
+  height: 670px;
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  z-index: -10;
+}
+
+.single-car-card .forsale-model-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  z-index: -9;
+}

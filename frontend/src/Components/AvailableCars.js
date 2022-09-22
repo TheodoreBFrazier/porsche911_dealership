@@ -23,7 +23,7 @@ export default function DealerInventory() {
   }, []);
 
   return (
-    <div className="for-sale-array">
+    <div className="for-sale-arr">
       {inventory.map((porsche) => {
         return <SingleCarForSale key={porsche.porsche_id} porsche={porsche} />
       })}
