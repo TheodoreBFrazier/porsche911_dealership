@@ -1,13 +1,22 @@
 import React from "react";
 
-function SingleGT3 ({ gt3 }) {
+function SingleGT3({ gt3 }) {
     return (
-        <div className="single-model">
-            <h5>{gt3.model_name}</h5>
-            <h6>Starting at ${gt3.price.toLocaleString()}</h6>
-            <p>{gt3.description}</p>
-            <p>Test Below</p>
-           
+        <div className="gt3-card">
+            <div className="model-name">
+                <h2>{gt3.model_name}</h2>
+            </div>
+            <div className="gt3-model-image">
+                <img src={`/images/${gt3.image}`}
+                    alt="turbo"
+                />
+            </div>
+            <div className="model-price">
+                <p>Starting at ${gt3.price.toLocaleString()}</p>
+            </div>
+            <div className="model-description">
+                <h5>{gt3.description}</h5>
+            </div>
         </div>
     )
 }

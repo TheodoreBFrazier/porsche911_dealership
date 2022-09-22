@@ -4,7 +4,6 @@ import gt3Hero from "../Assets/Images/gt3-and-gt3-touring.jpg"
 import fastGt3 from "../Assets/Images/gt3-at-speed.jpg"
 import fastGt3Touring from "../Assets/Images/gt3-touring.jpg"
 
-import Gt3Pngs from "../Components/Gt3ModelsPng.js";
 import GT3ModelRange from "../Components/GT3ModelStats";
 
 export default function GT3Page() {
@@ -69,7 +68,6 @@ export default function GT3Page() {
         </button>
       </div>
       <div className="model-data">
-        <Gt3Pngs />
         <GT3ModelRange />
       </div>
     </div>
