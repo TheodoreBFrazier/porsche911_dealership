@@ -6,9 +6,8 @@ import DealerInventory from "../Components/AvailableCars";
 function Shop() {
   return (
     <div>
-  <ShopSearchBar />
-            <DealerInventory /> 
-     
+      <ShopSearchBar />
+      <DealerInventory />
     </div>
   );
 }
