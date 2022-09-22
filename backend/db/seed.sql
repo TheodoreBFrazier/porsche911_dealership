@@ -680,7 +680,7 @@ VALUES
         'Special',
         'PDK automatic',
         'A truly one-of-a-kind 911, this 2011 Speedster is one of only 356 Speedsters produced. Special ordered in a Cream over black with orrange trimmed cabin to match the San Francisco Giants colors, this speedster features a PDK automatic transmission, 19-inch Sport wheels, ceramic brakes, heated seats, climate control and the diserable Sport Chrono Package. Only 1,300 miles with orignal window sticket, manufacturer literature, clean carfax and title.',
-        '97_speedster_primary.webp',
+        '997_speedster_primary.webp',
         '997_speedster_2.webp',
         '997_speedster_3.webp',
         '997_speedster_4.webp',
