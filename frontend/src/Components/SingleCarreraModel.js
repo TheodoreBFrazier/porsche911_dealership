@@ -1,8 +1,6 @@
 import React from "react";
 import Collapsible from 'react-collapsible';
 
-
-
 function SingleCarreraModel({ carrera }) {
     return (
         <div className="carrera-card">
@@ -26,6 +24,7 @@ function SingleCarreraModel({ carrera }) {
                         <br />
                         <br />
                         <br />
+                        
                         <p><strong>Engine: </strong>{carrera.motor}</p>
                         <p><strong>Bore:</strong>{carrera.bore}</p>
                         <p><strong>Stroke: </strong>{carrera.stroke}</p>

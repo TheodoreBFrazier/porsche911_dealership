@@ -27,33 +27,23 @@ function NavBar() {
 
 
                 <Dropdown>
+
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        The New 911 
+                        The New 911
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
                         <Dropdown.Item href="/carrera" style={{ textDecoration: 'none' }}>
-
                             911 Carrera
-
                         </Dropdown.Item>
-
-
                         <Dropdown.Item href="/turbo" style={{ textDecoration: 'none' }}>
-                         
                             911 Turbo
-                           
                         </Dropdown.Item>
-
-
                         <Dropdown.Item href="/gt3" style={{ textDecoration: 'none' }}>
-                          
-                               911 GT3
-                               </Dropdown.Item>
-                 
+                            911 GT3
+                        </Dropdown.Item>
                     </Dropdown.Menu>
-
-
+                    
                 </Dropdown>
 
                 <Link to="/generations" style={{ textDecoration: 'none' }}>

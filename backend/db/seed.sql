@@ -1,4 +1,4 @@
-\c data_dev;
+\ c data_dev;
 
 INSERT INTO
     carrera_models(
@@ -285,7 +285,7 @@ VALUES
         3.2,
         'GTS models have not only enhanced perfomance, but a much sportier specification. GTS coupe is the most driver focused of standard Carreras.',
         '3.0-liter twin turbocharged boxer 6',
-                '50.9 in',
+        '50.9 in',
         '72.9 in',
         '178.5 in',
         '3,658 lb',
@@ -680,7 +680,17 @@ VALUES
     );
 
 INSERT INTO
-    porsche_911_gens(gen_name, year_began, year_ended, description)
+    porsche_911_gens(
+        gen_name,
+        year_began,
+        year_ended,
+        description,
+        main_image,
+        second_image,
+        third_image,
+        fourth_image,
+        fifth_image
+    )
 VALUES
     (
         '901',
@@ -727,6 +737,6 @@ VALUES
     (
         '992',
         '2018',
-        null,
+        'Present',
         'The current 992-generaton marked perhaps the most extreme styling chage for the 911, with a long light bar in the back and full track width for all models, not just the four-wheel drive and motorsport models. The turbocharged flat-six engines remain, with incredibly low emmssons, yet more power. The 992 shows that high performance cars can join the fight for climate change. With the 992, there are also talks of the first hybrid 911 becoming a reality.'
     );

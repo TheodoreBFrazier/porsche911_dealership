@@ -53,6 +53,9 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 10pt;
 }
+
+/* UNIVERSAL STYLES */
+
 .red-s {
   color: red;
 }
@@ -575,6 +578,10 @@ margin: auto;
   z-index: -10;
 }
 
+/* Start of Carrera Data*/
+
+/* Card showing card data when hovered */
+
 .carrera-card:hover {
   height: 670px;
   float: left;
@@ -585,12 +592,16 @@ margin: auto;
   border-radius: 10px;
 }
 
+/* Array of data columns */ 
+
 
 .carrera-arr:after {
   content: "";
   display: table;
   clear: both;
 }
+
+/* PNG Image */
 
 .carrera-card .carrera-model-image img {
   display: block;
@@ -610,9 +621,29 @@ margin: auto;
   margin: auto;
 }
 
+/* Data Typography */
+
+
+.model-price p {
+  text-align: center;
+}
+
 .model-name h2 {
   text-align: center;
   z-index: -9;
+}
+
+.interior-info-card-text h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.model-description h5 {
+  margin-top: 0;
+}
+
+.interior-info-card-text h6 {
+  margin-bottom: 10px;
 }
 
 .model-price {
@@ -620,9 +651,6 @@ margin: auto;
   margin: auto;
 }
 
-.model-price p {
-  text-align: center;
-}
 
 .model-description {
   width: 90%;
@@ -631,9 +659,6 @@ margin-right: auto;
   text-align: left;
 }
 
-.model-description h5 {
-  margin-top: 0;
-}
 
 .interior img {
   z-index: -1;
@@ -657,14 +682,7 @@ margin-right: auto;
   margin-right: 25px;
 }
 
-.interior-info-card-text h2 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-.interior-info-card-text h6 {
-  margin-bottom: 10px;
-}
 
 /* GT3 */
 

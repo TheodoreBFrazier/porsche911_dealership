@@ -5,9 +5,6 @@ import fetchForSalePorsches from "../hooks/fetchForSalePorsches";
 //import porscheFetch from "../hooks/fetchForSalePorsches";
 import DealerInventory from "./AvailableCars"
 
-
-//DO queries have to change to return values in line 35 in fetch?
-
 export default function ShopSearchBar() {
   const { porschesForSale, setPorschesForSale } = fetchForSalePorsches();
   return (

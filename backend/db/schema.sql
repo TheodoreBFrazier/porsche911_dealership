@@ -1,11 +1,11 @@
 DROP DATABASE IF EXISTS data_dev;
+
 CREATE DATABASE data_dev;
 
-\c data_dev;
+\ c data_dev;
 
 --data for the current Porsche generation, the 992 
-
-CREATE TABLE carrera_models (    
+CREATE TABLE carrera_models (
     model_id SERIAL PRIMARY KEY,
     model_name TEXT,
     price INT,
@@ -33,9 +33,7 @@ CREATE TABLE carrera_models (
     image TEXT
 );
 
-
 --data for the TURBO models 
-
 CREATE TABLE turbo_models (
     turbo_id SERIAL PRIMARY KEY,
     model_name TEXT,
@@ -64,7 +62,6 @@ CREATE TABLE turbo_models (
 );
 
 --data for the GTS models
-
 CREATE TABLE gt3_models (
     gt3_id SERIAL PRIMARY KEY,
     model_name TEXT,
@@ -101,7 +98,12 @@ CREATE TABLE porsches_4_sale(
     generation TEXT,
     color TEXT,
     transmission TEXT,
-    description TEXT 
+    description TEXT,
+    main_image TEXT,
+    second_image,
+    third_image,
+    fourth_image,
+    fifth_image
 );
 
 --data for the porsche generations 
@@ -110,5 +112,6 @@ CREATE TABLE porsche_911_gens(
     gen_name TEXT,
     year_began TEXT,
     year_ended TEXT,
-    description TEXT
+    description TEXT,
+    image TEXT
 );

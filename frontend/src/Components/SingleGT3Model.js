@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function SingleGT3 ({ gt3 }) {
     return (
         <div className="single-model">
