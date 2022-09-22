@@ -1,4 +1,4 @@
-\ c data_dev;
+\c data_dev;
 
 INSERT INTO
     carrera_models(
@@ -615,18 +615,28 @@ INSERT INTO
         generation,
         color,
         transmission,
-        description
+        description,
+        main_image,
+        second_image,
+        third_image,
+        fourth_image,
+        fifth_image
     )
 VALUES
     (
         'Carrera',
         1994,
-        'Carbiolet',
+        'Cabriolet',
         54900,
         993,
         'Black',
         'manual',
-        '1995 Carrera cabriolet with 3.6 liter flat-six paired with the very diserable manual transmission. Only 47,000 miles. Aftermaker exhaust, replacement black soft top, 18" Turbo-style wheels, cruise control and air conditioning. Owners manual, service record, tool kit and a clean Carfax and title present. Unique chance to own a air-cooler 911!.'
+        '1995 Carrera cabriolet with 3.6 liter flat-six paired with the very diserable manual transmission. Only 47,000 miles. Aftermaker exhaust, replacement black soft top, 18" Turbo-style wheels, cruise control and air conditioning. Owners manual, service record, tool kit and a clean Carfax and title present. Unique chance to own an air-cooled 911.',
+        'black_993_cab_primary.webp',
+        'black_993_cab_2.webp',
+        'black_993_cab_3.webp',
+        'black_993_cab_4.webp',
+        null
     ),
     (
         'Carrera',
@@ -636,7 +646,12 @@ VALUES
         993,
         'Speed Yellow',
         'manual',
-        'Unique opporunity to own a 993 carerra coupe. This striking yellow on black carrera has been with the seller since 2003. This 993 Carrera coupe has 70,000 miles and comes with a car cover, spare set of 18-inch Turbo-style wheels, a clean Carfax and clean title. '
+        'Unique opporunity to own a 993 carerra coupe. This striking yellow on black carrera has been with the seller since 2003. This 993 Carrera coupe has 70,000 miles and comes with a car cover, spare set of 18-inch Turbo-style wheels, a clean Carfax and clean title.',
+        'yellow_993_coup_primary.webp',
+        'yellow_993_coup_primary.webp',
+        'yellow_993_coupe_3.webp',
+        'yellow_993_coupe_4.webp',
+        'yellow_993_coupe_5.webp'
     ),
     (
         'Turbo',
@@ -646,7 +661,12 @@ VALUES
         996,
         'Black',
         'manual',
-        'Probably the best budget 911 Turbo on the market!! Black on black Turbo coupe with only 24,000 miles. Sunroof, xenon headlights, spoiler and stainless steel exhausts. Interior features yellow seatbelts and stitching, metal door sills and a leather interior package as well as modern luxuries such as heated seats, cruise control, navigation system and a Bose sound system. Some light paintwork done on rear bumper but clean Carfax with no accidents or damage.'
+        'Probably the best budget 911 Turbo on the market!! Black on black Turbo coupe with only 24,000 miles. Sunroof, xenon headlights, spoiler and stainless steel exhausts. Interior features yellow seatbelts and stitching, metal door sills and a leather interior package as well as modern luxuries such as heated seats, cruise control, navigation system and a Bose sound system. Some light paintwork done on rear bumper but clean Carfax with no accidents or damage.',
+        'black_996_coupe_primary.webp',
+        'black_996_coupe_2.webp',
+        'black_996_coupe_3.webp',
+        'black_996_coupe_4.webp',
+        'black_996_coupe_5.webp'
     ),
     (
         '911',
@@ -656,7 +676,12 @@ VALUES
         997,
         'Special',
         'PDK automatic',
-        'A truly one-of-a-kind 911, this 2011 Speedster is one of only 356 Speedsters produced. Special ordered in a Cream over black with orrange trimmed cabin to match the San Francisco Giants colors, this speedster features a PDK automatic transmission, 19-inch Sport wheels, ceramic brakes, heated seats, climate control and the diserable Sport Chrono Package. Only 1,300 miles with orignal window sticket, manufacturer literature, clean carfax and title.'
+        'A truly one-of-a-kind 911, this 2011 Speedster is one of only 356 Speedsters produced. Special ordered in a Cream over black with orrange trimmed cabin to match the San Francisco Giants colors, this speedster features a PDK automatic transmission, 19-inch Sport wheels, ceramic brakes, heated seats, climate control and the diserable Sport Chrono Package. Only 1,300 miles with orignal window sticket, manufacturer literature, clean carfax and title.',
+        '97_speedster_primary.webp',
+        '997_speedster_2.webp',
+        '997_speedster_3.webp',
+        '997_speedster_4.webp',
+        '997_speedster_5.webp'
     ),
     (
         'Turbo S',
@@ -666,17 +691,27 @@ VALUES
         992,
         'Olive',
         'PDK automatic',
-        'Finished in a paint-to-sample Olive Green over two tone interior. This Turbo S is like new, with on 230 miles. Features include staggered-diameter Turbo S Exclusive Design wheels finished in black, ceramic-composite brakes with high-gloss black calipers, a front-axle lift system, Lane Change Assist, a glass sunroof, a sport exhaust system, and ventilated front seats. One owner with no accidents or damage.'
+        'Finished in a paint-to-sample Olive Green over two tone interior. This Turbo S is like new, with on 230 miles. Features include staggered-diameter Turbo S Exclusive Design wheels finished in black, ceramic-composite brakes with high-gloss black calipers, a front-axle lift system, Lane Change Assist, a glass sunroof, a sport exhaust system, and ventilated front seats. One owner with no accidents or damage.',
+        '992_turbo_primary.webp',
+        '992_turbo_2.webp',
+        '992_turbo_3.webp',
+        '992_turbo_4.webp',
+        '992_turbo_5.webp'
     ),
     (
-        'Turbo S',
+        'GTS',
         2021,
         'Cabriolet',
         262000,
         992,
         'White',
         'PDK automatic',
-        'Carrera S Cabriolet finished in White Matallic over Slate Grey interior.  Features include a black soft top, a lowered sport suspension with PASM, staggered-diameter center-lock wheels, Porsche InnoDrive, ceramic-composite brakes, a front-axle lift system, a surround-view camera system, a sport exhaust system, Power Steering Plus, heated and ventilated front seats, a heated steering wheel, and a Burmester surround-sound system. Clean title and accident-free Carfax report.'
+        'Carrera GTS Cabriolet finished in White Matallic over Slate Grey interior.  Features include a black soft top, a lowered sport suspension with PASM, staggered-diameter center-lock wheels, Porsche InnoDrive, ceramic-composite brakes, a front-axle lift system, a surround-view camera system, a sport exhaust system, Power Steering Plus, heated and ventilated front seats, a heated steering wheel, and a Burmester surround-sound system. Clean title and accident-free Carfax report.',
+        '992_gts_cab_primary.webp',
+        '992_gts_cab_2.webp',
+        '992_gts_cab_3.webp',
+        '992_gts_cab_4.webp',
+        '992_gts_cab_5.webp'
     );
 
 INSERT INTO
@@ -684,12 +719,7 @@ INSERT INTO
         gen_name,
         year_began,
         year_ended,
-        description,
-        main_image,
-        second_image,
-        third_image,
-        fourth_image,
-        fifth_image
+        description
     )
 VALUES
     (
