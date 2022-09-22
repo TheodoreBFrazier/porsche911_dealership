@@ -56,38 +56,8 @@ h6 {
   color: red;
 }
 
-.gt3-model-data {
-  align-items: center;
-  margin-top: -250px;
-  margin-left: 100px;
-  width: 90%;
-  column-count: 2;
-  grid-template-columns: 50% 50%;
-}
 
-.gt3-model-data h5 {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-.gt3-model-data h6 {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.gt3-model-data p {
-  text-align: left;
-  margin-top: 25px;
-  margin-bottom: 0px;
-}
-
-.single-model {
-  width: 600px;
-  height: 200px;
-  margin-bottom: 350px;
-}
 
 .technical-data-collaspable {
   position: relative;
@@ -717,10 +687,6 @@ margin-right: auto;
   color: white;
 }
 
-.the-range-gt3 img {
-  height: 400px;
-}
-
 .gt3-carousel-buttons {
   color: white;
   background-color: black;
@@ -743,18 +709,28 @@ margin-right: auto;
   background-color: #a70000;
 }
 
-.gt3-model-png {
-  margin: auto;
-  width: 90%;
-  column-count: 2;
-  grid-template-columns: 50% 50%;
-  height: 600px;
+.gt3-arr:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.gt3-model-png img {
-  height: 350px;
-  margin-bottom: 200px;
+.gt3-card .gt3-model-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  z-index: -9;
 }
+
+.gt3-card {
+  height: 670px;
+  float: left;
+  width: 50.00%;
+  margin: auto;
+  z-index: -10;
+}
+
 
 /* GENERATIONS */
 
