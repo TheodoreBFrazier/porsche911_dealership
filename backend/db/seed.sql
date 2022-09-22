@@ -461,7 +461,7 @@ VALUES
         640,
         199,
         2.6,
-        'Not the widowmaker 911 Turbo of old. Meticulous engineering make the even more powerful Turbo S accessible to every driver, regardless of skill',
+        'Not the widowmaker 911 Turbo of old. Meticulous engineering has made the even more powerful Turbo S accessible to every driver, regardless of skill.',
         '51.3 in',
         '74.9 in',
         '178.6 in',
@@ -554,7 +554,8 @@ INSERT INTO
         max_torque,
         max_torque_at_rpm,
         max_power_per_liter,
-        power_to_weight
+        power_to_weight,
+        image
     )
 VALUES
     (
@@ -579,7 +580,8 @@ VALUES
         '346 lb-ft',
         '6,100 rpm',
         '125.6 hp/l',
-        '6.3 lb/hp'
+        '6.3 lb/hp',
+        'gt3.pg'
     ),
     (
         '911 GT3 with Touring Package',
@@ -603,7 +605,8 @@ VALUES
         '346 lb-ft',
         '6,100 rpm',
         '125.6 hp/l',
-        '6.3 lb/hp'
+        '6.3 lb/hp',
+        'gt3-touring.png'
     );
 
 INSERT INTO

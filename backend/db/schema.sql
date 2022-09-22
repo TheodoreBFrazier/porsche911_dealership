@@ -61,7 +61,7 @@ CREATE TABLE turbo_models (
     image TEXT
 );
 
---data for the GTS models
+--data for the GT3 models
 CREATE TABLE gt3_models (
     gt3_id SERIAL PRIMARY KEY,
     model_name TEXT,
@@ -85,7 +85,8 @@ CREATE TABLE gt3_models (
     max_torque TEXT,
     max_torque_at_rpm TEXT,
     max_power_per_liter TEXT,
-    power_to_weight TEXT
+    power_to_weight TEXT,
+    image TEXT
 );
 
 --data for the porsches for sale
