@@ -28,29 +28,29 @@ function NavBar() {
 
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Dropdown Button
+                        The New 911 
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                    <Link to="/carrera" style={{ textDecoration: 'none' }}>
-                        <h5>
-                            The New Carrera
-                        </h5>
-                    </Link>
+                        <Dropdown.Item href="/carrera" style={{ textDecoration: 'none' }}>
+
+                            911 Carrera
+
+                        </Dropdown.Item>
 
 
-                    <Link to="/turbo" style={{ textDecoration: 'none' }}>
-                        <h5>
-                            Carrera Turbo
-                        </h5>
-                    </Link>
+                        <Dropdown.Item href="/turbo" style={{ textDecoration: 'none' }}>
+                         
+                            911 Turbo
+                           
+                        </Dropdown.Item>
 
 
-                    <Link to="/gt3" style={{ textDecoration: 'none' }}>
-                        <h5>
-                            GT3
-                        </h5>
-                    </Link>
+                        <Dropdown.Item href="/gt3" style={{ textDecoration: 'none' }}>
+                          
+                               911 GT3
+                            
+                        </Dropdown.Item>
                     </Dropdown.Menu>
 
 

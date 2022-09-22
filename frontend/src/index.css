@@ -132,16 +132,21 @@ h6 {
 
 .navigation {
   height: 125px;
+  background-color: #a70000;
 }
+
+
 
 
 .home-link-logo img {
   margin-bottom: 0px;
   height: 36px;
+  background-color: yellow;
 }
 
 .navigation-links {
   height: 40px;
+  
 }
 
 .navigation-links li {
@@ -169,6 +174,7 @@ h6 {
 }
 
 .sell-icon img {
+  float: right;
   height: 16px;
 }
 
