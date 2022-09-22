@@ -49,8 +49,8 @@ function NavBar() {
                         <Dropdown.Item href="/gt3" style={{ textDecoration: 'none' }}>
                           
                                911 GT3
-                            
-                        </Dropdown.Item>
+                               </Dropdown.Item>
+                 
                     </Dropdown.Menu>
 
 
