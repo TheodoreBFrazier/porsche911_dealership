@@ -581,7 +581,7 @@ VALUES
         '6,100 rpm',
         '125.6 hp/l',
         '6.3 lb/hp',
-        'gt3.pg'
+        'gt3.png'
     ),
     (
         '911 GT3 with Touring Package',
