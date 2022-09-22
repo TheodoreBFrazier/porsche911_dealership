@@ -386,22 +386,6 @@ h6 {
   display: block;
 }
 
-.the-range-turbo {
-  height: 700px;
-  width: 90%;
-  background-color: pink;
-  margin: auto;
-}
-
-.the-range-turbo img {
-  text-align: center;
-  margin: auto;
-  display: inline-block;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 25px;
-}
-
-
 
 
 
@@ -426,6 +410,28 @@ h6 {
   background-color: #a70000;
 }
 
+
+.turbo-card .turbo-model-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  z-index: -9;
+}
+
+.turbo-arr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.turbo-card {
+  height: 670px;
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  z-index: -10;
+}
 
 
 

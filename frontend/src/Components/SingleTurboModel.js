@@ -3,14 +3,21 @@ import React from "react";
 function SingleTurbo({ turbo }) {
 
   return (
-    <div className="single-model">
-      <h3>{turbo.model_name}</h3>
-      <img src={`/images/${turbo.image}`}
-        alt="turbo"
-      />
-      <h6>Starting at ${turbo.price.toLocaleString()}</h6>
-      <p>{turbo.description}</p>
-      <h6>Explore</h6>
+    <div className="turbo-card">
+      <div className="model-name">
+        <h2>{turbo.model_name}</h2>
+      </div>
+      <div className="turbo-model-image">
+        <img src={`/images/${turbo.image}`}
+          alt="turbo"
+        />
+      </div>
+      <div className="model-price">
+        <p>Starting at ${turbo.price.toLocaleString()}</p>
+      </div>
+      <div className="model-description">
+        <h5>{turbo.description}</h5>
+      </div>
     </div>
   );
 }
