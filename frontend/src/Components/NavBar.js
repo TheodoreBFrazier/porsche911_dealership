@@ -26,49 +26,49 @@ function NavBar() {
                 </li>
 
 
-                <Dropdown>
 
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        The New 911
-                    </Dropdown.Toggle>
 
-                    <Dropdown.Menu>
-                        <Dropdown.Item href="/carrera" style={{ textDecoration: 'none' }}>
+                
+
+                    <li>
+                        <Link href="/carrera" style={{ textDecoration: 'none' }}>
                             911 Carrera
-                        </Dropdown.Item>
-                        <Dropdown.Item href="/turbo" style={{ textDecoration: 'none' }}>
-                            911 Turbo
-                        </Dropdown.Item>
-                        <Dropdown.Item href="/gt3" style={{ textDecoration: 'none' }}>
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link to="/turbo" style={{ textDecoration: 'none' }}>
+                            Turbo
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/gt3" style={{ textDecoration: 'none' }}>
                             911 GT3
-                        </Dropdown.Item>
-                    </Dropdown.Menu>
-                    
-                </Dropdown>
-
-                <Link to="/generations" style={{ textDecoration: 'none' }}>
-                    <h5>
-                        generations
-                    </h5>
-                </Link>
-
-
-
-                <li>
-                    <div className='sell-icon'>
-                        <Link to="/porschestore" style={{ textDecoration: 'none' }}>
-                            <img src={sellIcon}
-                                alt="png for sell"
-                            />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/generations" style={{ textDecoration: 'none' }}>
                             <h5>
-                                Shop
+                                generations
                             </h5>
                         </Link>
-                    </div>
-                </li>
+                    </li>
+         
+                    <li>
+                        <div className='sell-icon'>
+                            <Link to="/porschestore" style={{ textDecoration: 'none' }}>
+                                <img src={sellIcon}
+                                    alt="png for sell"
+                                />
+                                <h5>
+                                    Shop
+                                </h5>
+                            </Link>
+                        </div>
+                    </li>
 
+    
             </ul>
-
 
         </nav >
     )

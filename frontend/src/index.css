@@ -56,9 +56,6 @@ h6 {
   color: red;
 }
 
-
-
-
 .technical-data-collaspable {
   position: relative;
   width: 100%;
@@ -81,7 +78,6 @@ h6 {
   margin-right: 50px;
 }
 
-
 .collaspibleTrigger {
   margin: auto;
   height: 16px;
@@ -93,7 +89,7 @@ h6 {
 }
 
 .model-description {
-  height:150px;
+  height: 150px;
   margin-top: 25px;
 }
 
@@ -103,9 +99,6 @@ h6 {
   height: 125px;
 }
 
-
-
-
 .home-link-logo img {
   margin-bottom: 0px;
   height: 36px;
@@ -114,7 +107,6 @@ h6 {
 
 .navigation-links {
   height: 40px;
-  
 }
 
 .navigation-links li {
@@ -281,7 +273,7 @@ h6 {
   margin: auto;
 
   width: 1200px;
-  height: 945px;
+  height: 1200px;
 }
 
 .cta-row {
@@ -314,6 +306,36 @@ h6 {
 .hero-section-turbo img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.turbo-information {
+  height: 1800px;
+  background-color: black;
+}
+
+.turbo-information:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.turbo-info-card-row {
+  float: left;
+  width: 50%;
+}
+
+.turbo-info-card-row {
+  color: white;
+}
+
+.turbo-information .turbo-info-card-row .image-box {
+  height: 600px;
+}
+
+.turbo-information .turbo-info-card-row .image-box img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .turbo-engine img {
@@ -356,9 +378,6 @@ h6 {
   display: block;
 }
 
-
-
-
 .turbo-carousel-buttons {
   color: white;
   background-color: black;
@@ -380,7 +399,6 @@ h6 {
   background-color: #a70000;
 }
 
-
 .turbo-card .turbo-model-image img {
   display: block;
   margin-left: auto;
@@ -398,12 +416,10 @@ h6 {
 .turbo-card {
   height: 670px;
   float: left;
-  width: 50.00%;
+  width: 50%;
   margin: auto;
   z-index: -10;
 }
-
-
 
 /*  CARRERA PAGE  */
 
@@ -481,10 +497,9 @@ h6 {
   background-color: black;
 }
 
-.carrera-carousel-buttons button h5{
-margin: 15px;
+.carrera-carousel-buttons button h5 {
+  margin: 15px;
   color: white;
-
 }
 
 .carrera-carousel-buttons button:active {
@@ -499,8 +514,8 @@ margin: 15px;
 .carrera-model-intro {
   height: 350px;
   width: 90%;
-background-color: aqua;
-margin: auto;
+  background-color: aqua;
+  margin: auto;
 }
 
 .carrera-card {
@@ -525,8 +540,7 @@ margin: auto;
   border-radius: 10px;
 }
 
-/* Array of data columns */ 
-
+/* Array of data columns */
 
 .carrera-arr:after {
   content: "";
@@ -556,7 +570,6 @@ margin: auto;
 
 /* Data Typography */
 
-
 .model-price p {
   text-align: center;
 }
@@ -584,14 +597,12 @@ margin: auto;
   margin: auto;
 }
 
-
 .model-description {
   width: 90%;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
-
 
 .interior img {
   z-index: -1;
@@ -614,8 +625,6 @@ margin-right: auto;
   margin-left: 25px;
   margin-right: 25px;
 }
-
-
 
 /* GT3 */
 
@@ -692,7 +701,6 @@ margin-right: auto;
   background-color: black;
 }
 
-
 .gt3-carousel-buttons button {
   width: 33.3%;
   border: none;
@@ -726,11 +734,10 @@ margin-right: auto;
 .gt3-card {
   height: 670px;
   float: left;
-  width: 50.00%;
+  width: 50%;
   margin: auto;
   z-index: -10;
 }
-
 
 /* GENERATIONS */
 
