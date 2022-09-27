@@ -67,10 +67,12 @@ function TurboPage() {
 
 
       <section className="turbo-s">
+        <div className="turbo-s-image-container">
         <img
           src={turboS}
           alt="turbo-S-photo"
         />
+        </div>
         <div className="turbo-s-text">
           <h1>Turbo S Heading</h1>
           <h2>Turbo S Subheading</h2>
@@ -94,6 +96,8 @@ function TurboPage() {
           </h3>
         </div>
       </section>
+
+      
 
 
       <div className="turbo-carousel-buttons">

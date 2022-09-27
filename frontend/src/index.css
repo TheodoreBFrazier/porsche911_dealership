@@ -342,11 +342,15 @@ h6 {
   width: 100vw;
 }
 
+.turbo-s-image-container {
+  height: 100vh;
+  width: 100vw;
+}
 
-.turbo-s img {
-height: 100vh;
-width: 100vw;
-object-fit: cover;
+.turbo-s .turbo-s-image-container img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
 .turbo-cab-warning {
