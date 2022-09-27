@@ -84,6 +84,12 @@ h6 {
   width: 90%;
 }
 
+.model-data {
+  margin: auto;
+  background-color: red;
+  width: 90%;
+}
+
 .data {
   display: inline-block;
 }
@@ -364,9 +370,7 @@ h6 {
   object-fit: cover;
 }
 
-.turbo-cab-warning {
-  color: #a70000;
-}
+
 
 .turbo-s-text {
   width: 70%;
@@ -379,16 +383,7 @@ h6 {
   width: 100vw;
 }
 
-.turbo-s-text h1 {
-  margin-bottom: 0px;
-}
 
-.turbo-s-main-text {
-  width: 70%;
-  color: red;
-  margin: auto;
-  display: block;
-}
 
 .turbo-carousel-buttons {
   color: white;
