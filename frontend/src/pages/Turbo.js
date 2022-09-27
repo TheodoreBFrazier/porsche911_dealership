@@ -37,7 +37,7 @@ function TurboPage() {
       </div>
 
       <section className="turbo-movie">
-      <TurboMovie embededMovieId="rG0bN2F6Hbg" />
+      <TurboMovie embededMovieId="rGObN2F6Hbg/" />
       </section>
 
       <section className="turbo-information">
