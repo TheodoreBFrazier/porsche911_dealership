@@ -14,6 +14,8 @@ import React from "react";
 //Turbo S Cab
 //import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
 
+import TurboMovie from "../Components/TurboMovieEmbed";
+
 import turboEngine from "../Assets/Images/turbo-engine.png"
 import fastTurbo from "../Assets/Images/turbo-at-speed.jpg"
 import turboInside from "../Assets/Images/turbo-interior.jpg"
@@ -33,6 +35,10 @@ function TurboPage() {
           alt="Turbo at speed"
         />
       </div>
+
+      <section className="turbo-movie">
+      <TurboMovie embededMovieId="rG0bN2F6Hbg" />
+      </section>
 
       <section className="turbo-information">
         <div className="turbo-info-card-row">
