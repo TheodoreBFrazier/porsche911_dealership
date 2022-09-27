@@ -314,6 +314,11 @@ h6 {
   max-height: 100%;
 }
 
+.turbo-movie iframe {
+  height: 100vh;
+  width: 100vw;
+}
+
 .turbo-information {
   height: 1800px;
   background-color: black;
