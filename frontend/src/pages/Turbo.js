@@ -19,6 +19,7 @@ import fastTurbo from "../Assets/Images/turbo-at-speed.jpg"
 import turboInside from "../Assets/Images/turbo-interior.jpg"
 import greenCab from "../Assets/Images/python-green-turbo-cab.jpg"
 import turboS from "../Assets/Images/turbo-s.jpg"
+import coupeAndCab from "../Assets/Images/turbo-s-coupe-and-cabriolet.jpg"
 
 
 import TurboModelRange from "../Components/TurboModelStats";
@@ -68,15 +69,15 @@ function TurboPage() {
 
       <section className="turbo-s">
         <div className="turbo-s-image-container">
-        <img
-          src={turboS}
-          alt="turbo-S-photo"
-        />
-        </div>
+          <img
+            src={turboS}
+            alt="turbo-S-photo"
+          />
+        </div>        
+        
         <div className="turbo-s-text">
           <h1>Turbo S Heading</h1>
           <h2>Turbo S Subheading</h2>
-
         </div>
 
         <div className="turbo-s-main-text">
@@ -97,7 +98,30 @@ function TurboPage() {
         </div>
       </section>
 
-      
+      <section className="turbo-coupe-and-cabriolet">
+        <div className="turbo-coupe-and-cabriolet-image-container">
+          <img 
+          src={coupeAndCab}
+          alt="Image of coupe and cab"
+          />
+          <h3>
+            It redefines what it means to be quick and fast, and it does so
+            without sacrificing the top-dog 911's great handling or luxurious
+            grand touring abilities. Porsche offers a new Lightweight Package
+            for its 911 Turbo and Turbo S that adds a few performance goodies
+            while also shedding 66 pounds from the coupe's curb weight.
+          </h3>
+          <br />
+          <h3>
+            The Porsche 911 Turbo S is a fantastic sports car, one that rivals
+            -- and often bests -- some of the world's finest supercars. That
+            statement is true with or without the Lightweight Package. Forgo
+            this option, and you won't miss a thing.
+          </h3>
+        </div>
+      </section>
+
+
 
 
       <div className="turbo-carousel-buttons">

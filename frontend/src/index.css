@@ -353,6 +353,17 @@ h6 {
   object-fit: cover;
 }
 
+.turbo-coupe-and-cabriolet-image-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.turbo-coupe-and-cabriolet-image-container img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
 .turbo-cab-warning {
   color: #a70000;
 }
