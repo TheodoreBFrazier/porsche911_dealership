@@ -651,7 +651,7 @@ VALUES
         'manual',
         'Unique opporunity to own a 993 carerra coupe. This striking yellow on black carrera has been with the seller since 2003. This 993 Carrera coupe has 70,000 miles and comes with a car cover, spare set of 18-inch Turbo-style wheels, a clean Carfax and clean title.',
         'yellow_993_coup_primary.webp',
-        'yellow_993_coup_primary.webp',
+        'yellow_993_coupe_2.webp',
         'yellow_993_coupe_3.webp',
         'yellow_993_coupe_4.webp',
         'yellow_993_coupe_5.webp'
