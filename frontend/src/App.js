@@ -1,10 +1,8 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 //Import BrowserRouter info
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import Navigaion
-
-//import NavBar from "./Components/NavBar";
 
 //Import Pages
 import Home from "./pages/Home";
@@ -35,26 +33,28 @@ import About from './pages/AboutMe';
 //Online Shop
 import Shop from './pages/Shop';
 
+import ForSaleDetails from './Components/ForSaleDetails';
+
 function App() {
   return (
     <div className="App">
       <Router>
-  
+       
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/carrera" element={<CarreraPage  />} />
-            <Route exact path="/carrera/:id"  />  
+            <Route path="/carrera" element={<CarreraPage />} />
+            <Route exact path="/carrera/:id" />
             <Route path="/turbo" element={<TurboPage />} />
-            <Route exact path="/turbo/:id"  />  
+            <Route exact path="/turbo/:id" />
             <Route path="/GT3" element={<GT3Page />} />
-            <Route exact path="/GT3/:id"  />  
+            <Route exact path="/GT3/:id" />
             <Route path="/sportclassic" element={<SportClassic />} />
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/porschestore" element={<Shop />} />  
-            <Route exact path="/porschestore/:id"  />  
+            <Route path="/porschestore" element={<Shop />} />
+            <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
           </Routes>
         </main>
       </Router>

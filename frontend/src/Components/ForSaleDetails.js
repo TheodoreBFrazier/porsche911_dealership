@@ -26,7 +26,7 @@ export default function ForSaleDetails() {
         <div>
             <div className="show-porsche">
                 <h2> {porsche.year}  {porsche.model_name}</h2>
-                <img src={porsche.main_image} alt={porsche.model_name} />
+                <img src={`/images/${porsche.main_image}`} alt={porsche.model_name} />
             </div>
         </div>
     </article>
