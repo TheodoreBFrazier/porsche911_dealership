@@ -809,6 +809,11 @@ h6 {
 /* FOR SALE */
 
 .for-sale-arr {
+  margin: auto;
+  width: 90%;
+}
+
+.for-sale-arr {
   content: "";
   display: table;
   clear: both;
@@ -822,10 +827,31 @@ h6 {
   z-index: -10;
 }
 
+.single-car-card .car-heading {
+border: 1px solid black;
+width: 100%;
+}
+
+.single-car-card .car-heading h4 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+  text-align: center;
+}
+
 .single-car-card .forsale-model-image img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 250px;
   z-index: -9;
+}
+
+.single-car-card .car-subheading {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  text-align: left;
 }
