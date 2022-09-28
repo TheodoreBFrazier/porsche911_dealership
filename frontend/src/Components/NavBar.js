@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 import logoMenu from "../Assets/Images/porsche_logo.png"
 import sellIcon from "../Assets/Images/porsche-sell-icon.png"
 
-import Dropdown from "react-bootstrap/Dropdown"
 
 
 function NavBar() {
@@ -17,10 +16,7 @@ function NavBar() {
                 <li>
                     <div className="home-link-logo">
                         <Link to="/">
-                            <img
-                                src={logoMenu}
-                                alt="python green"
-                            />
+                            Home
                         </Link>
                     </div>
                 </li>
@@ -57,9 +53,7 @@ function NavBar() {
                     <li>
                         <div className='sell-icon'>
                             <Link to="/porschestore" style={{ textDecoration: 'none' }}>
-                                <img src={sellIcon}
-                                    alt="png for sell"
-                                />
+  
                                 <h5>
                                     Shop
                                 </h5>
