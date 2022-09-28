@@ -852,3 +852,35 @@ width: 100%;
   margin-right: auto;
   text-align: left;
 }
+
+.show-porsche {
+  width: 90%;
+  margin: auto;
+}
+
+.show-porsche .main-image-and-description {
+  margin: auto;
+  height: 500px;
+  width: 90%;
+}
+
+.show-porsche .additional-photos {
+  width: 90%;
+}
+
+.additional-photos {
+  margin: auto;
+  column-gap: 100px;
+}
+
+.additional-photos:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.show-porsche .additional-photos .photo img {
+  column-gap: 100px;
+  float: left;
+  width: 25%;
+}
