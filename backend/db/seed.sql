@@ -777,7 +777,7 @@ VALUES
         '1994_porsche_964-turbo-4.jpg.webp'
     ),
     (
-        '911 Turbo S X85 Flachbau (flat nose) Coupe',
+        '911 Turbo S X85 Flachbau Coupe',
         1994,
         'Coupe',
         500000,
