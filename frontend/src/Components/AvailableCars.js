@@ -7,7 +7,7 @@ import SingleCarForSale from "./SinglePorscheForSale";
 
 const API = process.env.REACT_APP_API_URL;
 
-export default function DealerInventory() {
+export default function DealerInventory({ searchTerm }) {
   const [inventory, setInventory] = useState([])
 
   useEffect(() => {
@@ -22,9 +22,27 @@ export default function DealerInventory() {
       });
   }, []);
 
+  let filteredInventory;
+
+  if (searchTerm) {
+    filteredInventory = inventory.filter(car => {
+      return car.model_name.toLowerCase().includes(searchTerm.toLowerCase())
+    })
+  } else {
+    filteredInventory = inventory
+  }
+
+  console.log(searchTerm)
+  //Cases:
+  // Loading
+  // No searchterm with results
+  // No searchterm no results
+  // Searchterm w result
+  //Searchterm no results
+
   return (
     <div className="for-sale-arr">
-      {inventory.map((porsche) => {
+      {filteredInventory.map((porsche) => {
         return <SingleCarForSale key={porsche.porsche_id} porsche={porsche} />
       })}
     </div>

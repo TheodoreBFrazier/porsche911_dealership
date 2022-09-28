@@ -627,7 +627,7 @@ INSERT INTO
     )
 VALUES
     (
-        'Carrera',
+        'Carrera Cabriolet',
         1994,
         'Cabriolet',
         54900,
@@ -642,7 +642,7 @@ VALUES
         null
     ),
     (
-        'Carrera',
+        'Carrera Coupe',
         1995,
         'Coupe',
         98000,
@@ -657,7 +657,7 @@ VALUES
         'yellow_993_coupe_5.webp'
     ),
     (
-        'Turbo',
+        'Turbo Coupe',
         2004,
         'Coupe',
         93000,
@@ -672,7 +672,7 @@ VALUES
         'black_996_coupe_5.webp'
     ),
     (
-        '911',
+        '911 Speedster',
         2011,
         'Speedster',
         333333,
@@ -687,7 +687,7 @@ VALUES
         '997_speedster_5.webp'
     ),
     (
-        'Turbo S',
+        'Turbo S Coupe',
         2021,
         'Coupe',
         265000,
@@ -702,7 +702,7 @@ VALUES
         '992_turbo_5.webp'
     ),
     (
-        'GTS',
+        'GTS Cabriolet',
         2021,
         'Cabriolet',
         262000,
