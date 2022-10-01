@@ -92,10 +92,7 @@ function TurboPage() {
         </div>
       </section>
 
-
-
-      <section className="model-data">
-        <div className="turbo-carousel-buttons">
+      <div className="turbo-carousel-buttons">
           <button>
             <h5>COUPE</h5>
           </button>
@@ -103,6 +100,9 @@ function TurboPage() {
             <h5>CABRIOLET</h5>
           </button>
         </div>
+
+      <section className="model-data">
+
         <div className="model-data">
           <TurboModelRange />
         </div>

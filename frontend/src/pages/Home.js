@@ -9,7 +9,12 @@ import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
 //Hero image is in CSS file
 import SingleCarreraModelStats from "../Components/CarreraTechnicalSpecs";
 
+
+import carreraPhoto from "../Assets/Images/carrera.png"
+import turboPhoto from "../Assets/Images/turbo.png"
+import gt3Photo from "../Assets/Images/gt3.png"
 import currentPorsche from "../Assets/Images/992-top-view.jpeg"
+
 
 
 function Home() {
@@ -50,6 +55,33 @@ function Home() {
           alt="The Porsche 992"
         />
       </section>
+      <div className="container-992-types">
+        <div className="column">
+          <h5>Carrera</h5>
+          <div className="image-container">
+            <img src={carreraPhoto}
+              alt="Carrera PNG"
+            />
+          </div>
+          <h5>Turbo</h5>
+          <div className="image-container">
+            <img src={turboPhoto}
+              alt="Turbo PNG"
+            />
+            <div />
+          </div>
+          <h5>GT3</h5>
+          <div className="image-container">
+            <img src={gt3Photo}
+              alt="Turbo PNG"
+            />
+            <Link to="/turbo">
+Learn More
+              </Link>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   );

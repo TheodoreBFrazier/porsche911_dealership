@@ -86,7 +86,6 @@ h6 {
 
 .model-data {
   margin: auto;
-  background-color: red;
   width: 90%;
 }
 
@@ -216,6 +215,14 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-992-types {
+  height: 500px;
+  margin: auto;
+}
+
+
+
 
 .intro-heading {
   color: #a70000;
@@ -375,8 +382,6 @@ h6 {
   object-fit: cover;
 }
 
-
-
 .turbo-s-text {
   width: 70%;
   color: white;
@@ -387,8 +392,6 @@ h6 {
 .green-cab-turbo img {
   width: 100vw;
 }
-
-
 
 .turbo-carousel-buttons {
   color: white;
@@ -828,7 +831,7 @@ h6 {
 }
 
 .single-car-card .car-heading {
-width: 100%;
+  width: 100%;
 }
 
 .single-car-card .car-heading h4 {

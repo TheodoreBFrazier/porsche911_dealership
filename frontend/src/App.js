@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import Navigaion
 
+import NavBar from "./Components/NavBar"
+
 //Import Pages
 import Home from "./pages/Home";
 
@@ -38,9 +40,11 @@ import ForSaleDetails from './Components/ForSaleDetails';
 function App() {
   return (
     <div className="App">
+    
       <Router>
-       
+<NavBar />
         <main>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carrera" element={<CarreraPage />} />
