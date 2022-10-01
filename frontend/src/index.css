@@ -766,14 +766,16 @@ h6 {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: aqua;
 }
 
 .single-generation {
-  border: solid 2px black;
   border-radius: 25px;
 
   margin-bottom: 25px;
+}
+
+.single-generation img {
+  height: 300px;
 }
 
 .search {
