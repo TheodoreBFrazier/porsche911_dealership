@@ -12,7 +12,9 @@ function Generation({ generation }) {
                     <h4>
                         <span>{generation.year_began} - {generation.year_ended}</span>
                     </h4>
-
+<img src={`/images/${generation.image}`}
+alt="generation-photo"
+/>
         </div >
     )
 }
