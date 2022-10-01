@@ -812,7 +812,8 @@ INSERT INTO
         gen_name,
         year_began,
         year_ended,
-        description
+        description,
+        image
     )
 VALUES
     (
