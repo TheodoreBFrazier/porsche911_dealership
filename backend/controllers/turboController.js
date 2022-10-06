@@ -13,7 +13,7 @@ turbo.get("/", async (request, response) => {
     if (allTurboModels[0]) {
         response.status(200).json(allTurboModels)
     } else {
-    response.status(500).json({ error: "server error!!"})
+        response.status(500).json({ error: "server error!!" })
     }
 });
 
@@ -23,14 +23,16 @@ turbo.get("/:id", async (request, response) => {
     const { id } = request.params;
     // Query Name
     const turbomodel = await getTurboModel(id);
-    if ( turbomodel.turbo_id ) {
+    if (turbomodel.turbo_id) {
         response.json(turbomodel)
     } else {
-        response.status(404).json({ error: "not found"})
+        response.status(404).json({ error: "not found" })
     }
- });
+});
 
- turbo.get("/:id/technical", async (request, response) => {
+//Turbo
+
+turbo.get("/:id/technical", async (request, response) => {
     const { id } = request.params;
     try {
         const turboTechStats = await turboModelTechInfo(id);

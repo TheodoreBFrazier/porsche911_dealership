@@ -6,6 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar"
 
+// Import Footer
+
+import Footer from './Components/Footer';
+
 //Import Pages
 import Home from "./pages/Home";
 
@@ -61,6 +65,7 @@ function App() {
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
           </Routes>
         </main>
+        <Footer />
       </Router>
     </div>
   );

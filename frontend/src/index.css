@@ -104,6 +104,14 @@ h6 {
   height: 125px;
 }
 
+.navigation .nav-links {
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
+}
+
+
+
 .home-link-logo img {
   margin-bottom: 0px;
   height: 36px;
@@ -114,15 +122,9 @@ h6 {
   height: 40px;
 }
 
-.navigation-links li {
-  display: inline-block;
-  margin-right: 10px;
-}
 
-.navigation-links li {
-  display: inline-block;
-  margin-right: 10px;
-}
+
+
 
 .navigation-links li h5 {
   font-family: "Source Sans Pro", sans-serif;
@@ -141,6 +143,13 @@ h6 {
 .sell-icon img {
   float: right;
   height: 16px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 500px;
+  background-color: black;
 }
 
 /*  HOME PAGE  */

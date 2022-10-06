@@ -10,50 +10,36 @@ function NavBar() {
     return (
         <nav className="navigation">
 
+            <Link to="/">
+                Home
+            </Link>
 
-        
-              
-                        <Link to="/">
-                            Home
-                        </Link>
-             
-             
+            <ul className="nav-links">
+                <li>
+                    <Link to="/carrera" style={{ textDecoration: 'none' }}>
+                        Carrera
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/turbo" style={{ textDecoration: 'none' }}>
+                        Turbo
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/gt3" style={{ textDecoration: 'none' }}>
+                        911 GT3
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/generations" style={{ textDecoration: 'none' }}>
+                        generations
+                    </Link>
+                </li>
+            </ul>
 
-
-<Link to="/carrera" style={{ textDecoration: 'none' }}>
-    Carrera
-</Link>
-
-                
-
-                    
-
-
-       
-                        <Link to="/turbo" style={{ textDecoration: 'none' }}>
-                            Turbo
-                        </Link>
-           
-                        <Link to="/gt3" style={{ textDecoration: 'none' }}>
-                            911 GT3
-                        </Link>
-              
-                        <Link to="/generations" style={{ textDecoration: 'none' }}>
-                     
-                                generations
-                     
-                        </Link>
-
-                 
-                            <Link to="/porschestore" style={{ textDecoration: 'none' }}>
-  
-                         
-                                    Shop
-                       
-                            </Link>
-                 
-
-
+            <Link to="/porschestore" style={{ textDecoration: 'none' }}>
+                Shop
+            </Link>
         </nav >
     )
 }
