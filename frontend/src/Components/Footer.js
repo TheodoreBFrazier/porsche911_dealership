@@ -5,7 +5,7 @@ function Footer() {
         <div className="footer">
             <h1>Footer Test</h1>
         </div>
-    )
+    );
 }
 
 export default Footer;

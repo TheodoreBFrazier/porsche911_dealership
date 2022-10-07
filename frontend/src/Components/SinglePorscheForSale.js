@@ -19,11 +19,13 @@ export default function SingleCarForSale({ porsche }) {
                     alt="for sale porsche main photo"
                 />
             </div>
-            <button>
-                <Link to={`/porschestore/${porsche.porsche_id}`} style={{ textDecoration: 'none' }}>
-BUTTON
-                </Link>
-            </button>
+            <div className="button-section">
+                <button className="view-car-button">
+                    <Link to={`/porschestore/${porsche.porsche_id}`} style={{ textDecoration: 'none', color: 'black' }}>
+                        VIEW DETAILS
+                    </Link>
+                </button>
+            </div>
         </div>
     );
 

@@ -42,14 +42,16 @@ function TurboPage() {
 
       <section className="turbo-information">
         <div className="turbo-info-card-row">
-          <h6>Turbo</h6>
-          <h1>An impressive force.</h1>
-          <h6>
-            The ultimate "standard" Porsche. the 992-generation Turbo provides
-            supercar levels of Performance with all the modern luxuries <br />
-            of a modern 911. Choose from the regular Turbo, or the more
-            exhilerating Turbo <div classname="red-s">S</div>.
-          </h6>
+          <div className="text">
+            <h6>Turbo</h6>
+            <h1>An impressive force.</h1>
+            <h6>
+              The ultimate "standard" Porsche. the 992-generation Turbo provides
+              supercar levels of Performance with all the modern luxuries <br />
+              of a modern 911. Choose from the regular Turbo, or the more
+              exhilerating Turbo <div classname="red-s">S</div>.
+            </h6>
+          </div>
         </div>
         <div className="turbo-info-card-row">
           <div className="image-box">
@@ -85,6 +87,11 @@ function TurboPage() {
 
       <section className="turbo-coupe-and-cabriolet">
         <div className="turbo-coupe-and-cabriolet-image-container">
+          <div className="text">
+            <h1>Top or topless. Take your pick.</h1>
+            <p>Yep, it’s the cabriolet version of the new road-crushing 911 Turbo S. And, as is the tradition with these things, it’s a little bit heavier – 69.8kg to be precise – than the coupe thanks to the additional bracing and hardware for the roof mechanism.
+              So you’d expect it to be a little slower, worse handling than the tin top. That’s just the way it is. But not here in Porsche World.</p>
+          </div>
           <img
             src={coupeAndCab}
             alt="Image of coupe and cab"
@@ -93,13 +100,13 @@ function TurboPage() {
       </section>
 
       <div className="turbo-carousel-buttons">
-          <button>
-            <h5>COUPE</h5>
-          </button>
-          <button>
-            <h5>CABRIOLET</h5>
-          </button>
-        </div>
+        <button>
+          <h5>COUPE</h5>
+        </button>
+        <button>
+          <h5>CABRIOLET</h5>
+        </button>
+      </div>
 
       <section className="model-data">
 

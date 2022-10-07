@@ -1,3 +1,4 @@
+
 html,
 body {
   width: 100%;
@@ -50,7 +51,7 @@ h6 {
   font-size: 10pt;
 }
 
-/* UNIVERSAL STYLES */
+/* ------------------------------------------------------  UNIVERSAL STYLES   ------------------------------------------------------  */
 
 .red-s {
   color: red;
@@ -98,7 +99,7 @@ h6 {
   margin-top: 25px;
 }
 
-/* NAVIGATION */
+/* ------------------------------------------------------ NAVIGATION  ------------------------------------------------------  */
 
 .navigation {
   height: 125px;
@@ -145,14 +146,14 @@ h6 {
   height: 16px;
 }
 
-/* FOOTER */
+/* ------------------------------------------------------ FOOTER ------------------------------------------------------  */
 
 .footer {
   height: 500px;
   background-color: black;
 }
 
-/*  HOME PAGE  */
+/*  ------------------------------------------------------ HOME PAGE  ------------------------------------------------------  */
 
 .Home .Hero {
   width: 100vw;
@@ -319,7 +320,7 @@ h6 {
   height: 540px;
 }
 
-/*  TURBO PAGE  */
+/* ------------------------------------------------------  TURBO PAGE  ------------------------------------------------------  */
 
 .hero-section-turbo {
   height: 100vh;
@@ -381,9 +382,17 @@ h6 {
 }
 
 .turbo-coupe-and-cabriolet-image-container {
+  position: relative;
   height: 100vh;
   width: 100vw;
 }
+
+.turbo-coupe-and-cabriolet-image-container .text  {
+  color: white;
+position: absolute;
+width: 25%;
+}
+
 
 .turbo-coupe-and-cabriolet-image-container img {
   height: 100vh;
@@ -445,7 +454,7 @@ h6 {
   z-index: -10;
 }
 
-/*  CARRERA PAGE  */
+/* ------------------------------------------------------  CARRERA PAGE  ------------------------------------------------------  */
 
 .carrera-hero {
   height: 125vh;
@@ -650,7 +659,7 @@ h6 {
   margin-right: 25px;
 }
 
-/* GT3 */
+/* ------------------------------------------------------ GT3 ------------------------------------------------------ */
 
 .gt3-hero {
   margin-bottom: 0px;
@@ -763,7 +772,7 @@ h6 {
   z-index: -10;
 }
 
-/* GENERATIONS */
+/* ------------------------------------------------------  GENERATIONS ------------------------------------------------------ */
 
 .generations-hero img {
   height: 100vh;
@@ -818,7 +827,7 @@ h6 {
   border-radius: 25px;
 }
 
-/* FOR SALE */
+/* ------------------------------------------------------ FOR SALE PAGE ------------------------------------------------------ */
 
 .for-sale-arr {
   margin: auto;
@@ -863,6 +872,19 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+.button-section {
+  margin-left: auto;
+  margin-left: auto;
+  width: 90%;
+  background-color: yellow;
+}
+
+.button-section .view-car-button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .show-porsche {
