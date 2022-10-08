@@ -71,13 +71,12 @@ function CarreraPage() {
         <div className="engine">
           <div className="column">
             <div className="column-card">
-              <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
+              <h6> 04 </h6> &nbsp; <h2>Performance and efficiency.</h2>
               <p>
                 Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
               </p>
             </div>
           </div>
-
           <div className="column">
             <img
               src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
@@ -89,23 +88,23 @@ function CarreraPage() {
 
 
       <section className="interior">
-        <div className="interior-info-card">
-          <div className>
+        <div className="interior-background">
+          <div className="text">
             <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
             <p>
               Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
             </p>
           </div>
-        </div>
-        <div className="interior-background">
           <img
             src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
             alt="922 interior"
           />
         </div>
       </section>
+
+      
       <section>
-      <div className="carrera-model-intro">
+        <div className="carrera-model-intro">
           <h6>Hi</h6>
         </div>
         <div className="carrera-carousel-buttons">

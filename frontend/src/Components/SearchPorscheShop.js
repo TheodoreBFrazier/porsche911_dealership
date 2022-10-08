@@ -7,7 +7,7 @@ import React from "react";
 import DealerInventory from "./AvailableCars"
 
 
-export default function ShopSearchBar( { searchTerm, setSearchTerm}) {
+export default function ShopSearchBar( {searchTerm, setSearchTerm}) {
 
   //const { porschesForSale, setPorschesForSale } = fetchForSalePorsches();
 
