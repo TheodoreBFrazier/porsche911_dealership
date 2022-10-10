@@ -101,13 +101,30 @@ h6 {
 /* ------------------------------------------------------ NAVIGATION  ------------------------------------------------------  */
 
 .navigation {
-  height: 125px;
+  height: 50px;
+  width: 100vw;
+  background-color: #333333;
 }
 
 .navigation .nav-links {
+  width: 100vw;
   display: inline-block;
-  margin: auto;
   text-decoration: none;
+text-align: center;
+}
+
+.navigation .nav-links li {
+  display: inline;
+  text-decoration: none;
+  color: black;
+
+  margin-right: 25px;
+  font-size: 12px;
+}
+
+.navigation .nav-links li Link{
+  text-decoration: none;
+  color: black;
 }
 
 .home-link-logo img {
@@ -140,24 +157,32 @@ h6 {
 }
 
 .sub-navigation {
-  height: 200px;
-  background-color: #a70000;
+  height: 175px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sub-navigation .sub-nav-links {
   display: inline;
-  width: 75%;
+  
+ 
 }
 
 
 .sub-navigation .sub-nav-links li {
   display: inline;
-
 }
 
 .sub-navigation .sub-nav-links li img {
   display: inline;
-  height: 75px;
+  height: 125px;
+}
+
+.sub-link-styles {
+  text-decoration: none;
+  margin-right: 25px;
+  color: black;
 }
 
 /* ------------------------------------------------------ FOOTER ------------------------------------------------------  */

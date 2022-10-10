@@ -15,33 +15,33 @@ function SubBar() {
 
 
                 <li>
+                    <img
+                        src={carreraPhoto}
+                        alt="carrera-image"
+                    />
+                    <Link to="/carrera" className={"sub-link-styles"}>
 
-                    <Link to="/carrera" style={{ textDecoration: 'none' }}>
-                        <img
-                            src={carreraPhoto}
-                            alt="carrera-image"
-                        />
-                      Carrera
+                        Carrera
                     </Link>
                 </li>
                 <li>
+                    <img
+                        src={turboPhoto}
+                        alt="turbo-image"
+                    />
 
+                    <Link to="/turbo" className={"sub-link-styles"}>
 
-                    <Link to="/turbo" style={{ textDecoration: 'none' }}>
-                        <img
-                            src={turboPhoto}
-                            alt="turbo-image"
-                        />
-                   Turbo
+                        Turbo
                     </Link>
                 </li>
                 <li>
-                    <Link to="/gt3" style={{ textDecoration: 'none', textAlign: 'center' }}>
-                        <img
-                            src={gt3Photo}
-                            alt="turbo-image"
-                        />
-                 911 GT3
+                    <img
+                        src={gt3Photo}
+                        alt="turbo-image"
+                    />
+                    <Link to="/gt3" className={"sub-link-styles"}>
+                        911 GT3
                     </Link>
 
                 </li>
