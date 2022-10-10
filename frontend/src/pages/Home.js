@@ -30,10 +30,15 @@ function Home() {
         </div>
       </section>
       <section className="current-model-992">
-        <section className="text">
-          <h3>Near perfection</h3>
-          <p>The 992 generation is the result of 50 years of 911. Coupe, Cabriolet or Targa. Turbocharged or naturally aspirated. Learn more about the 992 and take your pick.</p>
-        </section>
+        <div className="current-model-992-banner">
+          <p>Banner Text</p>
+        </div>
+        <div className="current-model-992-text">
+          <p>NEW</p>
+          <h1>992 Carrera</h1>
+          <h3>The result of 50 years of 911 excellence. </h3>
+          <p>Starting at $106,000</p>
+        </div>
         <img
           src={currentPorsche}
           alt="The Porsche 992"

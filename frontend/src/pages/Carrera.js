@@ -62,9 +62,7 @@ function CarreraPage() {
           </div>
         </div>
       </section>
-      <br />
-      <br />
-      <br />
+
 
 
       <section className="engine-info">

@@ -179,44 +179,43 @@ h6 {
   text-align: left;
 }
 
-.generations-CTA {
-  margin: auto;
-  width: 800px;
-  height: 800px;
-}
-
-.generations-CTA:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.generations-CTA .cta-row {
-  float: left;
-  width: 50%;
-  height: 50%;
-  background-color: #ebebeb;
-}
-
-.generations-CTA .cta-row:hover {
-  float: left;
-  width: 50%;
-  height: 50%;
-  background-color: #a70000;
-  color: white;
-}
-
-.generations-CTA .cta-row img {
-  max-height: 100%;
-}
-
 .current-model-992 {
   background-color: black;
   height: 100vh;
 }
 
-.current-model-992 .text {
-  color: white;
+.current-model-992-banner {
+  width:100%;
+  height: 25pt;
+background-color: grey;
+}
+
+.current-model-992-text {
+color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.current-model-992-text p {
+  margin-bottom: 0px;
+}
+
+.current-model-992-text h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.current-model-992-text h3 {
+  margin-top: 0px;
+}
+
+.current-model-992 .text  h1 h3 {
+ margin-bottom: 0px;
+ background-color: #a70000;
 }
 
 .current-model-992 img {
@@ -492,6 +491,7 @@ width: 25%;
   height: 75vh;
   grid-template-columns: 1fr 2fr;
   margin: 0px;
+  background-color: aqua;
 }
 
 .engine-info-text {
