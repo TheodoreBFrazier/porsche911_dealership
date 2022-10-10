@@ -110,8 +110,6 @@ h6 {
   text-decoration: none;
 }
 
-
-
 .home-link-logo img {
   margin-bottom: 0px;
   height: 36px;
@@ -121,10 +119,6 @@ h6 {
 .navigation-links {
   height: 40px;
 }
-
-
-
-
 
 .navigation-links li h5 {
   font-family: "Source Sans Pro", sans-serif;
@@ -143,6 +137,27 @@ h6 {
 .sell-icon img {
   float: right;
   height: 16px;
+}
+
+.sub-navigation {
+  height: 200px;
+  background-color: #a70000;
+}
+
+.sub-navigation .sub-nav-links {
+  display: inline;
+  width: 75%;
+}
+
+
+.sub-navigation .sub-nav-links li {
+  display: inline;
+
+}
+
+.sub-navigation .sub-nav-links li img {
+  display: inline;
+  height: 75px;
 }
 
 /* ------------------------------------------------------ FOOTER ------------------------------------------------------  */
@@ -185,13 +200,13 @@ h6 {
 }
 
 .current-model-992-banner {
-  width:100%;
+  width: 100%;
   height: 25pt;
-background-color: grey;
+  background-color: grey;
 }
 
 .current-model-992-text {
-color: white;
+  color: white;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -213,9 +228,9 @@ color: white;
   margin-top: 0px;
 }
 
-.current-model-992 .text  h1 h3 {
- margin-bottom: 0px;
- background-color: #a70000;
+.current-model-992 .text h1 h3 {
+  margin-bottom: 0px;
+  background-color: #a70000;
 }
 
 .current-model-992 img {
@@ -228,9 +243,6 @@ color: white;
   height: 500px;
   margin: auto;
 }
-
-
-
 
 .intro-heading {
   color: #a70000;
@@ -385,12 +397,11 @@ color: white;
   width: 100vw;
 }
 
-.turbo-coupe-and-cabriolet-image-container .text  {
+.turbo-coupe-and-cabriolet-image-container .text {
   color: white;
-position: absolute;
-width: 25%;
+  position: absolute;
+  width: 25%;
 }
-
 
 .turbo-coupe-and-cabriolet-image-container img {
   height: 100vh;
@@ -635,7 +646,6 @@ width: 25%;
   margin-right: auto;
   text-align: left;
 }
-
 
 .interior {
   position: relative;

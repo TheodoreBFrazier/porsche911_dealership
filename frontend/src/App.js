@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar"
 
+import SubBar from './Components/SubMenu';
+
 // Import Footer
 
 import Footer from './Components/Footer';
@@ -44,9 +46,10 @@ import ForSaleDetails from './Components/ForSaleDetails';
 function App() {
   return (
     <div className="App">
-    
+
       <Router>
-<NavBar />
+        <NavBar />
+        <SubBar />
         <main>
 
           <Routes>
