@@ -23,50 +23,6 @@ function NavBar() {
                     </Link>
                 </li>
                 <li>
-
-                    <Collapsible className="collaspibleTrigger" trigger="The new 911">
-                        <nav className="sub-navigation">
-
-                            <ul className="sub-nav-links">
-
-                                <li>
-                                    <img
-                                        src={carreraPhoto}
-                                        alt="carrera-image"
-                                    />
-                                    <Link to="/carrera" className={"sub-link-styles"}>
-
-                                        Carrera
-                                    </Link>
-                                </li>
-                                <li>
-                                    <img
-                                        src={turboPhoto}
-                                        alt="turbo-image"
-                                    />
-
-                                    <Link to="/turbo" className={"sub-link-styles"}>
-
-                                        Turbo
-                                    </Link>
-                                </li>
-                                <li>
-                                    <img
-                                        src={gt3Photo}
-                                        alt="turbo-image"
-                                    />
-                                    <Link to="/gt3" className={"sub-link-styles"}>
-                                        911 GT3
-                                    </Link>
-
-                                </li>
-                            </ul>
-
-                        </nav >
-                    </Collapsible >
-                </li>
-
-                <li>
                     <Link to="/generations" style={{ textDecoration: 'none', color: 'white' }}>
                         generations
                     </Link>
