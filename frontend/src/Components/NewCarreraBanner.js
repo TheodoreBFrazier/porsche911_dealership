@@ -41,7 +41,7 @@ export default function NewCarreraBanner() {
                                 alt="turbo-image"
                             />
                             <Link to="/gt3" className={"sub-link-styles"}>
-                                911 GT3
+                                GT3
                             </Link>
 
                         </li>
