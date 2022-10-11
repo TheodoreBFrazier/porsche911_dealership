@@ -1,6 +1,6 @@
 import React from "react";
 
-function SingleGT3({ gt3 }) {
+function SingleGT3Model({ gt3 }) {
     return (
         <div className="gt3-card">
             <div className="model-name">
@@ -21,4 +21,4 @@ function SingleGT3({ gt3 }) {
     )
 }
 
-export default SingleGT3;
+export default SingleGT3Model;

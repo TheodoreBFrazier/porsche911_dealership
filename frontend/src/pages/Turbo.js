@@ -1,19 +1,5 @@
 import React from "react";
 
-
-//image imports
-
-// import the side profile photos of the 992 Turbo model range
-
-//Standard Turbo
-//import turbo992 from "../Assets/images/turbo-profile.png";
-//Turbo S
-//import turbo992s from "../Assets/images/turbo-s-profile.png";
-//Standard Turbo Cab
-//import turbo992cab from "../Assets/images/porsche-turbo-cab.png";
-//Turbo S Cab
-//import turbo992scab from "../Assets/images/porsche-s-cab-profile.png";
-
 import TurboMovie from "../Components/TurboMovieEmbed";
 
 import turboEngine from "../Assets/Images/turbo-engine.png"
