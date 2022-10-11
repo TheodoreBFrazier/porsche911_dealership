@@ -101,7 +101,7 @@ h6 {
 /* ------------------------------------------------------ NAVIGATION  ------------------------------------------------------  */
 
 .navigation {
-  height: 50px;
+  height: 300px;
   width: 100vw;
   background-color: #333333;
 }
@@ -127,11 +127,6 @@ text-align: center;
   color: black;
 }
 
-.home-link-logo img {
-  margin-bottom: 0px;
-  height: 36px;
-  background-color: yellow;
-}
 
 .navigation-links {
   height: 40px;
