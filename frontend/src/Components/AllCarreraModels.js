@@ -7,7 +7,7 @@ import SingleCarreraModel from "./SingleCarreraModel";
 
 const API = process.env.REACT_APP_API_URL;
 
-function CarreraModelRange () {
+function AllCarreraModels () {
     const [carreras, setCarreras] = useState([])
 
     useEffect(() => {
@@ -31,4 +31,4 @@ function CarreraModelRange () {
     
 }
 
-export default CarreraModelRange;
+export default AllCarreraModels;

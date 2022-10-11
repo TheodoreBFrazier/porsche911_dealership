@@ -46,12 +46,10 @@ import ForSaleDetails from './Components/ForSaleDetails';
 function App() {
   return (
     <div className="App">
-
       <Router>
         <NavBar />
         <SubBar />
         <main>
-
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carrera" element={<CarreraPage />} />

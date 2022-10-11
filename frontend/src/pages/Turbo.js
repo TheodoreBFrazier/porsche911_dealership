@@ -23,8 +23,7 @@ import greenCab from "../Assets/Images/python-green-turbo-cab.jpg"
 import turboS from "../Assets/Images/turbo-s.jpg"
 import coupeAndCab from "../Assets/Images/turbo-s-coupe-and-cabriolet.jpg"
 
-
-import TurboModelRange from "../Components/TurboModelStats";
+import AllTurboModels from "../Components/AllTurboModels";
 
 function TurboPage() {
   return (
@@ -111,7 +110,7 @@ function TurboPage() {
       <section className="model-data">
 
         <div className="model-data">
-          <TurboModelRange />
+          <AllTurboModels />
         </div>
       </section >
 

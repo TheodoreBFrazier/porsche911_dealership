@@ -1,9 +1,5 @@
 import React from "react";
 
-//Material UI
-
-
-
 function Generation({ generation }) {
     return (
         <div className="single-generation">

@@ -4,7 +4,7 @@ import gt3Hero from "../Assets/Images/gt3-and-gt3-touring.jpg"
 import fastGt3 from "../Assets/Images/gt3-at-speed.jpg"
 import fastGt3Touring from "../Assets/Images/gt3-touring.jpg"
 
-import GT3ModelRange from "../Components/GT3ModelStats";
+import AllGt3Models from "../Components/AllGt3Models";
 
 export default function GT3Page() {
   return (
@@ -61,14 +61,14 @@ export default function GT3Page() {
           <h5>ALL MODELS</h5>
         </button>
         <button>
-          <h5>RAW PERFORMANCE</h5>
+          <h5>GT3</h5>
         </button>
         <button>
-          <h5>TOURING</h5>
+          <h5>GT3 TOURING</h5>
         </button>
       </div>
       <div className="model-data">
-        <GT3ModelRange />
+        <AllGt3Models />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import SingleTurbo from "./SingleTurboModel";
 
 const API = process.env.REACT_APP_API_URL;
 
-function TurboModelRange() {
+function AllTurboModels() {
   const [turbos, setTurbos] = useState([]);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ function TurboModelRange() {
   )
 }
 
-export default TurboModelRange;
+export default AllTurboModels;

@@ -8,7 +8,7 @@ import SingleGT3 from "./SingleGT3Model";
 
 const API = process.env.REACT_APP_API_URL;
 
-function GT3ModelRange () {
+function AllGt3Models () {
     const [gt3s, setGt3s] = useState([])
 
     useEffect(() => {
@@ -34,4 +34,4 @@ function GT3ModelRange () {
 
 }
 
-export default GT3ModelRange;
+export default AllGt3Models;

@@ -12,7 +12,7 @@ import targa from "../Assets/Images/targa.jpg";
 
 //Model Data
 
-import CarerraModelStats from "../Components/CarreraModelStats.js";
+import AllCarreraModels from "../Components/AllCarreraModels.js";
 
 //PNGs of Carrera Models
 
@@ -121,7 +121,7 @@ function CarreraPage() {
         </div>
 
         <div className="carrera-stats">
-          <CarerraModelStats />
+          <AllCarreraModels />
         </div>
       </section>
     </div>
