@@ -27,7 +27,7 @@ import GT3Page from "./pages/GT3";
 import TurboPage from "./pages/Turbo";
 
 //Coming soon page for the upcoming Sport Classic Model
-import SportClassic from "./pages/SportClassic";
+
 
 //Generations 
 import Generations from "./pages/Generations";
@@ -58,7 +58,6 @@ function App() {
             <Route exact path="/turbo/:id" />
             <Route path="/GT3" element={<GT3Page />} />
             <Route exact path="/GT3/:id" />
-            <Route path="/sportclassic" element={<SportClassic />} />
             <Route path="/generations" element={<Generations />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
