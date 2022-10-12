@@ -10,6 +10,6 @@ const PORT = process.env.PORT
 
 //Listen
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
 console.log(`listening to port ${PORT}`);
 });
