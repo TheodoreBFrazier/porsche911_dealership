@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS data_dev;
 
 CREATE DATABASE data_dev;
 
-\c data_dev;
+\ c data_dev;
 
 --data for the current Porsche generation, the 992 
 CREATE TABLE carrera_models (
@@ -116,3 +116,16 @@ CREATE TABLE porsche_911_gens(
     description TEXT,
     image TEXT
 );
+
+--data for a user
+CREATE TABLE users(
+    user_id SERIAL PRIMARY KEY,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    age INT NOT NULL,
+    email TEXT,
+    user_name VARCHAR(50) UNIQUE NOT NULL,
+    password TEXT NOT NULL,
+    favorite_porsches TEXT REFERENCES porsches_4_sale(porsche_id),
+    users_name TEXT DEFAULT NULL
+)

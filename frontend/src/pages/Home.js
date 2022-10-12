@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 
 //Importing of images
+
 // HERO ---- 
 import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
 // Carrera COUPE
 //Hero image is in CSS file
 import currentPorsche from "../Assets/Images/red-992.jpg"
-import usedPorsche from "../Assets/Images/993.jpg"
+
 
 
 
@@ -27,7 +28,6 @@ function Home() {
           <div className="service-cards-container">
             <div className="card">
               <div className="content">
-
               </div>
             </div>
             <div className="card">
@@ -80,14 +80,12 @@ function Home() {
             <div className="content">
               <h6>COMFORT</h6>
               <h4>New cockpit is a reminder of virtues found even in the very first 911: clarity and formal unambiguity. </h4>
-
             </div>
           </div>
           <div className="card">
             <div className="content">
               <h6>BODYSTYLES FOR EVERY TASTE</h6>
               <h4> A familiar match with Porsche design DNA: the new 911 is wider, more assertive, and more muscular. </h4>
-
             </div>
           </div>
         </div>

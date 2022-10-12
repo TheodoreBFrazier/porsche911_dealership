@@ -1,11 +1,12 @@
 import React from "react";
 
+//Add turbo photo to Asset folder
+
 import TurboMovie from "../Components/TurboMovieEmbed";
 
 import turboEngine from "../Assets/Images/turbo-engine.png"
 import fastTurbo from "../Assets/Images/turbo-at-speed.jpg"
 import turboInside from "../Assets/Images/turbo-interior.jpg"
-import greenCab from "../Assets/Images/python-green-turbo-cab.jpg"
 import turboS from "../Assets/Images/turbo-s.jpg"
 import coupeAndCab from "../Assets/Images/turbo-s-coupe-and-cabriolet.jpg"
 
@@ -29,13 +30,31 @@ function TurboPage() {
         <div className="turbo-info-card-row">
           <div className="text">
             <h6>Turbo</h6>
-            <h1>An impressive force.</h1>
-            <h6>
+            <h1 className="heading-super">An impressive force.</h1>
+            <h4>
               The ultimate "standard" Porsche. the 992-generation Turbo provides
-              supercar levels of Performance with all the modern luxuries <br />
+              supercar levels of Performance with all the modern luxuries
               of a modern 911. Choose from the regular Turbo, or the more
-              exhilerating Turbo <div classname="red-s">S</div>.
-            </h6>
+              exhilerating Turbo S.
+            </h4>
+            <h5>Our engineers like to talk about the most perfect sports car ever. Incredible performance,
+              whilst being comfortable and fully suitable for everyday use. The 911 Turbo models continue this philosophy.
+            </h5>
+            <div className="turbo-card-container">
+              <div className="card">
+                <div className="content">New engine generation: six-cylinder horizontally opposed engine with VTG twin-turbo</div>
+              </div>
+              <div className="card">
+                <div className="content">20/21-inch 911 Turbo forged alloy wheels</div>
+              </div>
+              <div className="card">
+                <div className="content">10.9-inch touchscreen display</div>
+              </div>
+              <div className="card">
+                <div className="content">Zero to sixty in 2.6 seconds</div>
+              </div>
+            </div>
+
           </div>
         </div>
         <div className="turbo-info-card-row">
@@ -58,7 +77,7 @@ function TurboPage() {
             />
           </div>
         </div>
-      </section >
+      </section>
 
 
       <section className="turbo-s">
@@ -97,7 +116,6 @@ function TurboPage() {
       </div>
 
       <section className="model-data">
-
         <div className="model-data">
           <AllTurboModels />
         </div>

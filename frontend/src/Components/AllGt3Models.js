@@ -29,9 +29,6 @@ function AllGt3Models () {
             </div>
         </div>
     );
-
-
-
 }
 
 export default AllGt3Models;
