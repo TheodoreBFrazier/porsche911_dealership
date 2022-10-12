@@ -52,9 +52,6 @@ h6 {
 
 /* ------------------------------------------------------  UNIVERSAL STYLES   ------------------------------------------------------  */
 
-.red-s {
-  color: red;
-}
 
 .technical-data-collaspable {
   position: relative;
@@ -101,7 +98,7 @@ h6 {
 /* ------------------------------------------------------ NAVIGATION  ------------------------------------------------------  */
 
 .navigation {
-  height: 300px;
+  height: 50px;
   width: 100vw;
   background-color: #333333;
 }
@@ -116,8 +113,6 @@ text-align: center;
 .navigation .nav-links li {
   display: inline;
   text-decoration: none;
-  color: black;
-
   margin-right: 30px;
   font-size: 12px;
 }
@@ -151,11 +146,18 @@ text-align: center;
   height: 16px;
 }
 
+.banner {
+  padding: 10px;
+  text-align: center;
+  font-size: 8pt;
+}
+
 .sub-navigation {
-  height: 200px;
+  height: 175px;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .sub-navigation .sub-nav-links {
@@ -214,8 +216,8 @@ text-align: center;
 }
 
 .current-model-992 {
-  background-color: black;
-  height: 100vh;
+  background-color: white;
+  height: 200vh;
 }
 
 .current-model-992-banner {
@@ -225,7 +227,7 @@ text-align: center;
 }
 
 .current-model-992-text {
-  color: white;
+  color: black;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -236,15 +238,18 @@ text-align: center;
 
 .current-model-992-text p {
   margin-bottom: 0px;
+  color:black;
 }
 
 .current-model-992-text h1 {
   margin-top: 5px;
   margin-bottom: 5px;
+  color: black;
 }
 
 .current-model-992-text h3 {
   margin-top: 0px;
+  color: black;
 }
 
 .current-model-992 .text h1 h3 {
@@ -321,32 +326,68 @@ text-align: center;
   max-height: 100%;
 }
 
-.Home-cta {
-  margin: auto;
-
-  width: 1200px;
-  height: 1200px;
+.overview {
+  margin-top: 100px;
 }
 
-.cta-row {
-  width: 1200px;
-  margin: auto;
-  background-color: pink;
+.overview-intro {
+  margin-left: 200px;
 }
 
-.column-cta {
-  float: left;
-  width: 600px;
+.overview-intro .h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-.cta-row::after {
-  content: "";
-  display: table;
-  clear: both;
+.overview-intro .h1-red {
+  color: #a70000;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.column-cta img {
-  height: 540px;
+.carrera-overview-cards-container {
+  margin-top: 50px;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  width: 80%;
+  height: 810px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carrera-overview-cards-container .card {
+  background-color: black;
+  border-radius: 18px;
+  width: 300px;
+  height: 485px
+}
+
+.carrera-overview-cards-container .card .content {
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.carrera-overview-cards-container .card .content .rule {
+  position: relative;
+margin-top: 10px;
+}
+
+.shop-prompt .text {
+  width: 33.3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop-prompt .rule {
+  border: none;
+ background: black;
+  width: 60%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ------------------------------------------------------  TURBO PAGE  ------------------------------------------------------  */

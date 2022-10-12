@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar"
 
+import NewCarreraBanner from "./Components/NewCarreraBanner"
+
 // Import Footer
 
 import Footer from './Components/Footer';
@@ -46,6 +48,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
+        <NewCarreraBanner />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

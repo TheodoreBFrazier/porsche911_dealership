@@ -7,12 +7,6 @@ import { Link } from "react-router-dom";
 import newoldporsche from "../Assets/Images/old-new-carrera.jpg"
 // Carrera COUPE
 //Hero image is in CSS file
-import SingleCarreraModelStats from "../Components/CarreraTechnicalSpecs";
-
-
-import carreraPhoto from "../Assets/Images/carrera.png"
-import turboPhoto from "../Assets/Images/turbo.png"
-import gt3Photo from "../Assets/Images/gt3.png"
 import currentPorsche from "../Assets/Images/992-top-view.jpeg"
 
 
@@ -39,45 +33,68 @@ function Home() {
           <h3>The result of 50 years of 911 excellence. </h3>
           <p>Starting at $106,000</p>
         </div>
-        <img
-          src={currentPorsche}
-          alt="The Porsche 992"
-        />
-      </section>
-      <div className="container-992-types">
-        <div className="column">
-          <h5>Carrera</h5>
-          <div className="image-container">
-            <img src={carreraPhoto}
-              alt="Carrera PNG"
-            />
-            <Link to="/carrera">
-              Learn More
-            </Link>
+        <div >
+          <img
+            src={currentPorsche}
+            alt="The Porsche 992"
+          />
+        </div>
+        <section />
+        <section className="overview">
+          <div className="overview-intro"> <h2 className="h2">All new. </h2> <h1 className="h1-red">All Porsche.</h1> </div>
+        </section>
+        <div className="carrera-overview-cards-container">
+          <div className="card">
+            <div className="content">
+              <h6>ENGINES</h6>
+              <h4>New turbocharged engines with more higher power output and improved gas mileage.</h4>
+              <hr className="rule" />
+              <p>New, larger turbochargers with symmetrical layout</p>
+              <p>22 kW (30 PS) increase in power to 331 kW (450 PS) at 6,500/min</p>
+              <p>characteristic and appealing sound experience </p>
+            </div>
           </div>
-          <h5>Turbo</h5>
-          <div className="image-container">
-            <img src={turboPhoto}
-              alt="Turbo PNG"
-            />
-            <Link to="/turbo">
-              Learn More
-            </Link>
-            <div />
+          <div className="card">
+            <div className="content">
+              <h6>STRUCTURALLY SOUND</h6>
+              <h4> The chassis of the Porsche 911 sets standards for sports cars – and has done so in every generation. </h4>
+              <hr className="rule" />
+              <p>New, larger turbochargers with symmetrical layout</p>
+            </div>
           </div>
-          <h5>GT3</h5>
-          <div className="image-container">
-            <img src={gt3Photo}
-              alt="Turbo PNG"
-            />
-            <Link to="/gt3">
-              Learn More
-            </Link>
+          <div className="card">
+            <div className="content">
+              <h6>COMFORT</h6>
+              <h4>New cockpit is a reminder of virtues found even in the very first 911: clarity and formal unambiguity. </h4>
+              <hr className="rule" />
+              <p>Revamped seats with lightweight construction</p>
+              <p>New partial leather interior in the colours Black or Slate Grey</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <h6>BODYSTYLES FOR EVERY TASTE</h6>
+              <h4> A familiar match with Porsche design DNA: the new 911 is wider, more assertive, and more muscular. </h4>
+              <hr className="rule" />
+              <p> Completely new LED headlights</p>
+              <p> Rear end with LED strip</p>
+              <p> Now 20 millimetres longer and a great deal wider</p>
+            </div>
           </div>
         </div>
-
-      </div>
-
+      </section>
+      <section className="shop-prompt">
+        <div className="text">
+          <h2> There is a 911 for everyone.</h2>
+          <h2> Whether you are looking at obtaining the exhilerating new 992 generation 991, or looking for a high quality used 911 from one of the previous generations, we can help.</h2>
+        </div>
+        <hr className="rule" />
+        <div className="actions">
+          <Link to="/porschestore" style={{ textDecoration: 'none', color: 'white' }}>
+            View Inventory
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
