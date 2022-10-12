@@ -23,14 +23,34 @@ function Home() {
             Welcome to the only online store devoted exclusively to Porsche 911!
           </p>
         </div>
-        <img
-          src={usedPorsche}
-          alt="A used Porsche 993"
-        />
+        <div className="service-cards">
+          <div className="service-cards-container">
+            <div className="card">
+              <div className="content">
+
+              </div>
+            </div>
+            <div className="card">
+              <div className="content">
+                <h5> Buy & Sell</h5>
+              </div>
+            </div>
+            <div className="card">
+              <div className="content">
+                <h5> Buy & Sell</h5>
+              </div>
+            </div>
+            <div className="card">
+              <div className="content">
+                <h5> Buy & Sell</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="current-model-992">
         <div className="current-model-992-text">
-          <p>NEW</p>
+          <p className="new">NEW</p>
           <h1>992 Carrera</h1>
           <h3>The result of 50 years of 911 excellence. </h3>
           <p>Starting at $106,000</p>

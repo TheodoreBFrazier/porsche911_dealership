@@ -275,7 +275,10 @@ h6 {
   margin-top: 200px;
   margin-left: 700px;
   text-align: left;
-  background-color: aquamarine;
+}
+
+.new p {
+  color: #C29049;
 }
 
 .current-model-922 {
@@ -434,6 +437,7 @@ h6 {
 }
 
 .turbo-s-image-container {
+  position: relative;
   height: 100vh;
   width: 100vw;
 }
@@ -442,6 +446,12 @@ h6 {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
+}
+
+.turbo-s .turbo-s-image-container .text {
+  color: white;
+  position: absolute;
+  width: 25%;
 }
 
 .turbo-coupe-and-cabriolet-image-container {
