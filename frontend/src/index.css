@@ -52,7 +52,6 @@ h6 {
 
 /* ------------------------------------------------------  UNIVERSAL STYLES   ------------------------------------------------------  */
 
-
 .technical-data-collaspable {
   position: relative;
   width: 100%;
@@ -107,7 +106,7 @@ h6 {
   width: 100vw;
   display: inline-block;
   text-decoration: none;
-text-align: center;
+  text-align: center;
 }
 
 .navigation .nav-links li {
@@ -117,11 +116,10 @@ text-align: center;
   font-size: 12px;
 }
 
-.navigation .nav-links li Link{
+.navigation .nav-links li link {
   text-decoration: none;
   color: black;
 }
-
 
 .navigation-links {
   height: 40px;
@@ -162,9 +160,7 @@ text-align: center;
 
 .sub-navigation .sub-nav-links {
   display: inline;
-  
 }
-
 
 .sub-navigation .sub-nav-links li {
   display: inline;
@@ -200,9 +196,15 @@ text-align: center;
   background-repeat: no-repeat;
 }
 
-.Home-intro {
-  height: 75vh;
-  background-color: red;
+.home-intro {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-intro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Home-intro h1 {
@@ -210,15 +212,11 @@ text-align: center;
   color: white;
 }
 
+
 .intro-text {
-  height: 75vh;
-  text-align: left;
-  background-color: #000000;
-
-}
-
-.intro-text p {
-  color: white;
+  width: 33.3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .current-model-992 {
@@ -239,13 +237,11 @@ text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  border: 2px solid black;
-  background-color: 	#FAFAFA;
 }
 
 .current-model-992-text p {
   margin-bottom: 0px;
-  color:black;
+  color: black;
 }
 
 .current-model-992-text h1 {
@@ -272,9 +268,7 @@ text-align: center;
   border-radius: 18px;
 }
 
-.intro-heading {
-  color: #a70000;
-}
+
 
 .sub-intro {
   width: 500px;
@@ -317,7 +311,6 @@ text-align: center;
   width: 100%;
 }
 
-
 .overview {
   margin-top: 300px;
 }
@@ -338,8 +331,8 @@ text-align: center;
 }
 
 .carrera-cards {
-  height: 100vh;
-  background-color: green;
+  width: 100vw;
+  background-color: #fafafa;
 }
 
 .carrera-overview-cards-container {
@@ -347,16 +340,18 @@ text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto;
   width: 80%;
-  height: 810px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .carrera-overview-cards-container .card {
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 18px;
   width: 300px;
-  height: 485px
+  height: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .carrera-overview-cards-container .card .content {
@@ -365,11 +360,10 @@ text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   color: black;
-  background-color: #ffffff;
 }
 .carrera-overview-cards-container .card .content .rule {
   position: relative;
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 .shop-prompt {
@@ -383,21 +377,11 @@ margin-top: 10px;
   margin-top: 200px;
 }
 
-.shop-prompt .rule {
-  border: none;
- background: black;
-  width: 60%;
-  height: 2px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .actions {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* ------------------------------------------------------  TURBO PAGE  ------------------------------------------------------  */
 
