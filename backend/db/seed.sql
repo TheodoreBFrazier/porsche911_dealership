@@ -1,4 +1,4 @@
-\c data_dev;
+\ c data_dev;
 
 INSERT INTO
     carrera_models(
@@ -737,7 +737,7 @@ VALUES
         'Coupe',
         290000,
         993,
-        'Silver', 
+        'Silver',
         'Manual',
         'Once in a lifetime opportunity to own a near new example of the last air-cooled 911 Turbos. This 993 Turbo has only 9,000 miles.  The car is finished in Polar Silver Metallic over black leather and features 18″ Turbo Twist wheels, fog lights, a fixed rear spoiler, a power sunroof, heated power-adjustable front seats, and a Porsche Classic Communication Management stereo.',
         '993-turbo-silver-primary.jpg.webp',
