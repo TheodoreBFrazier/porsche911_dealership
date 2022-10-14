@@ -46,5 +46,5 @@ export default function DealerInventory({ searchTerm }) {
         return <SingleCarForSale key={porsche.porsche_id} porsche={porsche} />
       })}
     </div>
-  )
+  );
 } 

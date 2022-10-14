@@ -11,9 +11,9 @@ function Generation({ generation }) {
             <img src={`/images/${generation.image}`}
                 alt="generation-photo"
             />
-            <p> {generation.description} </p>
+            <h4> {generation.description} </h4>
         </div >
-    )
+    );
 }
 export default Generation;
 

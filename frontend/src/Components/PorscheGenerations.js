@@ -26,13 +26,10 @@ function PorscheGenerations() {
             <div className="gens-arr">
                 {generations.map((generation) => {
                     return <Generation key={generation.gen_id} generation={generation} />
-                })}
+                })};
             </div>
         </div>
     );
-
-
-
 }
 
 export default PorscheGenerations;

@@ -63,8 +63,6 @@ function CarreraPage() {
         </div>
       </section>
 
-
-
       <section className="engine-info">
         <div className="engine">
           <div className="column">
@@ -84,7 +82,6 @@ function CarreraPage() {
         </div>
       </section>
 
-
       <section className="interior">
         <div className="interior-background">
           <div className="text">
@@ -99,7 +96,6 @@ function CarreraPage() {
           />
         </div>
       </section>
-
       
       <section>
         <div className="carrera-model-intro">

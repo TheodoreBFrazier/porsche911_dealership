@@ -27,7 +27,7 @@ function AllTurboModels() {
           return <SingleTurbo key={turbo.turbo_id} turbo={turbo} />;
         })};
     </div>
-  )
+  );
 }
 
 export default AllTurboModels;

@@ -100,7 +100,6 @@ function Home() {
           <h1> There is a 911 for everyone.</h1>
           <h2> Whether you are looking at obtaining the exhilerating new 992 generation 991, or looking for a high quality used 911 from one of the previous generations, we can help.</h2>
         </div>
-        <hr className="rule" />
         <div className="actions">
           <Link to="/porschestore" style={{ textDecoration: 'none', color: 'black', border: '2px solid black' }}>
             View Inventory

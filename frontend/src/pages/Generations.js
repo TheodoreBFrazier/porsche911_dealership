@@ -21,7 +21,7 @@ function Generations() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 

@@ -8,8 +8,6 @@ function SingleCarreraModelStats({ carrera }) {
             <p>Starting at ${carrera.price.toLocaleString()}</p>
             <hr />
             <h3>Technical Data</h3>
-
-
             <h5>Engine: </h5><p>{carrera.motor}</p>
             <h5>Bore: </h5><p>{carrera.bore}</p>
             <h5>Stroke: </h5><p>{carrera.stroke}</p>
@@ -21,10 +19,8 @@ function SingleCarreraModelStats({ carrera }) {
             <h5>Max Torque @ RPM:</h5><p>{carrera.max_torque_at_rpm}</p>
             <h5>Max Power Per Liter:</h5><p>{carrera.max_power_per_liter}</p>
             <p>Power To Weight Ratio:{carrera.power_to_weight}</p>
-
-
         </div>
-    )
+    );
 }
 
 export default SingleCarreraModelStats;

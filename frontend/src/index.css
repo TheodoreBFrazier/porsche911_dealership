@@ -425,13 +425,13 @@ width: 90%;
 
 .shop-prompt {
   height: 100vh;
+  background-color: #4b6cb7;
 }
 
 .shop-prompt .text {
   width: 33.3%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
 }
 
 .actions {
@@ -560,10 +560,6 @@ width: 90%;
   color: white;
   margin: auto;
   display: block;
-}
-
-.green-cab-turbo img {
-  width: 100vw;
 }
 
 .turbo-carousel-buttons {
@@ -1095,4 +1091,31 @@ margin: auto;
   column-gap: 100px;
   float: left;
   width: 25%;
+}
+
+/* ------------------------------------------------------ FOR SALE PAGE ------------------------------------------------------ */
+
+.user-portal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  height: 100vh;
+}
+
+.user-information {
+  height: 95vh;
+  width: 20vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid black;
+}
+
+.user-portal-sidebar {
+  border: 2px solid red;
+  width:25%
+}
+
+.user-portal .page {
+  margin-left: 25%;
+  border: 2px solid green;
 }

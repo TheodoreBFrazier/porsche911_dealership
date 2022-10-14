@@ -1,12 +1,6 @@
 import React from "react";
 
 
-//import hook
-//import fetchForSalePorsches from "../hooks/fetchForSalePorsches";
-//import porscheFetch from "../hooks/fetchForSalePorsches";
-import DealerInventory from "./AvailableCars"
-
-
 export default function ShopSearchBar( {searchTerm, setSearchTerm}) {
 
   //const { porschesForSale, setPorschesForSale } = fetchForSalePorsches();
@@ -26,11 +20,6 @@ export default function ShopSearchBar( {searchTerm, setSearchTerm}) {
           onChange={(event) => setSearchTerm(event.target.value)}
         />
         <br />
-      </div>
-      <div>
-        {/* {porschesForSale.length > 0 ?
-          <DealerInventory dealerInventory={porschesForSale.model_name.results[0]} />
-          : null} */}
       </div>
     </div>
     

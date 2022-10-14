@@ -27,8 +27,7 @@ function AllCarreraModels () {
                 })}
             </div>
         </div>
-    );
-    
+    );  
 }
 
 export default AllCarreraModels;
