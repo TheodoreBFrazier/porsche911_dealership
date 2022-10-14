@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../Assets/Images/porsche_logo.png"
 
 function UserPage() {
     return (
@@ -11,11 +12,20 @@ function UserPage() {
                             <div className="welcome">
                                 <h2>Hello!</h2>
                             </div>
+                            <div className="profile-label">
+                                <p>Email</p>
+                            </div>
                             <div className="email">
                                 <p>E-mail: theo@gmail.com</p>
                             </div>
+                            <div className="profile-label">
+                                <p>Email</p>
+                            </div>
                             <div className="dob">
                                 <p>DOB: 07/22/1988</p>
+                            </div>
+                            <div className="profile-label">
+                                <p>Email</p>
                             </div>
                             <div className="country">
                                 <p>COUNTRY: USA </p>
@@ -28,12 +38,18 @@ function UserPage() {
                 </div>
                 <div className="column">
                     <div className="page">
+                        <div className="logo">
+                            <img
+                                src={logo}
+                                alt="the porsche logo"
+                            />
+                        </div>
                         <div className="portal-information">
-
                             <div className="user-car">
                                 <h2>Your Cars</h2>
                                 <p>You don't have a Porsche yet.</p>
                             </div>
+                            <hr />
                             <div className="saved-cars">
                                 <h2>Saved Cars</h2>
                                 <p>Go to the sales page.</p>
