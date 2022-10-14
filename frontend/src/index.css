@@ -20,6 +20,10 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
+/* Action */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 32pt;
@@ -56,6 +60,14 @@ h6 {
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.em-fast {
+  font-family: 'Lora', serif;
+  font-size: 72pt;
+  color: #a70000;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* ------------------------------------------------------  UNIVERSAL STYLES   ------------------------------------------------------  */
@@ -204,9 +216,45 @@ h6 {
   background-repeat: no-repeat;
 }
 
+.hero-text {
+color: white;
+position: absolute;
+width: 25%;
+margin-left: 200px;
+margin-top: 100px;
+}
+
+
 .home-intro {
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
+}
+
+.service-cards {
+  margin-top: 50px;
+}
+
+.service-cards .service-cards-container {
+width: 90%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 10px;
+}
+
+.service-cards .service-cards-container .card {
+  border: 2px solid black;
+  height: 300px;
+  width: 485px;
+  border-radius: 18px;
+}
+
+.service-cards .service-cards-container .card .content {
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 25px;
 }
 
 .home-intro img {
@@ -222,8 +270,8 @@ h6 {
 
 .intro-text {
   width: 33.3%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
 .current-model-992 {
@@ -351,13 +399,14 @@ h6 {
   height: 400px;
   margin-left: auto;
   margin-right: auto;
+  column-gap: 10px;
 }
 
 .carrera-overview-cards-container .card {
   background-color: white;
   border-radius: 18px;
-  width: 300px;
-  height: 300px;
+  width: 90%;
+  height: 90%;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -883,16 +932,35 @@ h6 {
 
 /* ------------------------------------------------------  GENERATIONS ------------------------------------------------------ */
 
+.vertical-rule {
+  border-end-end-radius: 10px;
+  border-left: 3px solid black;
+  height: 700px;
+  margin-left: 75px;
+}
+
+.generations {
+  height:3000px;
+}
+
 .generations-hero img {
   height: 100vh;
 }
 
-.gens-arr {
-  width: 90%;
-  text-align: center;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.generations .text {
+  width: 50%;
+}
+
+.generations-display {
+  width: 60%;
+  height: 3000px;
+}
+
+.generations-child  {
+width: 50%;
+height: 3000px;
+float: left;
+margin: auto;
 }
 
 .single-generation {
@@ -902,6 +970,7 @@ h6 {
 }
 
 .single-generation img {
+  border-radius: 5px;
   height: 300px;
 }
 

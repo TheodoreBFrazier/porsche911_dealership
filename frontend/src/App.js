@@ -65,7 +65,6 @@ function App() {
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
           </Routes>
         </main>
-        <Footer />
       </Router>
     </div>
   );
