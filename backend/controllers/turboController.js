@@ -44,6 +44,6 @@ turbo.get("/:id/technical", async (request, response) => {
     } catch (error) {
         console.log(error)
     }
-})
+});
 
 module.exports = turbo;

@@ -6,7 +6,7 @@ const { getAllUsers, getUser } = require("../queries/userQueries");
 users.get("/", async (request, response) => {
     const allUsers = await getAllUsers();
     if (allUsers[0]) {
-        response.status(200).json(getAllUsers)
+        response.status(200).json(allUsers)
         console.log(allUsers)
     } else {
         response.status(500).json({ error: "server error!!" })
