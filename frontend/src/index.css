@@ -22,7 +22,7 @@ body {
 
 /* Action */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
 
 h1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -63,7 +63,7 @@ h6 {
 }
 
 .em-fast {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 72pt;
   color: #a70000;
   margin-top: 10px;
@@ -217,13 +217,12 @@ h6 {
 }
 
 .hero-text {
-color: white;
-position: absolute;
-width: 25%;
-margin-left: 200px;
-margin-top: 100px;
+  color: white;
+  position: absolute;
+  width: 25%;
+  margin-left: 200px;
+  margin-top: 100px;
 }
-
 
 .home-intro {
   width: 100vw;
@@ -235,7 +234,7 @@ margin-top: 100px;
 }
 
 .service-cards .service-cards-container {
-width: 90%;
+  width: 90%;
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   height: 300px;
@@ -252,9 +251,9 @@ width: 90%;
 }
 
 .service-cards .service-cards-container .card .content {
- margin-left: 50px;
- margin-right: 50px;
- margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
 }
 
 .home-intro img {
@@ -485,13 +484,11 @@ width: 90%;
   -webkit-text-fill-color: transparent;
 }
 
-
-
 .turbo-info-card-row .turbo-card-container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
- row-gap: 10px;
+  row-gap: 10px;
   display: grid;
   grid-template-columns: auto auto;
   column-count: 2;
@@ -936,7 +933,7 @@ width: 90%;
 }
 
 .generations {
-  height:3000px;
+  height: 3000px;
 }
 
 .generations-hero img {
@@ -952,11 +949,11 @@ width: 90%;
   height: 3000px;
 }
 
-.generations-child  {
-width: 50%;
-height: 3000px;
-float: left;
-margin: auto;
+.generations-child {
+  width: 50%;
+  height: 3000px;
+  float: left;
+  margin: auto;
 }
 
 .single-generation {
@@ -1096,26 +1093,32 @@ margin: auto;
 /* ------------------------------------------------------ FOR SALE PAGE ------------------------------------------------------ */
 
 .user-portal {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
 }
 
-.user-information {
-  height: 95vh;
-  width: 20vw;
+.user-portal .user-portal-container .column .user-portal-sidebar {
+  margin-left: 200px;
+  background-color: black;
+  width: 50%;
+  height: 90vh;
+  border-radius: 18px;
+}
+
+.user-portal .user-portal-container .column .user-portal-sidebar .text {
+  color: white;
+  height: 50%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid black;
 }
 
 .user-portal-sidebar {
-  border: 2px solid red;
-  width:25%
+  height: 100%;
 }
 
 .user-portal .page {
-  margin-left: 25%;
-  border: 2px solid green;
+  height: 100%;
 }
