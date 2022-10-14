@@ -1,10 +1,10 @@
-const db = require("../db/dbconfig.js");
+const db = require("../db/dbConfig.js");
 
 const getAllUsers = async () => {
     try {
         const allUsers = await db.any("SELECT * FROM users");
         console.log(allUsers)
-        return allUsers
+        return allUsers;
     } catch (error) {
         return error;
     }
@@ -19,4 +19,4 @@ const getUser = async (id) => {
     }
 }
 
-module.exports { getAllUsers, getUser }
+module.exports = { getAllUsers, getUser }
