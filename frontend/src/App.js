@@ -41,7 +41,12 @@ import About from './pages/AboutMe';
 //Online Shop
 import Shop from './pages/Shop';
 
+//Single View of For Sale Car
 import ForSaleDetails from './Components/ForSaleDetails';
+
+//Sell Page
+
+import Sell from './Components/SellPorsche';
 
 function App() {
   return (
@@ -63,6 +68,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/porschestore" element={<Shop />} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
+            <Route path="/sell" element={<Sell />} />
           </Routes>
         </main>
       </Router>

@@ -1,4 +1,4 @@
-\ c data_dev;
+\c data_dev;
 
 INSERT INTO
     carrera_models(
@@ -871,4 +871,48 @@ VALUES
         'Present',
         'The current 992-generaton marked perhaps the most extreme styling chage for the 911, with a long light bar in the back and full track width for all models, not just the four-wheel drive and motorsport models. The turbocharged flat-six engines remain, with incredibly low emmssons, yet more power. The 992 shows that high performance cars can join the fight for climate change. With the 992, there are also talks of the first hybrid 911 becoming a reality.',
         'generations_992.webp'
+    );
+
+INSERT INTO
+    users(
+        first_name,
+        last_name,
+        age,
+        email,
+        user_name,
+        password,
+        favorite_porsches,
+        image
+    )
+VALUES
+    (
+        'Theodore',
+        'Frazier',
+        34,
+        'theo@gmail.com',
+        'tfrazier',
+        'iloveporsches',
+        NULL,
+        NULL
+    );
+
+INSERT INTO
+    users_porsche(
+        model_name,
+        body_style,
+        year,
+        generation,
+        color,
+        transmission,
+        image
+    )
+VALUES
+    (
+        '911 Carrera 4S',
+        'Coupe',
+        2004,
+        '996',
+        'Silver',
+        'Automatic',
+        NULL
     );

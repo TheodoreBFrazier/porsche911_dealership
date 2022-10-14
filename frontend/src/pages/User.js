@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../Assets/Images/porsche_logo.png"
+import { Link } from "react-router-dom";
 
 function UserPage() {
     return (
@@ -31,7 +32,7 @@ function UserPage() {
                                 <p>COUNTRY: USA </p>
                             </div>
                             <div>
-                                EDIT BUTTON WILL GO HERE
+                                EDIT BUTTON WILL GO HERE - RED
                             </div>
                         </div>
                     </div>
@@ -47,7 +48,11 @@ function UserPage() {
                         <div className="portal-information">
                             <div className="user-car">
                                 <h2>Your Cars</h2>
-                                <p>You don't have a Porsche yet.</p>
+                                <p>You don't have a Porsche yet. - Form to add a car</p>
+
+                                <Link to="/sell" style={{ textDecoration: 'none', color: 'white' }} >
+                                    Need to Sell?
+                                </Link>
                             </div>
                             <hr />
                             <div className="saved-cars">
