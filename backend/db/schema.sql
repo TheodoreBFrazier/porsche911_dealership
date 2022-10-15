@@ -126,7 +126,6 @@ CREATE TABLE users(
     email TEXT,
     user_name VARCHAR(50) UNIQUE NOT NULL,
     password TEXT NOT NULL,
-    favorite_porsches INT REFERENCES porsches_4_sale(porsche_id),
     image TEXT DEFAULT NULL
 );
 

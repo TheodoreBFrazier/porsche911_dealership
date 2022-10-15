@@ -881,7 +881,6 @@ INSERT INTO
         email,
         user_name,
         password,
-        favorite_porsches,
         image
     )
 VALUES
@@ -892,7 +891,6 @@ VALUES
         'theo@gmail.com',
         'tfrazier',
         'iloveporsches',
-        NULL,
         NULL
     );
 
