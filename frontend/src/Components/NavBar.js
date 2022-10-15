@@ -25,8 +25,8 @@ function NavBar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/user" style={{ textDecoration: 'none', color: 'white' }}>
-                        Sign In 
+                    <Link to="/login" style={{ textDecoration: 'none', color: 'white' }}>
+                        Account 
                     </Link>
                 </li>
             </ul >

@@ -47,6 +47,7 @@ import ForSaleDetails from './Components/ForSaleDetails';
 //Sell Page
 
 import Sell from './Components/SellPorsche';
+import UserLogIn from './pages/UserLogIn';
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
             <Route path="/porschestore" element={<Shop />} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
             <Route path="/sell" element={<Sell />} />
+            <Route path="/login" element={<UserLogIn />} />
           </Routes>
         </main>
       </Router>
