@@ -176,6 +176,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  z-index: 0;
 }
 
 .sub-navigation .sub-nav-links {
@@ -214,6 +215,8 @@ h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  margin-bottom: 0px;
+  z-index: -1;
 }
 
 .hero-text {
@@ -225,35 +228,33 @@ h6 {
 }
 
 .home-intro {
-  width: 100vw;
-  height: 60vh;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 150vh;
+}
+
+.home-intro .intro-text {
+  float: right;
+  width: 50%;
+  height: 110vh;
+  background-color: black;
+}
+
+.home-intro .intro-text .text {
+  display: block;
+  height: 80%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: auto;
+  color: white;
 }
 
 .service-cards {
   margin-top: 50px;
-}
-
-.service-cards .service-cards-container {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  grid-gap: 10px;
-}
-
-.service-cards .service-cards-container .card {
-  border: 2px solid black;
-  height: 300px;
-  width: 485px;
-  border-radius: 18px;
-}
-
-.service-cards .service-cards-container .card .content {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 25px;
 }
 
 .home-intro img {
@@ -273,8 +274,22 @@ h6 {
   margin-top: 100px;
 }
 
+.button-section {
+  margin-top: 75px;
+}
+
+.overview-cards {
+  width: 100vw;
+  height: 500px;
+ background-color: black;
+}
+
 .current-model-992 {
   background-color: white;
+}
+
+.button-section-home {
+  margin-top: 75px;
 }
 
 .current-model-992-banner {
@@ -319,7 +334,6 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-radius: 18px;
 }
 
 .sub-intro {
@@ -1000,34 +1014,40 @@ h6 {
 
 /* ------------------------------------------------------ FOR SALE PAGE ------------------------------------------------------ */
 
-.for-sale-arr {
-  margin: auto;
-  width: 90%;
-}
-
-.for-sale-arr {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .single-car-card {
-  height: 670px;
-  float: left;
-  width: 33.33%;
+  height: 500px;
+  width: 30%;
   margin: auto;
   z-index: -10;
+  border: 0.5px black solid;
+  border-radius: 15px;
+}
+
+.single-car-card-content {
+  width: 90%;
+  height: 90%;
+  border: 2px solid green;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .single-car-card .car-heading {
   width: 100%;
 }
 
-.single-car-card .car-heading h4 {
-  width: 75%;
+.single-car-card .car-heading {
+  border: 1px solid red;
+  text-align: left;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+}
+
+.single-car-card .car-heading h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .single-car-card .forsale-model-image img {
@@ -1036,10 +1056,11 @@ h6 {
   margin-right: auto;
   height: 250px;
   z-index: -9;
+  border-radius: 10px;
 }
 
 .single-car-card .car-subheading {
-  width: 75%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -1047,15 +1068,18 @@ h6 {
 
 .button-section {
   margin-left: auto;
-  margin-left: auto;
-  width: 90%;
-  background-color: yellow;
+  margin-right: auto;
+  width: 70%;
 }
 
 .button-section .view-car-button {
-  width: 50%;
+  height: 50px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
+  border-radius: 25px;
+  border: none;
 }
 
 .show-porsche {
@@ -1105,7 +1129,7 @@ h6 {
   border-radius: 18px;
 }
 
-.user-portal .user-portal-container .column .user-portal-sidebar .logo  {
+.user-portal .user-portal-container .column .user-portal-sidebar .logo {
   height: 20px;
 }
 
@@ -1131,7 +1155,6 @@ h6 {
   width: auto;
 }
 
-
 .profile-label {
-  color: #C29049;
+  color: #c29049;
 }

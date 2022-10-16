@@ -21,37 +21,32 @@ function Home() {
           <h2>MOVE FOWARD</h2>
           <h1 className="em-fast">FAST</h1>
           <h4>With the exciting the Carrera, now available at Porsche 911 Boutiqye.</h4>
-          </div>
+        </div>
       </section>
       <section className="home-intro">
         <div className="intro-text">
-          <h1 className="intro-heading">Find the 911 of Your Dreams.</h1>
-          <p>
-            Welcome to the only online store devoted exclusively to Porsche 911!
-          </p>
-        </div>
-        <div className="service-cards">
-          <div className="service-cards-container">
-            <div className="card">
-              <div className="content">
-                <h3>Pure 911</h3>
-                <h5>As great as all Porsches are, we are the online online source devoted to soley the Porsche 911s. No Panameras, no Cayannes, no Macans, and no Boxters. </h5>
-              </div>
-            </div>
-            <div className="card">
-              <div className="content">
-                <h2> Top Selection</h2>
-                <h4>Choose from large selection of Porsche 911s from every time period and generation. We even have a selction of one-off and rare models.</h4>
-              </div>
-            </div>
-            <div className="card">
-              <div className="content">
-                <h2> Sell With Confidence</h2>
-                <h4>Need to part with your Porsche? We know it's tough to part with your beloved car, but we can partner with you to ensure your Porsche 911 finds a new home with a fellow ethusiast.</h4>
-              </div>
+          <div className="text">
+            <h2>Porsche Dealership</h2>
+            <h4>BUY AND SHOP WITH CONFIDENCE</h4>
+            <h4>Welcome to Porsche Store, the only online marketplace devoted soley to the porsche 911.
+              Search our inventory of both new and used 911s. Our inventory includes classics, air-cooled
+              and modern water-cooled 911s.
+              <br />
+              We also help sellers find serious buyers. If you need to part with your 911, we can help you
+              find your prized Porsche a new home.
+            </h4>
+            <div className="button-section-home">
+              <button className="view-shop-button">
+                <Link to={`/porschestore`} style={{ textDecoration: 'none', color: 'white' }}>
+                  VIEW DETAILS
+                </Link>
+              </button>
             </div>
           </div>
         </div>
+      </section>
+      <section className="overview-cards">
+        <h1>Hi</h1>
       </section>
       <section className="current-model-992">
         <div className="current-model-992-text">
