@@ -45,6 +45,9 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="create-account">
+        <h4>Hi</h4>
+      </section>
       <section className="overview-cards">
         <h1>Hi</h1>
       </section>
@@ -94,11 +97,6 @@ function Home() {
         <div className="text">
           <h1> There is a 911 for everyone.</h1>
           <h2> Whether you are looking at obtaining the exhilerating new 992 generation 991, or looking for a high quality used 911 from one of the previous generations, we can help.</h2>
-        </div>
-        <div className="actions">
-          <Link to="/porschestore" style={{ textDecoration: 'none', color: 'black', border: '2px solid black' }}>
-            View Inventory
-          </Link>
         </div>
       </section>
     </div>
