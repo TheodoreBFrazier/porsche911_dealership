@@ -23,8 +23,7 @@ function SingleCarreraModel({ carrera }) {
                     <div className="technincal-data">
                         <br />
                         <br />
-                        <br />
-                        
+                        <br />                 
                         <p><strong>Engine: </strong>{carrera.motor}</p>
                         <p><strong>Bore:</strong>{carrera.bore}</p>
                         <p><strong>Stroke: </strong>{carrera.stroke}</p>
@@ -36,7 +35,6 @@ function SingleCarreraModel({ carrera }) {
                         <p><strong>Max Torque @ RPM:</strong>{carrera.max_torque_at_rpm}</p>
                         <p><strong>Max Power Per Liter:</strong>{carrera.max_power_per_liter}</p>
                         <p><strong>Power To Weight Ratio:</strong>{carrera.power_to_weight}</p>
-
                     </div>
                 </div>
             </Collapsible>

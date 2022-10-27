@@ -16,7 +16,6 @@ export default function ShopSearchBar( {searchTerm, setSearchTerm}) {
           type="text"
           placeholder="   Search for a Porsche"
           value={searchTerm}
-          //onChange={(event) => setPorschesForSale({ ...porschesForSale, model_name: event.target.value })}
           onChange={(event) => setSearchTerm(event.target.value)}
         />
         <br />

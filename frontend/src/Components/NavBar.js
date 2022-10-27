@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import userProfile from "../Assets/Images/user-page.png"
 
+import homeIcon from "../Assets/Images/porsche_logo.png"
+
 
 
 function NavBar() {
@@ -9,24 +11,27 @@ function NavBar() {
         <nav className="navigation">
 
             <ul className="nav-links" >
-                <li>
-                    <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-                        Home
+                <li className='home-link-icon'>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>
+                        <img
+                            src={homeIcon}
+                            alt="Porsche logo"
+                        />
                     </Link>
                 </li>
                 <li>
-                    <Link to="/generations" style={{ textDecoration: 'none', color: 'white' }}>
+                    <Link to="/generations" style={{ textDecoration: 'none', color: 'black' }}>
                         911 History
                     </Link>
                 </li>
                 <li>
-                    <Link to="/porschestore" style={{ textDecoration: 'none', color: 'white' }}>
+                    <Link to="/porschestore" style={{ textDecoration: 'none', color: 'black' }}>
                         Shop
                     </Link>
                 </li>
                 <li>
-                    <Link to="/login" style={{ textDecoration: 'none', color: 'white' }}>
-                        Account 
+                    <Link to="/login" style={{ textDecoration: 'none', color: 'black' }}>
+                        Account
                     </Link>
                 </li>
             </ul >

@@ -30,5 +30,4 @@ let navigate = useNavigate();
         })
         .catch((element) => console.log(element))
     };
-
 }

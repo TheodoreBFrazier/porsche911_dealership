@@ -52,6 +52,4 @@ export default function ForSaleDetails() {
             </div>
         </div>
     </article>
-
-
 }

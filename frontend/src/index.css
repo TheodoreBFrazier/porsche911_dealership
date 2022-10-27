@@ -70,6 +70,11 @@ h6 {
   margin-bottom: 10px;
 }
 
+.hero-text-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 72pt;
+}
+
 /* ------------------------------------------------------  UNIVERSAL STYLES   ------------------------------------------------------  */
 
 .technical-data-collaspable {
@@ -117,9 +122,9 @@ h6 {
 /* ------------------------------------------------------ NAVIGATION  ------------------------------------------------------  */
 
 .navigation {
-  height: 50px;
+  height: 100px;
   width: 100vw;
-  background-color: #333333;
+  background-color: white;
 }
 
 .navigation .nav-links {
@@ -130,6 +135,7 @@ h6 {
 }
 
 .navigation .nav-links li {
+  color: black;
   display: inline;
   text-decoration: none;
   margin-right: 30px;
@@ -139,6 +145,10 @@ h6 {
 .navigation .nav-links li link {
   text-decoration: none;
   color: black;
+}
+
+.home-link-icon img {
+  height: 32px;
 }
 
 .navigation-links {
@@ -207,55 +217,95 @@ h6 {
 
 /*  ------------------------------------------------------ HOME PAGE  ------------------------------------------------------  */
 
-.Home .Hero {
+.home-hero {
+  position: relative;
   width: 100vw;
   height: 100vh;
+}
+
+.home-hero .hero-image img {
   position: relative;
-  background: url("./Assets/Images/hero-home-img.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-bottom: 0px;
   z-index: -1;
 }
 
-.hero-text {
-  color: white;
-  position: absolute;
-  width: 25%;
-  margin-left: 200px;
-  margin-top: 100px;
-}
-
 .home-intro {
-  margin-top: -100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 150vh;
-  background-color: yellow;
+  height: 75vh;
+  width: 100vw;
 }
 
-.home-intro .intro-text {
-  float: right;
-  width: 50%;
-  height: 110vh;
-  background-color: black;
+.home-intro .typography-container {
+  width: 850px;
+  margin: auto;
 }
 
-.home-intro .intro-text .text {
+.home-hero .hero-text {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 45%;
+  z-index: 0;
+}
+
+.home-hero .hero-text h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home-intro img {
   display: block;
-  height: 80%;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 90px;
-  margin-bottom: auto;
-  color: white;
+  height: 100vh;
+  width: 100vw;
 }
 
-.service-cards {
-  margin-top: 50px;
+.hero-image {
+  margin-left: 25%;
+}
+
+.featured {
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100vw;
+}
+
+.featured .card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 90%;
+  height: 90%;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.featured .card .data {
+  height: 90%;
+  width: 90%;
+  column-count: 2;
+  margin-top: auto;
+}
+
+.featured .card .data:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.featured .card .data-container {
+  display: inline-block;
+  width: 90%;
+  height: 90%;
+  color: white;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 10px;
+}
+
+.intro-container .grid-item .intro-section .text {
+  color: white;
 }
 
 .home-intro img {
@@ -283,7 +333,7 @@ h6 {
   margin-top: 0px;
   width: 100vw;
   height: 500px;
- background-color: black;
+  background-color: black;
 }
 
 .overview-cards h1 {
@@ -454,7 +504,7 @@ h6 {
 }
 
 .create-account h4 {
-margin-top: 0px;
+  margin-top: 0px;
 }
 
 /* ------------------------------------------------------  TURBO PAGE  ------------------------------------------------------  */
@@ -732,10 +782,9 @@ margin-top: 0px;
 .carrera-card:hover {
   height: 670px;
   float: left;
-  width: 33.33%;
+  width: 33.33a5;
   margin: auto;
   z-index: -10;
-  background-color: black;
 }
 
 /* Array of data columns */

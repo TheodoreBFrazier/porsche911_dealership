@@ -13,14 +13,12 @@ export default function NewCarreraBanner() {
                 <nav className="sub-navigation">
 
                     <ul className="sub-nav-links">
-
                         <li>
                             <img
                                 src={carreraPhoto}
                                 alt="carrera-image"
                             />
                             <Link to="/carrera" className={"sub-link-styles"}>
-
                                 Carrera
                             </Link>
                         </li>
@@ -29,7 +27,6 @@ export default function NewCarreraBanner() {
                                 src={turboPhoto}
                                 alt="turbo-image"
                             />
-
                             <Link to="/turbo" className={"sub-link-styles"}>
 
                                 Turbo
@@ -43,10 +40,8 @@ export default function NewCarreraBanner() {
                             <Link to="/gt3" className={"sub-link-styles"}>
                                 GT3
                             </Link>
-
                         </li>
                     </ul>
-
                 </nav >
             </Collapsible >
         </div>

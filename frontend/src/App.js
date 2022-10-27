@@ -54,7 +54,6 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <NewCarreraBanner />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

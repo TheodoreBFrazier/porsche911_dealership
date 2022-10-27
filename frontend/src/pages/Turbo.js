@@ -120,10 +120,7 @@ function TurboPage() {
           <AllTurboModels />
         </div>
       </section >
-
-
-    </div >
-
+    </div>
   );
 }
 
