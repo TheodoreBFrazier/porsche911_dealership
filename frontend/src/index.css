@@ -304,6 +304,18 @@ h6 {
   border-radius: 10px;
 }
 
+.featured .card .data-container .photo {
+  height: 580px;
+width: auto;
+object-fit:cover;
+}
+
+.featured .card .data-container img {
+  object-fit:cover;
+
+
+}
+
 .intro-container .grid-item .intro-section .text {
   color: white;
 }

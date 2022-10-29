@@ -16,12 +16,9 @@ export default function GT3Page() {
       </section>
 
       <section className="gt3">
-
         <div className="gt3-intro">
           <img src={fastGt3} alt="gt3 at speed" />
         </div>
-
-
         <div className="text-section">
           <div className="word-fast"> <h2> Go. </h2><h1> Go Fast. </h1> </div>
           <h6> Carpe diem, they say – seize the day. But we are Porsche. And so our motto for the new 911 GT3 models is: carpe secundum –
@@ -37,11 +34,9 @@ export default function GT3Page() {
       </section>
 
       <section className="gt3-touring">
-
         <div className="gt3-touring-intro">
           <img src={fastGt3Touring} alt="gt3 touring at speed" />
         </div>
-
         <div className="text-section">
           <div className="word-fast"> <h2> Fast can be </h2><h1> Luxurious </h1> </div>
           <h6>
@@ -52,7 +47,6 @@ export default function GT3Page() {
             It will not be instantly recognizable to everyone on the road. But that is precisely what increases its puristic appeal. And the experience of driving it.
           </h6>
         </div>
-
       </section>
 
 

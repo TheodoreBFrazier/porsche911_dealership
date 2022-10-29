@@ -1,17 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+//Material UI
+import Card from '@mui/material/Card';
+
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 //Importing of images
 
 // HERO ---- 
 import homeHero from "../Assets/Images/hero-home-img.png"
-import dealership from "../Assets/Images/dealership.webp"
 // Carrera COUPE
 //Hero image is in CSS file
 import ContactForm from "../Components/ContactForm";
 
-import testFeature from "../Assets/Images/993.jpg"
+
 
 
 
@@ -35,30 +42,34 @@ function Home() {
           />
         </div>
       </section>
+
       <section className="home-intro">
-
         <div className="typography-container">
-
           <h1> The only dealership devoted to the Porsche 911. Search from a unrivaled selction of Porsche 911 from all eras. Both new and used models avaliable. Find the perfect 911 for you.</h1>
         </div>
-      </section >
+      </section>
+
       <section className="featured">
-        <div className="card">
-          <div className="data">
-            <div className="data-container">
-              <div className="model-name">
-  
-                <p>This is the test</p>
-              </div>
-            </div>
-            <div className="data-container">
-              <div className="model-name">
-     
-                <p>... will the data be different?</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardMedia
+            component="img"
+            height="140"
+            alt="icon goes here"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+             Heading
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+          Test Text
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+
       </section>
       <ContactForm />
     </div >
