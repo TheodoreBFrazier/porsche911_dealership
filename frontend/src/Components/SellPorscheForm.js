@@ -55,6 +55,7 @@ export default function SellPorscheForm() {
                 name="name"
                 label="Name"
                 type="text"
+                variant="filled"
                 value={formValues.name}
                 onChange={handleInputChange}
             />
@@ -63,6 +64,7 @@ export default function SellPorscheForm() {
                 name="city"
                 label="City"
                 type="text"
+                variant="filled"
                 value={formValues.city}
                 onChange={handleInputChange}
             />
@@ -71,6 +73,7 @@ export default function SellPorscheForm() {
                 name="state"
                 label="State"
                 type="text"
+                variant="filled"
                 value={formValues.state}
                 onChange={handleInputChange}
             />
@@ -80,6 +83,7 @@ export default function SellPorscheForm() {
                 label="E-mail"
                 placeholder="E-mail"
                 type="text"
+                variant="filled"
                 value={formValues.email}
                 onChange={handleInputChange}
             />
@@ -89,6 +93,7 @@ export default function SellPorscheForm() {
                 label="Model"
                 placeholder="Model"
                 type="text"
+                variant="filled"
                 value={formValues.sellersPorscheModel}
                 onChange={handleInputChange}
             />
@@ -98,6 +103,7 @@ export default function SellPorscheForm() {
                 label="Model Year"
                 placeholder="Model Year"
                 type="text"
+                variant="filled"
                 value={formValues.year}
                 onChange={handleInputChange}
             />
@@ -107,16 +113,17 @@ export default function SellPorscheForm() {
                 label="Asking Price"
                 placeholder="Asking price"
                 type="text"
+                variant="filled"
                 value={formValues.askingPrice}
                 onChange={handleInputChange}
             />
-
             <TextField
                 id="color-input"
                 name="modelColor"
                 label="Color"
                 placeholder="Color"
                 type="text"
+                variant="filled"
                 value={formValues.modelColor}
                 onChange={handleInputChange}
             />
@@ -180,6 +187,7 @@ export default function SellPorscheForm() {
                 label="Description"
                 placeholder="write a description"
                 type="text"
+                variant="filled"
                 value={formValues.description}
                 onChange={handleInputChange}
                 style={{ height: 400 }}
