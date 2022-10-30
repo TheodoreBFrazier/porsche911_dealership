@@ -18,7 +18,7 @@ function SingleGT3Model({ gt3 }) {
                 <h5>{gt3.description}</h5>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default SingleGT3Model;

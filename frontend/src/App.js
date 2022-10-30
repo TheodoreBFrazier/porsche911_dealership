@@ -6,28 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar"
 
-import NewCarreraBanner from "./Components/NewCarreraBanner"
-
-// Import Footer
-
-import Footer from './Components/Footer';
-
 //Import Pages
 import Home from "./pages/Home";
 
-//992 Gen - current generation Pages 
-
-//base 992 Carrera 
 import CarreraPage from "./pages/Carrera";
-
-//GT3 High Performance Model Page
 import GT3Page from "./pages/GT3";
-
-//Turbo Models
 import TurboPage from "./pages/Turbo";
-
-//Coming soon page for the upcoming Sport Classic Model
-
 
 //Generations 
 import Generations from "./pages/Generations";
@@ -46,7 +30,6 @@ import ForSaleDetails from './Components/ForSaleDetails';
 
 //Sell Page
 
-import Sell from './Components/SellPorsche';
 import UserLogIn from './pages/UserLogIn';
 
 function App() {
@@ -68,7 +51,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/porschestore" element={<Shop />} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
-            <Route path="/sell" element={<Sell />} />
             <Route path="/login" element={<UserLogIn />} />
           </Routes>
         </main>

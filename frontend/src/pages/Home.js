@@ -30,7 +30,7 @@ import airCooled from "../Assets/Images/air-cooled.jpg"
 import modernPorsche from "../Assets/Images/porsche997-carrera-s.jpg"
 import newImage from "../Assets/Images/modern.jpeg.webp"
 
-
+import SellPorscheForm from "../Components/SellPorscheForm";
 
 
 
@@ -242,8 +242,8 @@ function Home() {
       </section>
 
 
+<SellPorscheForm/>
 
-      <ContactForm />
     </div >
   );
 }

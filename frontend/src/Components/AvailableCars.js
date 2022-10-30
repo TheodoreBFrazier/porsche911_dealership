@@ -47,4 +47,4 @@ export default function DealerInventory({ searchTerm }) {
       })}
     </div>
   );
-} 
+};

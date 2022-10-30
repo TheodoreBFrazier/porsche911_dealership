@@ -37,6 +37,5 @@ export default function SingleCarForSale({ porsche }) {
             </CardContent>
         </Card>
     );
-
-}
+};
 
