@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 /*import PorschesForSale from "./ModelsForSale";*/
-import SingleCarForSale from "./SinglePorscheForSale";
+import SinglePorscheForSale from "./SinglePorscheForSale";
 
 const API = process.env.REACT_APP_API_URL;
 
@@ -43,7 +43,7 @@ export default function DealerInventory({ searchTerm }) {
   return (
     <div className="for-sale-arr">
       {filteredInventory.map((porsche) => {
-        return <SingleCarForSale key={porsche.porsche_id} porsche={porsche} />
+        return <SinglePorscheForSale key={porsche.porsche_id} porsche={porsche} />
       })}
     </div>
   );
