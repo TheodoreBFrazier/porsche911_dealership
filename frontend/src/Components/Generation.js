@@ -20,7 +20,7 @@ function Generation({ generation }) {
                 </Typography>
             </CardContent>
             <CardMedia
-                component="image"
+                component="img"
                 image={`/images/${generation.image}`}
                 alt="generation-photo"
                 height="150"
