@@ -85,7 +85,7 @@ export default function SellPorscheForm() {
             />
             <TextField
                 id="model-input"
-                name="model"
+                name="sellersPorscheModel"
                 label="Model"
                 placeholder="Model"
                 type="text"
@@ -107,28 +107,19 @@ export default function SellPorscheForm() {
                 label="Asking Price"
                 placeholder="Asking price"
                 type="text"
-                value={formValues.email}
+                value={formValues.askingPrice}
                 onChange={handleInputChange}
             />
-            <TextField
-                id="email-input"
-                name="email"
-                label="E-mail"
-                placeholder="E-mail"
-                type="text"
-                value={formValues.email}
-                onChange={handleInputChange}
-            />
+
             <TextField
                 id="color-input"
-                name="modelcolor"
+                name="modelColor"
                 label="Color"
                 placeholder="Color"
                 type="text"
                 value={formValues.modelColor}
                 onChange={handleInputChange}
             />
-
             <RadioGroup
                 name="bodystyle"
                 value={formValues.bodystyle}
