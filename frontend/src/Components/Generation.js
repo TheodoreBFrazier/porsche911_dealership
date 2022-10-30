@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 function Generation({ generation }) {
     return (
         <Card>
-            <CardContent>
+            <CardContent sx={{ width: 375, height: 'auto' }}>
                 <Typography gutterBottom variant="h3" component="div">
                     {generation.gen_name}
                 </Typography>
@@ -23,7 +23,7 @@ function Generation({ generation }) {
                 component="img"
                 image={`/images/${generation.image}`}
                 alt="generation-photo"
-                height="150"
+                sx={{ objectFit: "contain"}}
             />
             <Typography gutterBottom variant="h5" component="div">
                 {generation.description}
