@@ -18,6 +18,10 @@ import homeHero from "../Assets/Images/hero-home-img.png"
 //Hero image is in CSS file
 import ContactForm from "../Components/ContactForm";
 
+import classicImage from "../Assets/Images/classic-targa.jpg"
+import airCooled from "../Assets/Images/air-cooled.jpg"
+import modernPorsche from "../Assets/Images/porsche997-carrera-s.jpg"
+import newImage from "../Assets/Images/modern.jpeg.webp"
 
 
 
@@ -50,26 +54,102 @@ function Home() {
       </section>
 
       <section className="featured">
-        <Card sx={{ maxWidth: 345 }}>
-          <CardMedia
-            component="img"
-            height="140"
-            alt="icon goes here"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-             Heading
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-          Test Text
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
-          </CardActions>
-        </Card>
+        <div className="card-container">
 
+          <div className="card">
+            <Card sx={{ width: 370 }}>
+              <CardMedia
+                component="img"
+                image={classicImage}
+                height="140"
+                alt="icon goes here"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                 Classic
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Test Text
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learn More</Button>
+              </CardActions>
+            </Card>
+          </div>
+
+
+        <div className="card">
+          <Card sx={{ width: 370 }}>
+            <CardMedia
+              component="img"
+              height="140"
+              image={airCooled}
+              alt="icon goes here"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Air-cooled
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Test Text
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small">Share</Button>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+
+          </Card>
+        </div >
+
+        <div className="card">
+          <Card sx={{ width: 370 }}>
+            <CardMedia
+              component="img"
+              height="140"
+              src={modernPorsche}
+              alt="icon goes here"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Modern
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Test Text
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small">Share</Button>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+          </Card>
+        </div >
+
+        <div className="card">
+          <Card sx={{ width: 370 }}>
+            <CardMedia
+              component="img"
+              height="140"
+              src={newImage}
+              alt="icon goes here"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                New
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Test Text
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small">Share</Button>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+          </Card>
+        </div>
+        </div>
       </section>
       <ContactForm />
     </div >

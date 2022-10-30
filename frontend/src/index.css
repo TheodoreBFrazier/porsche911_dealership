@@ -261,60 +261,23 @@ h6 {
   margin-left: 25%;
 }
 
-.featured {
-  background-color: antiquewhite;
-  height: 100vh;
-  width: 100vw;
-}
-
-.featured .card {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 90%;
-  height: 90%;
-  background-color: black;
-  border-radius: 25px;
-}
-
-.featured .card .data {
-  height: 90%;
-  width: 90%;
-  column-count: 2;
+.featured  {
   margin-top: auto;
 }
 
-.featured .card .data:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.featured .card .data-container {
-  display: inline-block;
+.featured .card-container {
   width: 90%;
-  height: 90%;
-  color: white;
-  background-color: aquamarine;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-radius: 10px;
-}
-
-.featured .card .data-container .photo {
-  height: 580px;
-width: auto;
-object-fit:cover;
-}
-
-.featured .card .data-container img {
-  object-fit:cover;
-
+  display: flex;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
 
 }
+
+.featured .card-container > .card {
+  margin: 6px;
+}
+
 
 .intro-container .grid-item .intro-section .text {
   color: white;
@@ -356,25 +319,7 @@ object-fit:cover;
   background-color: white;
 }
 
-.button-section-home {
-  margin-top: 75px;
-}
 
-.current-model-992-banner {
-  width: 100%;
-  height: 25pt;
-  background-color: grey;
-}
-
-.current-model-992-text {
-  color: black;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-}
 
 .current-model-992-text p {
   margin-bottom: 0px;
