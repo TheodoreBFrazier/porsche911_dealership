@@ -78,6 +78,7 @@ export default function SellPorscheForm() {
                 id="email-input"
                 name="email"
                 label="E-mail"
+                placeholder="E-mail"
                 type="text"
                 value={formValues.email}
                 onChange={handleInputChange}
@@ -86,6 +87,7 @@ export default function SellPorscheForm() {
                 id="model-input"
                 name="model"
                 label="Model"
+                placeholder="Model"
                 type="text"
                 value={formValues.sellersPorscheModel}
                 onChange={handleInputChange}
@@ -94,6 +96,7 @@ export default function SellPorscheForm() {
                 id="year-input"
                 name="year"
                 label="Model Year"
+                placeholder="Model Year"
                 type="text"
                 value={formValues.year}
                 onChange={handleInputChange}
@@ -102,6 +105,7 @@ export default function SellPorscheForm() {
                 id="price-input"
                 name="price"
                 label="Asking Price"
+                placeholder="Asking price"
                 type="text"
                 value={formValues.email}
                 onChange={handleInputChange}
@@ -110,14 +114,16 @@ export default function SellPorscheForm() {
                 id="email-input"
                 name="email"
                 label="E-mail"
+                placeholder="E-mail"
                 type="text"
                 value={formValues.email}
                 onChange={handleInputChange}
             />
             <TextField
                 id="color-input"
-                name="color"
+                name="modelcolor"
                 label="Color"
+                placeholder="Color"
                 type="text"
                 value={formValues.modelColor}
                 onChange={handleInputChange}
@@ -181,10 +187,15 @@ export default function SellPorscheForm() {
                 id="description-input"
                 name="description"
                 label="Description"
+                placeholder="write a description"
                 type="text"
                 value={formValues.description}
                 onChange={handleInputChange}
+                style={{ height: 400 }}
             />
+            <Button variant="contained" color="primary" type="submit">
+                Submit
+            </Button>
         </form>
     );
 };
