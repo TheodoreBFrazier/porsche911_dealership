@@ -1,4 +1,4 @@
-\ c data_dev;
+\c data_dev;
 
 INSERT INTO
     carrera_models(

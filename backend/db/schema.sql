@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS data_dev;
 
 CREATE DATABASE data_dev;
 
-\ c data_dev;
+\c data_dev;
 
 --data for the current Porsche generation, the 992 
 CREATE TABLE carrera_models (

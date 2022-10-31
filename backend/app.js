@@ -14,7 +14,9 @@ const gt3Controller = require("./controllers/gt3Controller.js");
 const generationController = require("./controllers/generationController.js");
 const forSaleController = require("./controllers/forSaleController.js");
 const userController = require("./controllers/userController.js");
- 
+const authorizationController = require("./controllers/authorizationController")
+
+
 //Configure & evoking APP to express
 const app = express();
 
@@ -49,7 +51,9 @@ app.use("/porschestore", forSaleController)
 
 app.use("/users", userController);
 
-// UserCars
+// Authorization
+
+app.use("/authorization", authorizationController)
 
 //app.use("/")
 
