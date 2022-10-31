@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 //MATERIAL UI 
 
 //Form 
@@ -12,44 +12,55 @@ import RadioGroup from "@mui/material/RadioGroup";
 import Radio from "@mui/material/Radio";
 import Button from "@mui/material/Button";
 
-//Date for form
 
-//Storing the default values
-const formDefaultValues = {
-    name: "",
-    city: "",
-    /* state dropdown*/
-    state: "",
-    email: "",
-    sellersPorscheModel: "",
-    modelYear: "",
-    askingPrice: 0,
-    modelColor: "",
-    /* body style dropdown*/
-    bodystyle: "",
-    /* radio button*/
-    transmission: "",
-    description: "",
-}
+const [formValues, setFormValues] = useState(formDefaultValues);
 
 
 export default function SellPorscheForm() {
+    let navigate = useNavigate();
 
-    const [formValues, setFormValues] = useState(formDefaultValues);
+    const [porsche, setPorsche] = useState({
+        seller_name: "",
+        seller_number: "",
+        seller_email: "",
+        location_city: "",
+        location_state: "",
+        model_name: "",
+        year: 0,
+        body_style: "",
+        price: 0,
+        generation: "",
+        color: "",
+        transmission: "",
+        description: "",
+        main_image: "",
+        second_image: "",
+        third_image: "",
+        fourth_image: "",
+        fifth_image: "",
+    });
 
+    const sellPorsche = () => {
+        axios
+            .post(`${API}/porschestore`, porsche)
+            .then(
+                () => {
+                    navigate(`/porschestore`);
+                },
+                (error) => console.log(error)
+            )
+            .catch((c) => console.warn("catch", c))
+    }
 
-    const handleInputChange = (event) => {
-        const { name, value } = event.target;
-        setFormValues({
-            ...formValues,
-            [name]: value,
-        });
+    const handleTextChange = (event) => {
+        setPorsche({ ...porsche, [event.target.id]: event.target.value });
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(formValues)
+        sellPorsche();
     };
+
 
 
     return (

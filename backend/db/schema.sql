@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS data_dev;
 
 CREATE DATABASE data_dev;
 
-\c data_dev;
+\ c data_dev;
 
 --data for the current Porsche generation, the 992 
 CREATE TABLE carrera_models (
@@ -107,6 +107,28 @@ CREATE TABLE porsches_4_sale(
     fifth_image TEXT
 );
 
+CREATE TABLE p_2_p_porsches (
+    porsche_id SERIAL PRIMARY KEY,
+    seller_name TEXT,
+    seller_number VARCHAR(15),
+    seller_email VARCHAR(319),
+    location_city TEXT,
+    location_state TEXT,
+    model_name TEXT,
+    year SMALLINT,
+    body_style TEXT,
+    price INT,
+    generation TEXT,
+    color TEXT,
+    transmission TEXT,
+    description TEXT,
+    main_image TEXT,
+    second_image TEXT,
+    third_image TEXT,
+    fourth_image TEXT,
+    fifth_image TEXT
+);
+
 --data for the porsche generations 
 CREATE TABLE porsche_911_gens(
     gen_id SERIAL PRIMARY KEY,
@@ -131,12 +153,12 @@ CREATE TABLE users(
 
 --IF user already has a Porsche 911, they can add it and it will appear on their profile page
 CREATE TABLE users_porsche(
- user_porsche_id SERIAL PRIMARY KEY,
- model_name TEXT,
- body_style TEXT,
- year INT,
- generation TEXT,
- color TEXT,
- transmission TEXT,
- image TEXT DEFAULT NULL
+    user_porsche_id SERIAL PRIMARY KEY,
+    model_name TEXT,
+    body_style TEXT,
+    year INT,
+    generation TEXT,
+    color TEXT,
+    transmission TEXT,
+    image TEXT DEFAULT NULL
 )
