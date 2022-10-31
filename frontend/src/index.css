@@ -208,6 +208,12 @@ h6 {
   color: black;
 }
 
+/* ------------------------------------------------------ FORMS ------------------------------------------------------- */
+
+.form-container {
+  width: 75vw;
+}
+
 /* ------------------------------------------------------ FOOTER ------------------------------------------------------  */
 
 .footer {
@@ -266,18 +272,22 @@ h6 {
   height: 80vh;
 }
 
+.featured {
+  width: 60vw;
+}
+
 .featured .card-container {
-  background-color: green;
-  width: 80%;
-  display: flex;
-height: 500px;
+  width: 80vw;
+  display: inline-flex;
+  flex-flow: row wrap;
 margin-left: auto;
 margin-right: auto;
 
 }
 
 .featured .card-container > .card {
-  margin: 6px;
+  margin: 25px;
+ 
 }
 
 

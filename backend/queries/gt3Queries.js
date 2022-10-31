@@ -6,8 +6,7 @@ const getAllGt3s = async () => {
     try {       
         const allGt3s = await db.any("SELECT * FROM gt3_models");  
         console.log(allGt3s)
-        return allGt3s;    
-         
+        return allGt3s;          
      } catch (error) {
         return error;
     }
@@ -20,7 +19,7 @@ const getGt3Model = async (id) => {
     } catch (error) {
         return error
     }
-}
+};
 
 //Export connection
 

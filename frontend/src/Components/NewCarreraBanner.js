@@ -11,7 +11,6 @@ export default function NewCarreraBanner() {
         <div className="banner">
             <Collapsible className="collaspibleTrigger" trigger="The new 911" style={{ textDecoration: 'none', marginTop: '10px' }}>
                 <nav className="sub-navigation">
-
                     <ul className="sub-nav-links">
                         <li>
                             <img
@@ -46,4 +45,4 @@ export default function NewCarreraBanner() {
             </Collapsible >
         </div>
     );
-}
+};
