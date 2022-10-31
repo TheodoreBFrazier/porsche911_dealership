@@ -27,6 +27,7 @@ export default function SellPorscheForm() {
         location_state: "",
         model_name: "",
         year: 0,
+        mileage: 0,
         body_style: "",
         price: 0,
         generation: "",

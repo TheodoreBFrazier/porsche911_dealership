@@ -808,6 +808,51 @@ VALUES
     );
 
 INSERT INTO
+    p_2_p_porsches (
+        seller_name,
+        seller_number,
+        seller_email,
+        location_city,
+        location_state,
+        model_name,
+        year,
+        mileage,
+        body_style,
+        asking_price,
+        generation,
+        color,
+        transmission,
+        description,
+        main_image,
+        second_image,
+        third_image,
+        fourth_image,
+        fifth_image
+    )
+VALUES
+    (
+        'Theodore Frazier',
+        '9119110000',
+        'theo@theofrazier.com',
+        'New Rochelle',
+        'New York',
+        'Carrera 4S',
+        2005,
+        23700,
+        'Coupe',
+        450000,
+        '997',
+        'Dark Green',
+        'Manual',
+        'Near immaculate Carrera 4S in the New York area. Elegant green on tan color combination. Less than 25,000 miles. Available for pickup.',
+        null,
+        null,
+        null,
+        null,
+        null
+    );
+
+INSERT INTO
     porsche_911_gens(
         gen_name,
         year_began,
