@@ -26,7 +26,11 @@ export default function SingleCarForSale({ porsche }) {
                     {porsche.year}  {porsche.model_name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    ${porsche.price.toLocaleString()}
+                    ${porsche.price}
+
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+  
                     {porsche.color}
                 </Typography>
                 <CardActions>

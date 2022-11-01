@@ -127,13 +127,15 @@ function LogInUser({ setLogInText }) {
                     />
                     <br />
                     <Button
-                    type="submit" 
-                    value="Submit"
+                        type="submit"
+                        value="Submit"
                     >
                         Log In
                     </Button>
                 </div>
-
+                <div class="sign-up-action">
+                    <h3>Not a user? Sign up.</h3>
+                </div>
             </form>
         </div>
     );

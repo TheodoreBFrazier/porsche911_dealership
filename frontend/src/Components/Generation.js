@@ -12,10 +12,10 @@ function Generation({ generation }) {
     return (
         <Card>
             <CardContent sx={{ width: 375, height: 'auto' }}>
-                <Typography gutterBottom variant="h3" component="div">
+                <Typography gutterBottom variant="h5" component="div">
                     {generation.gen_name}
                 </Typography>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h6" component="div">
                     <span>{generation.year_began} - {generation.year_ended}</span>
                 </Typography>
             </CardContent>
@@ -25,7 +25,7 @@ function Generation({ generation }) {
                 alt="generation-photo"
                 sx={{ objectFit: "contain"}}
             />
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h6" component="div">
                 {generation.description}
             </Typography>
         </Card >
