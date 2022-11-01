@@ -30,8 +30,8 @@ function NavBar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/login" style={{ textDecoration: 'none', color: 'black' }}>
-                        Account
+                    <Link to="/users/login" style={{ textDecoration: 'none', color: 'black' }}>
+                        Sign In
                     </Link>
                 </li>
             </ul >

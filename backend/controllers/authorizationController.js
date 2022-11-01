@@ -21,4 +21,16 @@ authorization.post("/sign/up", async (request, response) => {
             .json({ success: false, error: "User already exists" })
 });
 
+authorization.post("/login", async (request, response) => {
+    const { user_name, password } = request.body;
+    const userInfo = await authorizeUser(user_name, password);
+
+    try {
+        if (!(userInfo.user_id)) response.json({ sucess: true, result: userInfo});
+        else response.status(500).json({ sucess: false, error: userInfo.error});
+    } catch (error) {
+        response.status(500).json({ sucess: false, error: "Incorrect Password"})
+    }
+});
+
 module.exports = authorization;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { useState } from 'react';
 //Import BrowserRouter info
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -17,7 +18,7 @@ import TurboPage from "./pages/Turbo";
 import Generations from "./pages/Generations";
 
 //User Panel
-import UserPage from "./pages/User"
+import UserPortal from "./pages/UserPortal"
 
 //About Page
 import About from './pages/AboutMe';
@@ -30,13 +31,19 @@ import ForSaleDetails from './Components/ForSaleDetails';
 
 //Sell Page
 
-import UserLogIn from './pages/UserLogIn';
+import LogInUser from './Components/LogInUser';
+
 
 function App() {
+
+  const [logText, setLogInText] = useState(
+    localStorage.getItem("userId") ? "Log Out" : "Log In"
+  );
+
   return (
     <div className="App">
       <Router>
-        <NavBar />
+        <NavBar logText={logText} setLogText={setLogInText} />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -47,11 +54,14 @@ function App() {
             <Route path="/GT3" element={<GT3Page />} />
             <Route exact path="/GT3/:id" />
             <Route path="/generations" element={<Generations />} />
-            <Route path="/user" element={<UserPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/porschestore" element={<Shop />} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
-            <Route path="/login" element={<UserLogIn />} />
+            <Route
+              path="/users/login"
+              element={<LogInUser setLogText={setLogInText} setLogInText={setLogInText} />}
+            />
+            <Route path="/users/:user_id/" element={<UserPortal />} />
           </Routes>
         </main>
       </Router>

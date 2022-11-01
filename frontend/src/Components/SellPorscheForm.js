@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 //MATERIAL UI 
 
 //Form 
@@ -13,8 +14,7 @@ import Radio from "@mui/material/Radio";
 import Button from "@mui/material/Button";
 
 
-const [formValues, setFormValues] = useState(formDefaultValues);
-
+const API = process.env.REACT_APP_API_URL;
 
 export default function SellPorscheForm() {
     let navigate = useNavigate();
@@ -75,8 +75,7 @@ export default function SellPorscheForm() {
                             label="Name"
                             type="text"
                             variant="filled"
-                            value={formValues.name}
-                            onChange={handleInputChange}
+                          
                         />
                     </Grid>
                     <br />
@@ -87,8 +86,8 @@ export default function SellPorscheForm() {
                             label="City"
                             type="text"
                             variant="filled"
-                            value={formValues.city}
-                            onChange={handleInputChange}
+                          
+                           
                         />
                         <TextField
                             style={{
@@ -100,8 +99,7 @@ export default function SellPorscheForm() {
                             label="State"
                             type="text"
                             variant="filled"
-                            value={formValues.state}
-                            onChange={handleInputChange}
+                      
                         />
                     </Grid>
                     <br />
@@ -116,8 +114,7 @@ export default function SellPorscheForm() {
                         placeholder="E-mail"
                         type="text"
                         variant="filled"
-                        value={formValues.email}
-                        onChange={handleInputChange}
+                     
                     />
                     <br />
                     <TextField
@@ -127,8 +124,7 @@ export default function SellPorscheForm() {
                         placeholder="Model"
                         type="text"
                         variant="filled"
-                        value={formValues.sellersPorscheModel}
-                        onChange={handleInputChange}
+                    
                     />
                     <br />
                     <TextField
@@ -139,8 +135,7 @@ export default function SellPorscheForm() {
                         placeholder="Model Year"
                         type="text"
                         variant="filled"
-                        value={formValues.year}
-                        onChange={handleInputChange}
+                    
                     />
                     <br />
                     <TextField
@@ -151,8 +146,7 @@ export default function SellPorscheForm() {
                         placeholder="Asking price"
                         type="text"
                         variant="filled"
-                        value={formValues.askingPrice}
-                        onChange={handleInputChange}
+                      
                     />
                     <TextField
                         style={{ width: "400px" }}
@@ -162,15 +156,13 @@ export default function SellPorscheForm() {
                         placeholder="Color"
                         type="text"
                         variant="filled"
-                        value={formValues.modelColor}
-                        onChange={handleInputChange}
+                      
                     />
 
                     <h4> Bodystyle </h4>
                     <RadioGroup
                         name="bodystyle"
-                        value={formValues.bodystyle}
-                        onChange={handleInputChange}
+                  
                         row
                     >
                         <Grid item>
@@ -199,8 +191,7 @@ export default function SellPorscheForm() {
                     <h4> Transmission </h4>
                     <RadioGroup
                         name="bodystyle"
-                        value={formValues.transmission}
-                        onChange={handleInputChange}
+         
                         row
                     >
                         <Grid item>
@@ -233,8 +224,7 @@ export default function SellPorscheForm() {
                         placeholder="write a description"
                         type="text"
                         variant="filled"
-                        value={formValues.description}
-                        onChange={handleInputChange}
+          
                         style={{ height: 400 }}
                     />
                     <Button variant="contained" color="primary" type="submit">
