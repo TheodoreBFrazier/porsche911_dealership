@@ -5,11 +5,17 @@ import { useNavigate } from "react-router-dom";
 //Axios
 import axios from "axios";
 
-//Links
-import { Link } from "react-router-dom";
-
 //error message
 import ErrorMessage from "./ErrorMessage";
+
+//MUI stuff
+
+import TextField from '@mui/material/TextField';
+import AccountCircle from '@mui/icons-material/AccountCircle';
+import LockIcon from '@mui/icons-material/Lock';
+import InputAdornment from '@mui/material/InputAdornment';
+import { Button } from "@mui/material";
+
 
 const API = process.env.REACT_APP_API_URL;
 
@@ -41,7 +47,7 @@ function LogInUser({ setLogInText }) {
                     localStorage.setItem("userInfo", JSON.stringify(userInfo));
                 }
                 setLogInText("Log out!")
-                if (userInfo.user_id) navigate(`/users/${userId}`);            
+                if (userInfo.user_id) navigate(`/users/${userId}`);
             })
             .catch((c) => {
                 if (c.response && c.response.data) {
@@ -58,16 +64,15 @@ function LogInUser({ setLogInText }) {
     };
 
     const handleSubmit = (event) => {
-        event.preventDefault();
         logInSuccess();
     };
 
     const handleClose = (event, reason) => {
-		if (reason === "clickaway") {
-			return;
-		}
-		setMessageOpen(false);
-	};
+        if (reason === "clickaway") {
+            return;
+        }
+        setMessageOpen(false);
+    };
 
     return (
         <div className="login-form">
@@ -82,22 +87,53 @@ function LogInUser({ setLogInText }) {
                 handleClose={handleClose}
             />
             <form onSubmit={handleSubmit} className="form">
-                <h2>Login Here</h2>
-                <input
-                    placeholder="Username"
-                    type="text"
-                    id="user_name"
-                    onChange={handleChange}
-                    value={user.user_name}
-                />
-                <input
-                    placeholder="Password"
-                    type="password"
-                    id="password"
-                    onChange={handleChange}
-                    value={user.password}
-                />
-                <button className="login-submit">Log In</button>
+                <div className="input-container">
+                    <h2>Login Here</h2>
+
+                    <TextField
+                        fullWidth
+                        label="UserName"
+                        placeholder="Username"
+                        type="text"
+                        id="user_name"
+                        onChange={handleChange}
+                        value={user.user_name}
+                        InputProps={{
+                            startAdornment: (
+                                <InputAdornment position="start">
+                                    <AccountCircle />
+                                </InputAdornment>
+                            ),
+                        }}
+                        variant="standard"
+                        margin="dense"
+                    />
+                    <br />
+                    <TextField fullWidth
+                        label="Password"
+                        type="password"
+                        id="password"
+                        onChange={handleChange}
+                        value={user.password}
+                        InputProps={{
+                            startAdornment: (
+                                <InputAdornment position="start">
+                                    <LockIcon />
+                                </InputAdornment>
+                            ),
+                        }}
+                        variant="standard"
+                        margin="dense"
+                    />
+                    <br />
+                    <Button
+                    type="submit" 
+                    value="Submit"
+                    >
+                        Log In
+                    </Button>
+                </div>
+
             </form>
         </div>
     );

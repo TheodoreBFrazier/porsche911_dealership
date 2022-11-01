@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import userProfile from "../Assets/Images/user-page.png"
 
 import homeIcon from "../Assets/Images/porsche_logo.png"
 
 
 
-function NavBar() {
+function NavBar(logText) {
     return (
         <nav className="navigation">
 
@@ -32,6 +31,7 @@ function NavBar() {
                 <li>
                     <Link to="/users/login" style={{ textDecoration: 'none', color: 'black' }}>
                         Sign In
+                  
                     </Link>
                 </li>
             </ul >

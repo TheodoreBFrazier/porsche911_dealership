@@ -1,7 +1,7 @@
 const express = require("express");
 const users = express.Router();
 
-const { getAllUsers, getUser } = require("../queries/userQueries");
+const { getAllUsers, getUser, createUser } = require("../queries/userQueries");
 
 users.get("/", async (request, response) => {
     const allUsers = await getAllUsers();
@@ -23,6 +23,18 @@ users.get("/:id", async (request, response) => {
     } else {
         response.status(404).json({ error: "not found" })
     }
+});
+
+
+//Create a user
+
+users.post("/", async (request, response) => {
+    const user = request.body;
+    const createdUser = await createUser(user);
+    if (createdUser.user_id) {
+        response.json( { success: true, result: createdUser});    
+    } else
+    response.status(500).json({ success: false, error: "unable to create user"})
 });
 
 module.exports = users;

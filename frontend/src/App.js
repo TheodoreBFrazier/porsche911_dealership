@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useState } from 'react';
 //Import BrowserRouter info
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -29,9 +29,13 @@ import Shop from './pages/Shop';
 //Single View of For Sale Car
 import ForSaleDetails from './Components/ForSaleDetails';
 
+import PeerToPeerSales from './pages/PeerToPeerSales';
+
 //Sell Page
 
 import LogInUser from './Components/LogInUser';
+import EditUser from './pages/EditUser';
+import NewUser from './pages/NewUser';
 
 
 function App() {
@@ -43,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar logText={logText} setLogText={setLogInText} />
+        <NavBar/>
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -56,7 +60,10 @@ function App() {
             <Route path="/generations" element={<Generations />} />
             <Route path="/about" element={<About />} />
             <Route path="/porschestore" element={<Shop />} />
+            <Route path="/" element={<PeerToPeerSales/>} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
+            <Route path="/users/:id/edit" element={<EditUser />} />
+            <Route path="/users/create" element={< NewUser/>} />
             <Route
               path="/users/login"
               element={<LogInUser setLogText={setLogInText} setLogInText={setLogInText} />}
@@ -67,6 +74,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

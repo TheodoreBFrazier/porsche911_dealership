@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 //Material UI
 import Card from '@mui/material/Card';
@@ -23,7 +22,6 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 // HERO ---- 
 import homeHero from "../Assets/Images/hero-home-img.png"
 // Carrera COUPE
-import ContactForm from "../Components/ContactForm";
 
 import classicImage from "../Assets/Images/classic-targa.jpg"
 import airCooled from "../Assets/Images/air-cooled.jpg"

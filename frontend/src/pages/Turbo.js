@@ -12,7 +12,7 @@ import coupeAndCab from "../Assets/Images/turbo-s-coupe-and-cabriolet.jpg"
 
 import AllTurboModels from "../Components/AllTurboModels";
 
-function TurboPage() {
+function TurboPage () {
   return (
     <div>
       <div className="hero-section-turbo">
