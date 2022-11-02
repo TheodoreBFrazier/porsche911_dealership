@@ -1,11 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 import homeIcon from "../Assets/Images/porsche_logo.png"
 
 
 
-function NavBar(logText) {
+function NavBar() {
+
+
+
     return (
         <nav className="navigation">
 
@@ -31,7 +35,7 @@ function NavBar(logText) {
                 <li>
                     <Link to="/users/login" style={{ textDecoration: 'none', color: 'black' }}>
                         Sign In
-                  
+
                     </Link>
                 </li>
             </ul >

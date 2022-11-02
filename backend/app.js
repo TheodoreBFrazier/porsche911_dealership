@@ -57,8 +57,6 @@ app.use("/authorization", authorizationController)
 
 //app.use("/")
 
-app.use("/auth", authorizationController);
-
 require("dotenv").config(); //Loads Environmental Variables 
 
 // Home

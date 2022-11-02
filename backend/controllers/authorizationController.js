@@ -7,7 +7,7 @@ const { createUser } = require("../queries/userQueries");
 
 //Create an authorization
 
-authorization.post("/sign/up", async (request, response) => {
+authorization.post("/sign_up", async (request, response) => {
     const { password } = request.body;
     const hashedPassword = await bcrypt.hash(password, 10);
     const user = request.body;
@@ -24,7 +24,6 @@ authorization.post("/sign/up", async (request, response) => {
 authorization.post("/login", async (request, response) => {
     const { user_name, password } = request.body;
     const userInfo = await authorizeUser(user_name, password);
-
     try {
         if (!(userInfo.user_id)) response.json({ sucess: true, result: userInfo});
         else response.status(500).json({ sucess: false, error: userInfo.error});

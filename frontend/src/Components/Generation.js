@@ -1,3 +1,4 @@
+
 import React from "react";
 import Card from '@mui/material/Card';
 import { CardContent } from "@mui/material";
@@ -28,8 +29,6 @@ function Generation({ generation }) {
         setExpanded(!expanded);
     };
 
-
-
     return (
         <Card>
             <CardContent sx={{ width: 375, height: 'auto' }}>
@@ -53,9 +52,7 @@ function Generation({ generation }) {
                     aria-expanded={expanded}
                     aria-label="show more"
                 >
-
                     <ExpandMoreIcon />
-
                 </ExpandMore>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
