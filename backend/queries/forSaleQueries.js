@@ -46,4 +46,18 @@ const updateCreatedPorsche = async (id, porsche) => {
   }
 }
 
-module.exports = { getAllForSale, singlePorscheForSale, createPorscheForSale, updateCreatedPorsche };
+const savedPorsche = async (user_id, favoritePorsche) => {
+  try {
+    if (user_id && (favoritePorsche)) {
+      const user_saved_porsche = await db.one(
+        "INSERT INTO users_porsche(user_id, porsche_id) VALUES($1, $2) RETURNING *",
+        [user_id, porsche_id]
+      );
+      return user_saved_porsche;
+    }
+  } catch (error) {
+    return error;
+  }
+};
+
+module.exports = { getAllForSale, singlePorscheForSale, createPorscheForSale, updateCreatedPorsche, savedPorsche };
