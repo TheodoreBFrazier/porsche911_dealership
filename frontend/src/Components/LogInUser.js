@@ -37,9 +37,9 @@ function LogInUser({ setLogInText }) {
                     localStorage.setItem("userInfo", JSON.stringify(userInfo));
                 }
                 //Change state of logIn Button
-                setLogInText("Log out!")
                 navigate(`/users/${userId}`);
             })
+            console.log("user not found")
 
     };
 
