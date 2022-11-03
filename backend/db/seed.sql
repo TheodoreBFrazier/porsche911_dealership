@@ -926,6 +926,7 @@ INSERT INTO
         email,
         user_name,
         password,
+        is_admin, 
         image
     )
 VALUES
@@ -936,26 +937,6 @@ VALUES
         'theo@gmail.com',
         'tfrazier',
         'iloveporsches',
-        NULL
-    );
-
-INSERT INTO
-    users_porsche(
-        model_name,
-        body_style,
-        year,
-        generation,
-        color,
-        transmission,
-        image
-    )
-VALUES
-    (
-        '911 Carrera 4S',
-        'Coupe',
-        2004,
-        '996',
-        'Silver',
-        'Automatic',
+        FALSE,
         NULL
     );

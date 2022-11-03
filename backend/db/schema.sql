@@ -149,17 +149,20 @@ CREATE TABLE users(
     email TEXT,
     user_name VARCHAR(50) UNIQUE NOT NULL,
     password TEXT NOT NULL,
+    is_admin BOOLEAN DEFAULT FALSE,
     image TEXT DEFAULT NULL
 );
 
---IF user already has a Porsche 911, they can add it and it will appear on their profile page
+--They can add save a porsche User like and it will appear on their profile page
 CREATE TABLE users_porsche(
-    user_porsche_id SERIAL PRIMARY KEY,
-    model_name TEXT,
-    body_style TEXT,
-    year INT,
-    generation TEXT,
-    color TEXT,
-    transmission TEXT,
-    image TEXT DEFAULT NULL
-)
+    user_id INTEGER REFERENCES users(user_id) ON DELETE CASCADE,
+    porsche_id INTEGER REFERENCES porsches_4_sale(porsche_id) ON DELETE CASCADE,
+    UNIQUE(user_id, porsche_id)
+);
+
+--Saved Peer to peer porsches
+CREATE TABLE users_porsche_p2p(
+    user_id INTEGER REFERENCES users(user_id) ON DELETE CASCADE,
+    porsche_id INTEGER REFERENCES p_2_p_porsches(porsche_id) ON DELETE CASCADE,
+    UNIQUE(user_id, porsche_id)
+);
