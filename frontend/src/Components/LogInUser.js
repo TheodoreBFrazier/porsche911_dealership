@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 
 //Axios
 import axios from "axios";
@@ -105,6 +105,9 @@ function LogInUser({ setLogInText }) {
                 </div>
                 <div className="sign-up-action">
                     <h3>Not a user? Sign up.</h3>
+                    <Link to="/users/create" style={{ textDecoration: 'none', color: 'black' }}>
+                        Sign up
+                    </Link>
                 </div>
             </form>
         </div>

@@ -8,7 +8,7 @@ const getAllUsers = async () => {
     } catch (error) {
         return error;
     }
-}
+};
 
 const getUser = async (id) => {
     try {
@@ -17,7 +17,7 @@ const getUser = async (id) => {
     } catch (error) {
         return error
     }
-}
+};
 
 const createUser = async (user) => {
     try {

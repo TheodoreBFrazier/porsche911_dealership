@@ -1,9 +1,11 @@
 import React from "react";
+import LogInUser from "../Components/LogInUser.js"
+
 
 export default function UserLogIn() {
     return (
-        <div>
-            <h1>Hi</h1>
+        <div>    
+            <LogInUser />
         </div>
     );
 }

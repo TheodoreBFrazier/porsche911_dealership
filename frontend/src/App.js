@@ -33,9 +33,9 @@ import PeerToPeerSales from './pages/PeerToPeerSales';
 
 //Sell Page
 
-import LogInUser from './Components/LogInUser';
+import UserLogIn from './pages/UserLogIn.js';
 import EditUser from './pages/EditUser';
-import NewUser from './pages/NewUser';
+import CreateUserProfile from './Components/CreateUserProfile';
 
 
 function App() {
@@ -62,13 +62,13 @@ function App() {
             <Route path="/porschestore" element={<Shop />} />
             <Route path="/" element={<PeerToPeerSales/>} />
             <Route exact path="/porschestore/:id" element={<ForSaleDetails />} />
-            <Route path="/users/:id/edit" element={<EditUser />} />
-            <Route path="/users/create" element={< NewUser/>} />
             <Route
               path="/users/login"
-              element={<LogInUser setLogText={setLogInText} setLogInText={setLogInText} />}
+              element={<UserLogIn LogText={logText} setLogInText={setLogInText} />}
             />
-            <Route path="/users/:user_id/" element={<UserPortal />} />
+            <Route path="/users/:id/" element={<UserPortal />} />
+            <Route path="/users/:id/edit" element={<EditUser />} />
+            <Route path="/users/create" element={< CreateUserProfile/>} />
           </Routes>
         </main>
       </Router>
@@ -77,3 +77,5 @@ function App() {
 };
 
 export default App;
+
+

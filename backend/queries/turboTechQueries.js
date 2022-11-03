@@ -7,6 +7,6 @@ const turboModelTechInfo = async (id) => {
     } catch (error) {
         return error
     }
-}
+};
 
 module.exports = { turboModelTechInfo }

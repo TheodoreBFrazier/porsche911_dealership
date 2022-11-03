@@ -36,21 +36,20 @@ users.post("/", async (request, response) => {
     const user = request.body;
     const createdUser = await createUser(user);
     if (createdUser.user_id) {
-        response.json( { success: true, result: createdUser});    
+        response.json({ success: true, result: createdUser });
     } else
-    response.status(500).json({ success: false, error: "unable to create user"})
+        response.status(500).json({ success: false, error: "unable to create user" })
 });
 
 
 // ----------- user adds a porsche from porsche store that they like
 
-users.post("/:uid/favoriteporsches", async (request, response) => {
-    const { user_id, porsche_id } = request.body;
-
-    const saved_porsche = await savedPorsche(user_id, porsche_id);
-    if(saved_porsche.user_id) response.json({ success: true, result: saved_porsche});
+users.post("/:id/favoriteporsches", async (request, response) => {
+    const { id, porsche_id } = request.body;
+    const saved_porsche = await savedPorsche(id, porsche_id);
+    if (saved_porsche.user_id) response.json({ success: true, result: saved_porsche });
     else
-    response.status(500).json({ sucess: false, error: "Already saved"});
+        response.status(500).json({ sucess: false, error: "Already saved" });
 });
 
 module.exports = users;
