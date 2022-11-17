@@ -2,7 +2,7 @@ import React from "react"
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-
+import SellPorscheForm from "./SellPorscheForm";
 
 const API = process.env.REACT_APP_API_URL;
 
@@ -27,6 +27,7 @@ function UserDetails() {
         <div className="test-details">
             {user.first_name}
             {user.last_name}
+            <SellPorscheForm/>
         </div>
     );
 };

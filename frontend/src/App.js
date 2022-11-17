@@ -10,32 +10,40 @@ import NavBar from "./Components/NavBar"
 //Import Pages
 import Home from "./pages/Home";
 
+
+// ================= AUTHENTIFACTION =========================== //
+
+import UserLogIn from './pages/UserLogIn.js';
+import EditUser from './pages/EditUser';
+import NewUser from './Components/CreateNewUser.js';
+import UserPortal from "./pages/UserPortal"
+
+// ================= Current Model Pages =========================== //
+
 import CarreraPage from "./pages/Carrera";
 import GT3Page from "./pages/GT3";
 import TurboPage from "./pages/Turbo";
 
-//Generations 
+
+// ================= Generations =========================== //
+
 import Generations from "./pages/Generations";
 
 //User Panel
-import UserPortal from "./pages/UserPortal"
+
 
 //About Page
 import About from './pages/AboutMe';
 
+// ================= Shop =========================== //
+
 //Online Shop
 import Shop from './pages/Shop';
-
-//Single View of For Sale Car
 import ForSaleDetails from './Components/ForSaleDetails';
-
 import PeerToPeerSales from './pages/PeerToPeerSales';
 
 //Sell Page
 
-import UserLogIn from './pages/UserLogIn.js';
-import EditUser from './pages/EditUser';
-import CreateUserProfile from './Components/CreateUserProfile';
 
 
 function App() {
@@ -68,7 +76,7 @@ function App() {
             />
             <Route path="/users/:id/" element={<UserPortal />} />
             <Route path="/users/:id/edit" element={<EditUser />} />
-            <Route path="/users/create" element={< CreateUserProfile/>} />
+            <Route path="/users/create" element={< NewUser/>} />
           </Routes>
         </main>
       </Router>

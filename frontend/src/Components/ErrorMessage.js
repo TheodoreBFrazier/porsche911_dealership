@@ -14,7 +14,7 @@ export default function ErrorMessage({
     message
 }) {
     return (
-        <div>
+        <div> 
             <Snackbar
                 openMessage={openMessage}
                 autoHideDuration={4000}

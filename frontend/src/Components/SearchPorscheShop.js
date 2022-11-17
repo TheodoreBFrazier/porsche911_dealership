@@ -14,7 +14,7 @@ export default function ShopSearchBar( {searchTerm, setSearchTerm}) {
       <div className="searchbar">
         <input
           type="text"
-          placeholder="   Search for a Porsche"
+          placeholder="Search"
           value={searchTerm}
           onChange={(event) => setSearchTerm(event.target.value)}
         />

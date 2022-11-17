@@ -19,6 +19,7 @@
     "bootstrap": "^5.2.1",
     "dayjs": "^1.11.6",
     "masonry-layout": "^4.2.2",
+    "material-ui-popup-state": "^4.1.0",
     "moment": "^2.29.4",
     "prop": "^0.1.1",
     "prop-types": "^15.8.1",

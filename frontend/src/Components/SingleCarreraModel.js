@@ -1,4 +1,8 @@
 import React from "react";
+
+
+//Material UI Stuff
+
 import Card from '@mui/material/Card';
 import { CardContent } from "@mui/material";
 import Collapse from '@mui/material/Collapse';
@@ -55,7 +59,6 @@ function SingleCarreraModel({ carrera }) {
                     aria-expanded={expanded}
                     aria-label="show more"
                 >
-
                     <ExpandMoreIcon />
 
                 </ExpandMore>

@@ -125,17 +125,17 @@ h6 {
   height: 100px;
   width: 100vw;
   background-color: white;
+
 }
 
 .navigation .nav-links {
   width: 100vw;
   display: inline-block;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 
 .navigation .nav-links li {
-  color: black;
   display: inline;
   text-decoration: none;
   margin-right: 30px;
@@ -144,20 +144,20 @@ h6 {
 
 .navigation .nav-links li link {
   text-decoration: none;
-  color: black;
+  border: 0.5px solid black;
 }
 
 .home-link-icon img {
-  height: 32px;
+  height: 28px;
 }
 
 .navigation-links {
   height: 40px;
+color: white;
 }
 
 .navigation-links li h5 {
   font-family: "Source Sans Pro", sans-serif;
-  color: black;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -174,39 +174,7 @@ h6 {
   height: 16px;
 }
 
-.banner {
-  padding: 10px;
-  text-align: center;
-  font-size: 8pt;
-}
 
-.sub-navigation {
-  height: 175px;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  z-index: 0;
-}
-
-.sub-navigation .sub-nav-links {
-  display: inline;
-}
-
-.sub-navigation .sub-nav-links li {
-  display: inline;
-}
-
-.sub-navigation .sub-nav-links li img {
-  display: inline;
-  height: 125px;
-}
-
-.sub-link-styles {
-  text-decoration: none;
-  margin-right: 25px;
-  color: black;
-}
 
 /* ------------------------------------------------------ FORMS ------------------------------------------------------- */
 
@@ -272,29 +240,37 @@ h6 {
   margin-left: 25%;
 }
 
-.featured-car  {
+.featured-car {
   margin-top: auto;
   height: 80vh;
 }
 
+.featured-car .featured-car-container .card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .featured {
-  width: 60vw;
+  
+  width: 95vw;
+  background-color: #a70000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .featured .card-container {
-  width: 80vw;
+  position:relative;
+  width: 80%;
+  background-color: aqua;
   display: inline-flex;
   flex-flow: row wrap;
-margin-left: auto;
-margin-right: auto;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .featured .card-container > .card {
   margin: 25px;
- 
 }
-
 
 .intro-container .grid-item .intro-section .text {
   color: white;
@@ -342,48 +318,8 @@ margin-right: auto;
   text-align: center;
 }
 
-
-.sub-intro {
-  width: 500px;
-  margin-top: 200px;
-  margin-left: 700px;
+.services .point h4 {
   text-align: left;
-}
-
-
-
-
-.other-992s {
-  width: 1200px;
-  margin: auto;
-}
-
-.column {
-  float: left;
-  width: 600px;
-}
-
-.other-992s::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column img {
-  width: 100%;
-}
-
-.overview {
-  margin-top: 300px;
-}
-
-.overview-intro {
-  margin-left: 200px;
-}
-
-.overview-intro .h2 {
-  margin-top: 100px;
-  margin-bottom: 0px;
 }
 
 /*  ------------------------------------------------------  LOGIN  ------------------------------------------------------  */
@@ -401,13 +337,27 @@ margin-right: auto;
   margin-right: auto;
 }
 
-.sign-up-action{
+.sign-up-action {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-  
+/* -------------------------------------------------------- SIGN UP ---------------------------------------------------------- */
+
+.signup-form {
+  width: 35%;
+  height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-form .input-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ------------------------------------------------------  TURBO PAGE  ------------------------------------------------------  */
 
 .hero-section-turbo {
@@ -978,7 +928,6 @@ margin-right: auto;
 .single-car-card-content {
   width: 90%;
   height: 90%;
-  border: 2px solid green;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;

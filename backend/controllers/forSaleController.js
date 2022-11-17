@@ -3,6 +3,9 @@ const porschestore = express.Router();
 
 const { getAllForSale, singlePorscheForSale, createPorscheForSale, updateCreatedPorsche } = require("../queries/forSaleQueries");
 
+//Get all Porsches for sale
+
+
 porschestore.get("/", async (request, response) => {
   const allPorschesForSale = await getAllForSale()
   if (allPorschesForSale[0]) {
@@ -13,6 +16,8 @@ porschestore.get("/", async (request, response) => {
   }
 });
 
+//Get on Porsche for sale
+
 porschestore.get("/:id", async (request, response) => {
   const { id } = request.params;
   const porscheForSale = await singlePorscheForSale(id)
@@ -22,6 +27,8 @@ porschestore.get("/:id", async (request, response) => {
     response.status(404).json({ error: "not found" })
   }
 });
+
+//Porsche for sale
 
 porschestore.post("/", async (request, response) => {
   const { body } = request
@@ -36,6 +43,8 @@ porschestore.post("/", async (request, response) => {
     console.log(error)
   }
 });
+
+//Edit a Porsche
 
 porschestore.put('/:id', async (request, response) => {
   const { id } = request.params;

@@ -12,6 +12,6 @@ function Shop() {
       <AvailableCars searchTerm={searchTerm} />
     </div>
   );
-}
+};
 
 export default Shop;

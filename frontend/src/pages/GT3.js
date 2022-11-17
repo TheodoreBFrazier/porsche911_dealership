@@ -49,21 +49,9 @@ export default function GT3Page() {
         </div>
       </section>
 
-
-      <div className="gt3-carousel-buttons">
-        <button>
-          <h5>ALL MODELS</h5>
-        </button>
-        <button>
-          <h5>GT3</h5>
-        </button>
-        <button>
-          <h5>GT3 TOURING</h5>
-        </button>
-      </div>
       <div className="model-data">
         <AllGt3Models />
       </div>
     </div>
   );
-}
+};

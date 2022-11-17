@@ -28,9 +28,6 @@ import airCooled from "../Assets/Images/air-cooled.jpg"
 import modernPorsche from "../Assets/Images/porsche997-carrera-s.jpg"
 import newImage from "../Assets/Images/modern.jpeg.webp"
 
-import SellPorscheForm from "../Components/SellPorscheForm";
-
-
 
 function Home() {
   return (
@@ -61,7 +58,7 @@ function Home() {
       <section className="featured-car">
         <div className="featured-car-container">
           <h5>Featured</h5>
-          <Card sx={{ width: 800, height: 'auto' }}>
+          <Card className="card"sx={{ width: 800, height: 'auto' }}>
             <CardMedia
               component="img"
               height="300"
@@ -78,7 +75,6 @@ function Home() {
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Typography>
-
             </CardContent>
             <CardActions>
               <Button size="small">Share</Button>
@@ -91,7 +87,6 @@ function Home() {
       <section className="featured">
         <h5> Porsche to Fit Your Needs.</h5>
         <div className="card-container">
-
           <div className="card">
             <Card sx={{ width: 370 }}>
               <CardMedia
@@ -113,12 +108,10 @@ function Home() {
               </CardContent>
               <CardActions>
                 <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+              
               </CardActions>
             </Card>
           </div>
-
-
           <div className="card">
             <Card sx={{ width: 370 }}>
               <CardMedia
@@ -140,11 +133,10 @@ function Home() {
               </CardContent>
               <CardActions>
                 <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+             
               </CardActions>
             </Card>
           </div >
-
           <div className="card">
             <Card sx={{ width: 370 }}>
               <CardMedia
@@ -166,11 +158,9 @@ function Home() {
               </CardContent>
               <CardActions>
                 <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
               </CardActions>
             </Card>
           </div >
-
           <div className="card">
             <Card sx={{ width: 370 }}>
               <CardMedia
@@ -192,7 +182,6 @@ function Home() {
               </CardContent>
               <CardActions>
                 <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
               </CardActions>
             </Card>
           </div>
@@ -203,50 +192,50 @@ function Home() {
         <div className="point">
           <StorefrontTwoToneIcon
             sx={{
-              fontSize: "120px"
+              fontSize: "60px",
+              color: '#a70000'
             }} />
           <h2>Unrivaled Selection</h2>
-          <h3>
+          <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </h3>
+          </h4>
         </div>
         <div className="point">
           <SellIcon
             sx={{
-              fontSize: "120px"
+              fontSize: "60px",
+              color: '#a70000'
             }} />
           <h2>Buy</h2>
-          <h3>
+          <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </h3>
+          </h4>
         </div>
         <div className="point">
           <MyLocationIcon
             sx={{
-              fontSize: "120px"
+              fontSize: "60px",
+              color: '#a70000'
             }} />
           <h2>Buy</h2>
-          <h3>
+          <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </h3>
+          </h4>
         </div>
         <div className="point">
           <SupportAgentIcon
             sx={{
-              fontSize: "120px"
+              fontSize: "60px",
+              color: '#a70000'
             }} />
           <h2>Buy</h2>
-          <h3>
+          <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </h3>
+          </h4>
         </div>
       </section>
-
-
-<SellPorscheForm/>
-
     </div >
   );
-}
+};
 
 export default Home;

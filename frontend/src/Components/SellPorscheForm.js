@@ -6,7 +6,6 @@ import axios from "axios";
 //Form 
 import { TextField } from "@mui/material";
 import Grid from "@mui/material/Grid"
-import FormLabel from "@mui/material/FormLabel";
 import FormControl from "@mui/material/FormControl";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import RadioGroup from "@mui/material/RadioGroup";
@@ -61,8 +60,6 @@ export default function SellPorscheForm() {
         event.preventDefault();
         sellPorsche();
     };
-
-
 
     return (
         <div className="form-container">

@@ -8,6 +8,6 @@ function Contact() {
       <ContactForm />
     </div>
   );
-}
+};
 
 export default Contact;

@@ -51,14 +51,14 @@ function CarreraPage() {
 
       <section className="carrera-models">
         <div className="carrera-coupe">
-          <img src={coupePhoto} alt="image of the Carrera coupe." />
+          <img src={coupePhoto} alt="Carrera coupe." />
         </div>
         <div className="cab-and-targa-column">
           <div className="column">
-            <img src={cabriolet} alt="image of the Carrera cabriolet." />
+            <img src={cabriolet} alt="Carrera cabriolet." />
           </div>
           <div className="column">
-            <img src={targa} alt="image of the Targa." />
+            <img src={targa} alt="Carrera Targa." />
           </div>
         </div>
       </section>
@@ -122,6 +122,6 @@ function CarreraPage() {
       </section>
     </div>
   );
-}
+};
 
 export default CarreraPage;

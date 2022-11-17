@@ -12,7 +12,7 @@ import coupeAndCab from "../Assets/Images/turbo-s-coupe-and-cabriolet.jpg"
 
 import AllTurboModels from "../Components/AllTurboModels";
 
-function TurboPage () {
+function TurboPage() {
   return (
     <div>
       <div className="hero-section-turbo">
@@ -54,7 +54,6 @@ function TurboPage () {
                 <div className="content">Zero to sixty in 2.6 seconds</div>
               </div>
             </div>
-
           </div>
         </div>
         <div className="turbo-info-card-row">
@@ -79,7 +78,6 @@ function TurboPage () {
         </div>
       </section>
 
-
       <section className="turbo-s">
         <div className="turbo-s-image-container">
           <div className="text">
@@ -87,7 +85,7 @@ function TurboPage () {
           </div>
           <img
             src={turboS}
-            alt="turbo-S-photo"
+            alt="turbo-S"
           />
         </div>
       </section>
@@ -101,7 +99,7 @@ function TurboPage () {
           </div>
           <img
             src={coupeAndCab}
-            alt="Image of coupe and cab"
+            alt="Coupe and cab"
           />
         </div>
       </section>
@@ -122,6 +120,6 @@ function TurboPage () {
       </section >
     </div>
   );
-}
+};
 
 export default TurboPage;
