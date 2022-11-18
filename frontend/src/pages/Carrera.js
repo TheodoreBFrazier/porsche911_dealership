@@ -101,20 +101,7 @@ function CarreraPage() {
         <div className="carrera-model-intro">
           <h6>Hi</h6>
         </div>
-        <div className="carrera-carousel-buttons">
-          <button>
-            <h5>ALL MODELS</h5>
-          </button>
-          <button>
-            <h5>COUPE</h5>
-          </button>
-          <button>
-            <h5>CABRIOLET</h5>
-          </button>
-          <button>
-            <h5>TARGA</h5>
-          </button>
-        </div>
+
 
         <div className="carrera-stats">
           <AllCarreraModels />
