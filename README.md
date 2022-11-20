@@ -6,7 +6,8 @@ A full-stack application using React, Express & SQL that provides users with a i
 
 ## Key Funtionality
 
-This application includes the following features:
+This application includes the following features!
+
 
 
 
