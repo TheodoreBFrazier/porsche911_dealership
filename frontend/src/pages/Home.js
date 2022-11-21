@@ -67,7 +67,7 @@ function Home() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Classic
+              1972 911 Targa
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et

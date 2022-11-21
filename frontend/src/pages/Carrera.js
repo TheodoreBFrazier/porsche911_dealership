@@ -20,93 +20,9 @@ import AllCarreraModels from "../Components/AllCarreraModels.js";
 function CarreraPage() {
   return (
     <div>
-      <section className="carrera-hero">
-
-        <img src={heroImage} alt="Front overhead view of 922 Carrera"></img>
-
-      </section>
-
-      <section className="Home-intro">
-        <div className="intro-text">
-          <div>
-            <h6> 01 </h6> &nbsp; <h1>An Icon Reimagined</h1>
-          </div>
-        </div>
-        <div className="sub-intro">
-          <h6>
-            The Porsche 911 is perhaps the world's most iconic sports cars.
-            Welcome to the only online marketplace that specializes in 911s all
-            generations from classics to the current 992.
-          </h6>
-        </div>
-      </section>
-      <section className="model-range-text">
-        <div>
-          <h6> 02 </h6> &nbsp; <h2> Three Unique Bodystyles.</h2>
-          <h6>
-            Classic coupe, airy cabriolet or stylish targa. Take your pick.
-          </h6>
-        </div>
-      </section>
-
-      <section className="carrera-models">
-        <div className="carrera-coupe">
-          <img src={coupePhoto} alt="Carrera coupe." />
-        </div>
-        <div className="cab-and-targa-column">
-          <div className="column">
-            <img src={cabriolet} alt="Carrera cabriolet." />
-          </div>
-          <div className="column">
-            <img src={targa} alt="Carrera Targa." />
-          </div>
-        </div>
-      </section>
-
-      <section className="engine-info">
-        <div className="engine">
-          <div className="column">
-            <div className="column-card">
-              <h6> 04 </h6> &nbsp; <h2>Performance and efficiency.</h2>
-              <p>
-                Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
-              </p>
-            </div>
-          </div>
-          <div className="column">
-            <img
-              src="https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1505281&show=1"
-              alt="911 cutaway"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="interior">
-        <div className="interior-background">
-          <div className="text">
-            <h6> 04 </h6> &nbsp; <h2>A Comfortable Place To Be.</h2>
-            <p>
-              Sporty, ergonomic, timeless: the cockpit with GT sports steering wheel, instrument cluster and sports seats plus.
-            </p>
-          </div>
-          <img
-            src="https://www.carscoops.com/wp-content/uploads/2018/11/2fad0674-porsche-992-configurator-06.jpg"
-            alt="922 interior"
-          />
-        </div>
-      </section>
-      
-      <section>
-        <div className="carrera-model-intro">
-          <h6>Hi</h6>
-        </div>
-
-
         <div className="carrera-stats">
           <AllCarreraModels />
         </div>
-      </section>
     </div>
   );
 };
