@@ -58,7 +58,7 @@ function LogInUser({ setLogInText }) {
         <div className="login-form">
             <form onSubmit={handleSubmit} className="form">
                 <div className="input-container">
-                    <h2>Create Account</h2>
+                    <h2>Log In</h2>
 
                     <TextField
                         fullWidth
