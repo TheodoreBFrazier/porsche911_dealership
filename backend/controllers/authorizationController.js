@@ -11,7 +11,7 @@ authorization.post("/sign_up", async (request, response) => {
     const { password } = request.body;
     const hashedPassword = await bcrypt.hash(password, 10);
     const user = request.body;
-    user.password = hashedPassword
+    user.password = hashedPassword;
 
     const createdUser = await createUser(user)
     if (createdUser.user_id) {
@@ -21,6 +21,7 @@ authorization.post("/sign_up", async (request, response) => {
             .json({ success: false, error: "User already exists" })
 });
 
+//Login an existing User
 authorization.post("/login", async (request, response) => {
     const { user_name, password } = request.body;
     const userInfo = await authorizeUser(user_name, password);
